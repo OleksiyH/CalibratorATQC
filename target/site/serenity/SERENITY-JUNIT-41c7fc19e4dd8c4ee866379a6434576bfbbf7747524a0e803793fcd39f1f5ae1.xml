@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="3" failures="0" name="test.AccessBoundaryTest" skipped="0" tests="4" time="301.01" timestamp="2016-04-120 09:51:53"><testcase classname="test.AccessBoundaryTest" name="Back to Access Boundary page when Creating new Access Boundary Test"/><testcase classname="test.AccessBoundaryTest" name="Create new Access Boundary Configuration Test"><error message="Timed out after 10 seconds. Element could not be loaded&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'&#10;System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">Timed out after 10 seconds. Element could not be loaded
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown</error><system-err>Timed out after 10 seconds. Element could not be loaded
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown&#13;
+utils.TableUtils.getAllRows(TableUtils.java:16)&#13;
+pages.tableModels.AccessBoundaryTableModel.&lt;init&gt;(AccessBoundaryTableModel.java:18)&#13;
+steps.AccessBoundarySteps.verifyAccessBoundaryCreation(AccessBoundarySteps.java:77)&#13;
+test.AccessBoundaryTest.createNewAccessBoundaryTest(AccessBoundaryTest.java:78)&#13;
+</system-err></testcase><testcase classname="test.AccessBoundaryTest" name="Edit Existing Campaign Test"><error message="Timed out after 10 seconds. Element could not be loaded&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'&#10;System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">Timed out after 10 seconds. Element could not be loaded
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown</error><system-err>Timed out after 10 seconds. Element could not be loaded
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown&#13;
+utils.TableUtils.getAllRows(TableUtils.java:16)&#13;
+pages.tableModels.AccessBoundaryTableModel.&lt;init&gt;(AccessBoundaryTableModel.java:18)&#13;
+steps.AccessBoundarySteps.editAccessBoundaryConfiguration(AccessBoundarySteps.java:62)&#13;
+test.AccessBoundaryTest.editCampaignConfigurationTest(AccessBoundaryTest.java:122)&#13;
+</system-err></testcase><testcase classname="test.AccessBoundaryTest" name="Delete Access Boundary Test"><error message="Timed out after 10 seconds. Element could not be loaded&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'&#10;System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">Timed out after 10 seconds. Element could not be loaded
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown</error><system-err>Timed out after 10 seconds. Element could not be loaded
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown&#13;
+utils.TableUtils.getAllRows(TableUtils.java:16)&#13;
+pages.tableModels.AccessBoundaryTableModel.&lt;init&gt;(AccessBoundaryTableModel.java:18)&#13;
+steps.AccessBoundarySteps.deleteAccessBoundary(AccessBoundarySteps.java:68)&#13;
+test.AccessBoundaryTest.deleteAccessBoundaryTest(AccessBoundaryTest.java:89)&#13;
+</system-err></testcase></testsuite>

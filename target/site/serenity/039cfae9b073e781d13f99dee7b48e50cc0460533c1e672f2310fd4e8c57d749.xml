@@ -1,0 +1,124 @@
+<acceptance-test-run title="Edit Existing Campaign Test" name="editCampaignConfigurationTest" steps="19" successful="14" failures="0" errors="1" skipped="4" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="74807" timestamp="2016-04-29T21:54:23.422+03:00">
+  <user-story id="test.AccessBoundaryTest" name="Access boundary test" path="test"/>
+  <tags>
+    <tag name="AccessBoundary" type="feature"/>
+    <tag name="Access boundary test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="8189">
+    <screenshots>
+      <screenshot image="0218e60ed365d52c711c5ebaadda88cf_NONE.png"/>
+    </screenshots>
+    <description>Open Login Page Step</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="7540">
+    <screenshots>
+      <screenshot image="596105963b710709d68ae4f44ab82b2e_NONE.png"/>
+      <screenshot image="c6a6b86506447f2a2392d9e6f8b06bd8_NONE.png"/>
+    </screenshots>
+    <description>Login to Application</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1357">
+    <screenshots>
+      <screenshot image="b5e06da6474415613243c449ba1172f7_NONE.png"/>
+    </screenshots>
+    <description>Go to Create new Asset page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="21886">
+    <screenshots>
+      <screenshot image="9ffd5527eeb1a51efaf9b36b39469f96_NONE.png"/>
+    </screenshots>
+    <description>Fill Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="10549">
+    <screenshots>
+      <screenshot image="acf754c25b71bb4b6ce963407c851f4e_NONE.png"/>
+    </screenshots>
+    <description>Submit Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1724">
+    <screenshots>
+      <screenshot image="dccb1d7c2b188aed5793455f72bad208_NONE.png"/>
+    </screenshots>
+    <description>Edit Asset Campaign Configuration by Name</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="710">
+    <screenshots>
+      <screenshot image="20eb58b91d5a823ec3c909c6c3980f0d_NONE.png"/>
+    </screenshots>
+    <description>Go to Create Campaign page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="998">
+    <screenshots>
+      <screenshot image="2860aa577a4d8f50d71000e801b68a6f_NONE.png"/>
+    </screenshots>
+    <description>Fill Create Campaign form data</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1066">
+    <screenshots>
+      <screenshot image="e565199e03214c51cc8fba9d1905fc38_NONE.png"/>
+    </screenshots>
+    <description>Submit Campaign form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="6487">
+    <screenshots>
+      <screenshot image="f93ff8bc24e43fd1f4e08282f3e11aaf_NONE.png"/>
+    </screenshots>
+    <description>Go to Home page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1300">
+    <screenshots>
+      <screenshot image="052aa39530e867bd74e974e2b0dfebfa_NONE.png"/>
+    </screenshots>
+    <description>Edit Asset Access Boundary Configuration by Name</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="867">
+    <screenshots>
+      <screenshot image="5b9afb3a465284ef979990e273ab6fe0_NONE.png"/>
+    </screenshots>
+    <description>Go to Create Access Boundary page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="851">
+    <screenshots>
+      <screenshot image="225b8a0dab00bc29f2882ebe77ee2472_NONE.png"/>
+      <screenshot image="adfe0e8b0ce6192a8d46e06964f0afe7_NONE.png"/>
+    </screenshots>
+    <description>Fill Create Access Boundary data</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="745">
+    <screenshots>
+      <screenshot image="655a17d339de39c47bacf6f8cb85b935_NONE.png"/>
+    </screenshots>
+    <description>Submit Access Boundary form</description>
+  </test-step>
+  <test-step result="ERROR" duration="10421">
+    <screenshots>
+      <screenshot image="b59cca216d04294bf366ef82676ad7dc_NONE.png"/>
+    </screenshots>
+    <description>Edit Access Boundary Configuration</description>
+    <error>Timed out after 10 seconds. Element could not be loaded
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Home-PC&apos;, ip: &apos;192.168.0.52&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: driver.version: unknown</error>
+    <exception>org.openqa.selenium.NoSuchElementException:Timed out after 10 seconds. Element could not be loaded
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Home-PC&apos;, ip: &apos;192.168.0.52&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: driver.version: unknown&#xd;
+[utils.TableUtils.getAllRows(TableUtils.java:16), pages.tableModels.AccessBoundaryTableModel.&lt;init&gt;(AccessBoundaryTableModel.java:18), steps.AccessBoundarySteps.editAccessBoundaryConfiguration(AccessBoundarySteps.java:62), test.AccessBoundaryTest.editCampaignConfigurationTest(AccessBoundaryTest.java:122)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="10">
+    <description>Fill Edit Access Boundary data</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="10">
+    <description>Submit Access Boundary form</description>
+  </test-step>
+  <test-group name="Verify that Access Boundary Was Edited and all data was captured" result="SKIPPED">
+    <test-step result="SKIPPED" duration="66">
+      <description>Verify that Access Boundary Was Created and all data was captured</description>
+    </test-step>
+  </test-group>
+  <test-step result="SKIPPED" duration="11">
+    <description>Logout from application</description>
+  </test-step>
+</acceptance-test-run>

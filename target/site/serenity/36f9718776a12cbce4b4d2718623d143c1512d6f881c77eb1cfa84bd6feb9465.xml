@@ -1,0 +1,105 @@
+<acceptance-test-run title="Cancel when Creating new Fee Test" name="cancelFeeTest" steps="16" successful="16" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="59267" timestamp="2016-04-29T22:17:57.097+03:00">
+  <user-story id="test.FeeTest" name="Fee test" path="test"/>
+  <tags>
+    <tag name="Asset Product Fees Management" type="feature"/>
+    <tag name="Fee test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="7208">
+    <screenshots>
+      <screenshot image="0218e60ed365d52c711c5ebaadda88cf_NONE.png"/>
+    </screenshots>
+    <description>Open Login Page Step</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="17419">
+    <screenshots>
+      <screenshot image="5b097e5fc023c7e7fc7217229023ee88_NONE.png"/>
+      <screenshot image="94d7bce6dfb39b905ce95551e14f69e8_NONE.png"/>
+    </screenshots>
+    <description>Login to Application</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1663">
+    <screenshots>
+      <screenshot image="b5e06da6474415613243c449ba1172f7_NONE.png"/>
+    </screenshots>
+    <description>Go to Create new Asset page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1027">
+    <screenshots>
+      <screenshot image="93df52721f058f283ed93d82ee73f02c_NONE.png"/>
+    </screenshots>
+    <description>Fill Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="18843">
+    <screenshots>
+      <screenshot image="575ddd83164d0e7cfc0226958e2147ec_NONE.png"/>
+    </screenshots>
+    <description>Submit Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1419">
+    <screenshots>
+      <screenshot image="f0d360bc51406aded194e7a731599785_NONE.png"/>
+    </screenshots>
+    <description>Edit Asset Product Configuration by Name</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1560">
+    <screenshots>
+      <screenshot image="6b5586afa829d56aede7c9ca1cfa6d48_NONE.png"/>
+    </screenshots>
+    <description>Go to Create new Product page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1644">
+    <screenshots>
+      <screenshot image="1e69c7aa6beafcdf2a0d115f9383c573_NONE.png"/>
+    </screenshots>
+    <description>Fill Create new Product form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1071">
+    <screenshots>
+      <screenshot image="250cb05c76b7ef20e8c0a3c01ec86b98_NONE.png"/>
+    </screenshots>
+    <description>Submit Create new Product form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1549">
+    <screenshots>
+      <screenshot image="ac159957df41ea381b3af69cba710660_NONE.png"/>
+    </screenshots>
+    <description>Edit Product Configuration by Name</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="897">
+    <screenshots>
+      <screenshot image="2f84553bc3abc053d30c3fb5f000b09a_NONE.png"/>
+    </screenshots>
+    <description>Configure Fees for Products</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1458">
+    <screenshots>
+      <screenshot image="0c0489b9fa04e8b4c97b033b3ecaa2b5_NONE.png"/>
+    </screenshots>
+    <description>Go to Create Fee page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1158">
+    <screenshots>
+      <screenshot image="1fca6eba14f33f559c2197d63ffb24ec_NONE.png"/>
+    </screenshots>
+    <description>Fill Fee form data</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="840">
+    <screenshots>
+      <screenshot image="6fbf5e36aaec4b4fb95b7ae39ee3c90e_NONE.png"/>
+      <screenshot image="2f84553bc3abc053d30c3fb5f000b09a_NONE.png"/>
+    </screenshots>
+    <description>Go back to fee page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="432">
+    <screenshots>
+      <screenshot image="80534818b1cd828c2d506804cf47844a_NONE.png"/>
+    </screenshots>
+    <description>Verify Fee is not present in the table</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1075">
+    <screenshots>
+      <screenshot image="dbfccfee00d7b541cbac5f2b6cf9f528_NONE.png"/>
+    </screenshots>
+    <description>Logout from application</description>
+  </test-step>
+</acceptance-test-run>

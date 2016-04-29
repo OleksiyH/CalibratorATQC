@@ -1,0 +1,76 @@
+<acceptance-test-run title="Back to Products page when Creating new Product Test" name="backToProductPageTest" steps="11" successful="11" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="74633" timestamp="2016-04-29T22:05:37.405+03:00">
+  <user-story id="test.CreateNewAssetProductTest" name="Create new asset product test" path="test"/>
+  <tags>
+    <tag name="Asset Product Management" type="feature"/>
+    <tag name="Create new asset product test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="8518">
+    <screenshots>
+      <screenshot image="0a508fae3cd08637c51ec1bb67c73b12_NONE.png"/>
+    </screenshots>
+    <description>Open Login Page Step</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="19258">
+    <screenshots>
+      <screenshot image="5b097e5fc023c7e7fc7217229023ee88_NONE.png"/>
+      <screenshot image="bbdf60fe6a950bc423622a532454f689_NONE.png"/>
+    </screenshots>
+    <description>Login to Application</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2498">
+    <screenshots>
+      <screenshot image="b5e06da6474415613243c449ba1172f7_NONE.png"/>
+    </screenshots>
+    <description>Go to Create new Asset page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="23372">
+    <screenshots>
+      <screenshot image="e199524096dc3e131548a24b98c1b44b_NONE.png"/>
+    </screenshots>
+    <description>Fill Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="13772">
+    <screenshots>
+      <screenshot image="bf9b0b43c87ed48d9f0c50e6a9bf35ed_NONE.png"/>
+      <screenshot image="5f8fce54475d26ba80c2f65783abb5ca_NONE.png"/>
+    </screenshots>
+    <description>Submit Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1455">
+    <screenshots>
+      <screenshot image="4b0e6d9ac4f5d5077bb128b3fffebbe8_NONE.png"/>
+    </screenshots>
+    <description>Edit Asset Product Configuration by Name</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1288">
+    <screenshots>
+      <screenshot image="5b3583cb13a56996da4466f0613004de_NONE.png"/>
+    </screenshots>
+    <description>Go to Create new Product page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1819">
+    <screenshots>
+      <screenshot image="476a65ef26d180acd6f6bfab45b9396f_NONE.png"/>
+      <screenshot image="f196858dc696815a01d7935c1c062800_NONE.png"/>
+    </screenshots>
+    <description>Fill Create new Product form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="848">
+    <screenshots>
+      <screenshot image="4b0e6d9ac4f5d5077bb128b3fffebbe8_NONE.png"/>
+    </screenshots>
+    <description>Go Back to Product Page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="805">
+    <screenshots>
+      <screenshot image="448fc066aa65b2027196069104ebe687_NONE.png"/>
+    </screenshots>
+    <description>Verify Product is not present in the table</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="996">
+    <screenshots>
+      <screenshot image="56660b9b74b3540adedd0da331931065_NONE.png"/>
+    </screenshots>
+    <description>Logout from application</description>
+  </test-step>
+</acceptance-test-run>

@@ -1,0 +1,50 @@
+<acceptance-test-run title="Delete Assets Test" name="deleteAssetTest" steps="7" successful="7" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="65345" timestamp="2016-04-29T22:13:25.311+03:00">
+  <user-story id="test.CreateNewAssetTest" name="Create new asset test" path="test"/>
+  <tags>
+    <tag name="AssetManagement" type="feature"/>
+    <tag name="Create new asset test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="9407">
+    <screenshots>
+      <screenshot image="92d5343bfd98c70dc4d9f337d9b351b0_NONE.png"/>
+    </screenshots>
+    <description>Open Login Page Step</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="14809">
+    <screenshots>
+      <screenshot image="063a66384d4221ccf10c13fc49e6d3ae_NONE.png"/>
+      <screenshot image="231defe8bedbe1066c096c0e6d0db451_NONE.png"/>
+    </screenshots>
+    <description>Login to Application</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1953">
+    <screenshots>
+      <screenshot image="b5e06da6474415613243c449ba1172f7_NONE.png"/>
+    </screenshots>
+    <description>Go to Create new Asset page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="11399">
+    <screenshots>
+      <screenshot image="705587d774b9b63f9c34d3a8a460aa78_NONE.png"/>
+    </screenshots>
+    <description>Fill Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="12450">
+    <screenshots>
+      <screenshot image="767b30dfe362204f07946ae6902defea_NONE.png"/>
+    </screenshots>
+    <description>Submit Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="14119">
+    <screenshots>
+      <screenshot image="6a557aaf0ec4a89694cf936bd0dfc165_NONE.png"/>
+    </screenshots>
+    <description>Delete Asset by Name</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1202">
+    <screenshots>
+      <screenshot image="27eaf710efb571ed82409041ba9acacb_NONE.png"/>
+    </screenshots>
+    <description>Logout from application</description>
+  </test-step>
+</acceptance-test-run>

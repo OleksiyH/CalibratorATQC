@@ -1,0 +1,77 @@
+<acceptance-test-run title="Delete Campaign Test" name="deleteCampaignTest" steps="12" successful="9" failures="0" errors="1" skipped="2" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="72508" timestamp="2016-04-29T22:00:56.586+03:00">
+  <user-story id="test.CampaignTest" name="Campaign test" path="test"/>
+  <tags>
+    <tag name="Asset Product Management" type="feature"/>
+    <tag name="Campaign test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="9489">
+    <screenshots>
+      <screenshot image="0a508fae3cd08637c51ec1bb67c73b12_NONE.png"/>
+    </screenshots>
+    <description>Open Login Page Step</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="15222">
+    <screenshots>
+      <screenshot image="5b097e5fc023c7e7fc7217229023ee88_NONE.png"/>
+      <screenshot image="c4ed9e2284ebf3a4b8e6238f33f70b20_NONE.png"/>
+    </screenshots>
+    <description>Login to Application</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1992">
+    <screenshots>
+      <screenshot image="b5e06da6474415613243c449ba1172f7_NONE.png"/>
+    </screenshots>
+    <description>Go to Create new Asset page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="32264">
+    <screenshots>
+      <screenshot image="3346a5048a9fd1d7ab642ca72d6db3a2_NONE.png"/>
+    </screenshots>
+    <description>Fill Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="6808">
+    <screenshots>
+      <screenshot image="093ada0ee1fa65116742b3e383f92d5e_NONE.png"/>
+    </screenshots>
+    <description>Submit Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1659">
+    <screenshots>
+      <screenshot image="e300c05f8bfd9cab08687d7003757248_NONE.png"/>
+    </screenshots>
+    <description>Edit Asset Campaign Configuration by Name</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1944">
+    <screenshots>
+      <screenshot image="20eb58b91d5a823ec3c909c6c3980f0d_NONE.png"/>
+    </screenshots>
+    <description>Go to Create Campaign page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="946">
+    <screenshots>
+      <screenshot image="16884c16cc68413735e27e8e3d5666cf_NONE.png"/>
+    </screenshots>
+    <description>Fill Create Campaign form data</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1437">
+    <screenshots>
+      <screenshot image="6fc2ca2834c70581e0e5777fda85b216_NONE.png"/>
+    </screenshots>
+    <description>Submit Campaign form</description>
+  </test-step>
+  <test-step result="ERROR" duration="724">
+    <screenshots>
+      <screenshot image="d494a0bcdd4ac49e631022daf9a8ff2e_NONE.png"/>
+    </screenshots>
+    <description>Delete Campaign</description>
+    <error>Index: 6, Size: 6</error>
+    <exception>java.lang.IndexOutOfBoundsException:Index: 6, Size: 6&#xd;
+[pages.tableModels.CampaignTableModel.&lt;init&gt;(CampaignTableModel.java:21), steps.CampaignSteps.deleteCampaign(CampaignSteps.java:78), test.CampaignTest.deleteCampaignTest(CampaignTest.java:83)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="7">
+    <description>Verify Campaign is not present in the table</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="12">
+    <description>Logout from application</description>
+  </test-step>
+</acceptance-test-run>

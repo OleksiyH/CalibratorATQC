@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Campaign test","Back to Campaign page when Creating new Campaign Test","SUCCESS","2016-04-29T21:59:02.120+03:00","0.0","56.95"
+"Campaign test","Cancel when Creating new Campaign Test","FAILURE","2016-04-29T22:02:10.201+03:00","0.0","68.0"
+"Campaign test","Create new Campaign Test","ERROR","2016-04-29T22:00:00.196+03:00","0.0","55.24"
+"Campaign test","Delete Campaign Test","ERROR","2016-04-29T22:00:56.586+03:00","0.0","72.51"
+"Campaign test","Edit Existing Campaign Test","ERROR","2016-04-29T22:03:19.315+03:00","0.0","54.73"

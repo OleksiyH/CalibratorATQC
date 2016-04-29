@@ -1,0 +1,74 @@
+<acceptance-test-run title="Cancel when Creating new Campaign Test" name="cancelCampaignCreationTest" steps="11" successful="9" failures="1" skipped="1" ignored="0" pending="0" annotated-result="FAILURE" result="FAILURE" duration="68004" timestamp="2016-04-29T22:02:10.201+03:00">
+  <user-story id="test.CampaignTest" name="Campaign test" path="test"/>
+  <tags>
+    <tag name="Asset Product Management" type="feature"/>
+    <tag name="Campaign test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="7347">
+    <screenshots>
+      <screenshot image="0218e60ed365d52c711c5ebaadda88cf_NONE.png"/>
+    </screenshots>
+    <description>Open Login Page Step</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="11597">
+    <screenshots>
+      <screenshot image="5b097e5fc023c7e7fc7217229023ee88_NONE.png"/>
+      <screenshot image="093ada0ee1fa65116742b3e383f92d5e_NONE.png"/>
+    </screenshots>
+    <description>Login to Application</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2410">
+    <screenshots>
+      <screenshot image="b5e06da6474415613243c449ba1172f7_NONE.png"/>
+    </screenshots>
+    <description>Go to Create new Asset page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="21925">
+    <screenshots>
+      <screenshot image="60224c7ebeb890c4b25876c5cbb62e6e_NONE.png"/>
+    </screenshots>
+    <description>Fill Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="9532">
+    <screenshots>
+      <screenshot image="da24f263caf4ee76ee0f5e9c392c759f_NONE.png"/>
+    </screenshots>
+    <description>Submit Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1340">
+    <screenshots>
+      <screenshot image="61ac2037ad2213a69d0c988f8b4b5899_NONE.png"/>
+    </screenshots>
+    <description>Edit Asset Campaign Configuration by Name</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="966">
+    <screenshots>
+      <screenshot image="20eb58b91d5a823ec3c909c6c3980f0d_NONE.png"/>
+    </screenshots>
+    <description>Go to Create Campaign page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1094">
+    <screenshots>
+      <screenshot image="86f8bc91f3903f908e5897945f03bd13_NONE.png"/>
+    </screenshots>
+    <description>Fill Create Campaign form data</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1291">
+    <screenshots>
+      <screenshot image="437d662765103c1c4386b50959641471_NONE.png"/>
+    </screenshots>
+    <description>Cancel Campaign form</description>
+  </test-step>
+  <test-step result="FAILURE" duration="10482">
+    <screenshots>
+      <screenshot image="552f793ed23b802eb65140647e657618_NONE.png"/>
+    </screenshots>
+    <description>Verify Campaign is not present in the table</description>
+    <error>Campaign is present in the table</error>
+    <exception>java.lang.AssertionError:Campaign is present in the table&#xd;
+[steps.CampaignSteps.verifyCampaignNotPresent(CampaignSteps.java:122), test.CampaignTest.cancelCampaignCreationTest(CampaignTest.java:107)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="10">
+    <description>Logout from application</description>
+  </test-step>
+</acceptance-test-run>

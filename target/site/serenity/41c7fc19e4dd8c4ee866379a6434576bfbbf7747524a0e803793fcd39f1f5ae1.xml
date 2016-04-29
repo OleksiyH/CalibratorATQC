@@ -1,0 +1,99 @@
+<acceptance-test-run title="Back to Access Boundary page when Creating new Access Boundary Test" name="backToProductPageTest" steps="15" successful="15" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="64746" timestamp="2016-04-29T21:51:53.885+03:00">
+  <user-story id="test.AccessBoundaryTest" name="Access boundary test" path="test"/>
+  <tags>
+    <tag name="AccessBoundary" type="feature"/>
+    <tag name="Access boundary test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="10004">
+    <screenshots>
+      <screenshot image="f00fa71a909843264b7b02861b6d7dfa_NONE.png"/>
+    </screenshots>
+    <description>Open Login Page Step</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="6955">
+    <screenshots>
+      <screenshot image="19a8c3d5a6d7fa26648c185762cac2f3_NONE.png"/>
+      <screenshot image="689c412d08a916db50c16e153da506ea_NONE.png"/>
+    </screenshots>
+    <description>Login to Application</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1750">
+    <screenshots>
+      <screenshot image="b5e06da6474415613243c449ba1172f7_NONE.png"/>
+    </screenshots>
+    <description>Go to Create new Asset page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="21939">
+    <screenshots>
+      <screenshot image="825143b7c13c8df3e6cc4ddc97061f96_NONE.png"/>
+    </screenshots>
+    <description>Fill Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="6738">
+    <screenshots>
+      <screenshot image="8ec007b3e1ed6c72e1864680a007be6a_NONE.png"/>
+    </screenshots>
+    <description>Submit Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1377">
+    <screenshots>
+      <screenshot image="0a348cfe4e92e3952158bdf12abaf47d_NONE.png"/>
+    </screenshots>
+    <description>Edit Asset Campaign Configuration by Name</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1135">
+    <screenshots>
+      <screenshot image="20eb58b91d5a823ec3c909c6c3980f0d_NONE.png"/>
+    </screenshots>
+    <description>Go to Create Campaign page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1113">
+    <screenshots>
+      <screenshot image="57448e4be6964a67a6e4778a32bd005b_NONE.png"/>
+    </screenshots>
+    <description>Fill Create Campaign form data</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1920">
+    <screenshots>
+      <screenshot image="2020d9ed58c58fc5a7db3494052e99af_NONE.png"/>
+    </screenshots>
+    <description>Submit Campaign form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="4685">
+    <screenshots>
+      <screenshot image="be7b93f119aebbeb9dfb1b1c81cf6a7f_NONE.png"/>
+    </screenshots>
+    <description>Go to Home page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2837">
+    <screenshots>
+      <screenshot image="24fdd26bd8235cdc9bbbe6ea2fd0dcb4_NONE.png"/>
+    </screenshots>
+    <description>Edit Asset Access Boundary Configuration by Name</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1193">
+    <screenshots>
+      <screenshot image="0e0bb221aa0e0c1bf064348cfdcb8ec8_NONE.png"/>
+    </screenshots>
+    <description>Go to Create Access Boundary page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1013">
+    <screenshots>
+      <screenshot image="19b1e70431ede25a164097db91761c53_NONE.png"/>
+      <screenshot image="77a65d6e033fb2136f28bd1f8e4a48a2_NONE.png"/>
+    </screenshots>
+    <description>Fill Create Access Boundary data</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="961">
+    <screenshots>
+      <screenshot image="24fdd26bd8235cdc9bbbe6ea2fd0dcb4_NONE.png"/>
+    </screenshots>
+    <description>Go back to Access Boundary page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1036">
+    <screenshots>
+      <screenshot image="27eaf710efb571ed82409041ba9acacb_NONE.png"/>
+    </screenshots>
+    <description>Logout from application</description>
+  </test-step>
+</acceptance-test-run>

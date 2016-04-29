@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Access boundary test","Back to Access Boundary page when Creating new Access Boundary Test","SUCCESS","2016-04-29T21:51:53.885+03:00","0.0","64.75"
+"Access boundary test","Create new Access Boundary Configuration Test","ERROR","2016-04-29T21:52:59.826+03:00","0.0","82.47"
+"Access boundary test","Delete Access Boundary Test","ERROR","2016-04-29T21:55:39.341+03:00","0.0","78.98"
+"Access boundary test","Edit Existing Campaign Test","ERROR","2016-04-29T21:54:23.422+03:00","0.0","74.81"

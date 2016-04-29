@@ -1,0 +1,125 @@
+<acceptance-test-run title="Create two Fees with same currency Test" name="sameCurrencyFeesTest" steps="19" successful="19" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="79057" timestamp="2016-04-29T22:16:36.874+03:00">
+  <user-story id="test.FeeTest" name="Fee test" path="test"/>
+  <tags>
+    <tag name="Asset Product Fees Management" type="feature"/>
+    <tag name="Fee test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="9000">
+    <screenshots>
+      <screenshot image="12c914e87b66c59b7882d5b38acc2266_NONE.png"/>
+    </screenshots>
+    <description>Open Login Page Step</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="15580">
+    <screenshots>
+      <screenshot image="f7d6bce482c611ad76fd77ef124e0e97_NONE.png"/>
+      <screenshot image="7602f8f26306ad8ca2b86c48a4839658_NONE.png"/>
+    </screenshots>
+    <description>Login to Application</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1814">
+    <screenshots>
+      <screenshot image="b5e06da6474415613243c449ba1172f7_NONE.png"/>
+    </screenshots>
+    <description>Go to Create new Asset page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="21782">
+    <screenshots>
+      <screenshot image="a2ac7408e56e0c0423236ac0dcff8646_NONE.png"/>
+    </screenshots>
+    <description>Fill Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="11620">
+    <screenshots>
+      <screenshot image="94d7bce6dfb39b905ce95551e14f69e8_NONE.png"/>
+    </screenshots>
+    <description>Submit Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1307">
+    <screenshots>
+      <screenshot image="56eefd95c891fe39cff9dc4073c7c09d_NONE.png"/>
+    </screenshots>
+    <description>Edit Asset Product Configuration by Name</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="987">
+    <screenshots>
+      <screenshot image="e9d874401b93a44549d642a00797195d_NONE.png"/>
+    </screenshots>
+    <description>Go to Create new Product page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2799">
+    <screenshots>
+      <screenshot image="da4ff1377bc3a2ab83d8bdda1ec2c69a_NONE.png"/>
+      <screenshot image="026f81409518bb4e50cea198e941b9e4_NONE.png"/>
+    </screenshots>
+    <description>Fill Create new Product form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="981">
+    <screenshots>
+      <screenshot image="3a874d6bfb96c393c3f0f514a031efb2_NONE.png"/>
+    </screenshots>
+    <description>Submit Create new Product form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1453">
+    <screenshots>
+      <screenshot image="e1ca2ebf164a36507f564c3f4b587473_NONE.png"/>
+    </screenshots>
+    <description>Edit Product Configuration by Name</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="713">
+    <screenshots>
+      <screenshot image="1aab4a65428b6073b9e57776ddcd834b_NONE.png"/>
+    </screenshots>
+    <description>Configure Fees for Products</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2359">
+    <screenshots>
+      <screenshot image="cfd39fa24ffb35f49e84a0b8a0eb4d9f_NONE.png"/>
+    </screenshots>
+    <description>Go to Create Fee page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1229">
+    <screenshots>
+      <screenshot image="4585a8790c3c6145a19972631b943615_NONE.png"/>
+    </screenshots>
+    <description>Fill Fee form data</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1059">
+    <screenshots>
+      <screenshot image="57c44ab59e2f24c3cda63f55fb45c79a_NONE.png"/>
+      <screenshot image="32db72234c2b53f7dfbb5eacb082dbfb_NONE.png"/>
+    </screenshots>
+    <description>Submit Fee form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1243">
+    <screenshots>
+      <screenshot image="cfd39fa24ffb35f49e84a0b8a0eb4d9f_NONE.png"/>
+    </screenshots>
+    <description>Go to Create Fee page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1077">
+    <screenshots>
+      <screenshot image="22422cba0b1e3ad6f0f30c86bd6b18f9_NONE.png"/>
+    </screenshots>
+    <description>Fill Fee form data</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2632">
+    <screenshots>
+      <screenshot image="6273dec81a7930b3e28998f81e1008a1_NONE.png"/>
+      <screenshot image="e147eac1a775309fbadae75b245427f8_NONE.png"/>
+    </screenshots>
+    <description>Submit Fee form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="423">
+    <screenshots>
+      <screenshot image="e147eac1a775309fbadae75b245427f8_NONE.png"/>
+    </screenshots>
+    <description>Verify error message &apos;This currency already exists for this product&apos; appears</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="991">
+    <screenshots>
+      <screenshot image="27eaf710efb571ed82409041ba9acacb_NONE.png"/>
+    </screenshots>
+    <description>Logout from application</description>
+  </test-step>
+</acceptance-test-run>

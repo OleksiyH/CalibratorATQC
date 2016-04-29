@@ -1,0 +1,112 @@
+<acceptance-test-run title="Delete Access Boundary Test" name="deleteAccessBoundaryTest" steps="16" successful="14" failures="0" errors="1" skipped="1" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="78983" timestamp="2016-04-29T21:55:39.341+03:00">
+  <user-story id="test.AccessBoundaryTest" name="Access boundary test" path="test"/>
+  <tags>
+    <tag name="AccessBoundary" type="feature"/>
+    <tag name="Access boundary test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="9524">
+    <screenshots>
+      <screenshot image="0a508fae3cd08637c51ec1bb67c73b12_NONE.png"/>
+    </screenshots>
+    <description>Open Login Page Step</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="13703">
+    <screenshots>
+      <screenshot image="596105963b710709d68ae4f44ab82b2e_NONE.png"/>
+      <screenshot image="acf754c25b71bb4b6ce963407c851f4e_NONE.png"/>
+    </screenshots>
+    <description>Login to Application</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1850">
+    <screenshots>
+      <screenshot image="b5e06da6474415613243c449ba1172f7_NONE.png"/>
+    </screenshots>
+    <description>Go to Create new Asset page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="11464">
+    <screenshots>
+      <screenshot image="274706cbdca989fd55378b592069cd9f_NONE.png"/>
+    </screenshots>
+    <description>Fill Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="12463">
+    <screenshots>
+      <screenshot image="16085a0884e61c0056b04a249e1f7cb6_NONE.png"/>
+    </screenshots>
+    <description>Submit Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1578">
+    <screenshots>
+      <screenshot image="1c090bbd88f67b44dc56e4d5cd17b9d2_NONE.png"/>
+    </screenshots>
+    <description>Edit Asset Campaign Configuration by Name</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="772">
+    <screenshots>
+      <screenshot image="20eb58b91d5a823ec3c909c6c3980f0d_NONE.png"/>
+    </screenshots>
+    <description>Go to Create Campaign page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1151">
+    <screenshots>
+      <screenshot image="319232f5ce51b0e66b674f4cf525e9bb_NONE.png"/>
+    </screenshots>
+    <description>Fill Create Campaign form data</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1183">
+    <screenshots>
+      <screenshot image="09b92e2e557887717b67ce79a429ee4c_NONE.png"/>
+    </screenshots>
+    <description>Submit Campaign form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="10748">
+    <screenshots>
+      <screenshot image="4a58f94282b7365bfdc47a477ffa5a20_NONE.png"/>
+    </screenshots>
+    <description>Go to Home page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1344">
+    <screenshots>
+      <screenshot image="9537164c2dc8ee4f2e5c48c1cdb3dd7e_NONE.png"/>
+    </screenshots>
+    <description>Edit Asset Access Boundary Configuration by Name</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="869">
+    <screenshots>
+      <screenshot image="20b0f31a039aa47685988565b228b3ef_NONE.png"/>
+    </screenshots>
+    <description>Go to Create Access Boundary page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1142">
+    <screenshots>
+      <screenshot image="41c8ada31da50dd7be36430e03b4c6ff_NONE.png"/>
+    </screenshots>
+    <description>Fill Create Access Boundary data</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="697">
+    <screenshots>
+      <screenshot image="f8b6e1d9399223d85eacde195b4c2001_NONE.png"/>
+    </screenshots>
+    <description>Submit Access Boundary form</description>
+  </test-step>
+  <test-step result="ERROR" duration="10469">
+    <screenshots>
+      <screenshot image="b59cca216d04294bf366ef82676ad7dc_NONE.png"/>
+    </screenshots>
+    <description>Delete AccessBoundary</description>
+    <error>Timed out after 10 seconds. Element could not be loaded
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Home-PC&apos;, ip: &apos;192.168.0.52&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: driver.version: unknown</error>
+    <exception>org.openqa.selenium.NoSuchElementException:Timed out after 10 seconds. Element could not be loaded
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Home-PC&apos;, ip: &apos;192.168.0.52&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: driver.version: unknown&#xd;
+[utils.TableUtils.getAllRows(TableUtils.java:16), pages.tableModels.AccessBoundaryTableModel.&lt;init&gt;(AccessBoundaryTableModel.java:18), steps.AccessBoundarySteps.deleteAccessBoundary(AccessBoundarySteps.java:68), test.AccessBoundaryTest.deleteAccessBoundaryTest(AccessBoundaryTest.java:89)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="15">
+    <description>Logout from application</description>
+  </test-step>
+</acceptance-test-run>

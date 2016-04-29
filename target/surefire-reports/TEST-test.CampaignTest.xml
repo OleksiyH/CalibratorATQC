@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="test.CampaignTest" time="313.507" tests="5" errors="3" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_71\jre\bin"/>
+    <property name="java.vm.version" value="25.71-b15"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Workspace\Calibrator ATQC"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Workspace\Calibrator ATQC"/>
+    <property name="java.runtime.version" value="1.8.0_71-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_71\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Home\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Program Files\Apache\apache-maven-3.3.9\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_71\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\DMIX;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.8.0_71\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Apache\apache-maven-3.3.9\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.test.failure.ignore" value="true"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Home"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="user.name" value="Home"/>
+    <property name="java.class.path" value="C:\Program Files\Apache\apache-maven-3.3.9\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_71\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify serenity:aggregate -Dmaven.test.failure.ignore=true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="ru"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_71"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_71\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_71\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_71\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp866"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\Apache\apache-maven-3.3.9\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp866"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="backToProductPageTest" classname="test.CampaignTest" time="56.866"/>
+  <testcase name="createNewCampaignTest" classname="test.CampaignTest" time="55.246">
+    <error message="Index: 6, Size: 6" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index: 6, Size: 6
+	at test.CampaignTest.createNewCampaignTest(CampaignTest.java:72)
+</error>
+    <system-out><![CDATA[Use Default text checkbox is selected
+Use Default text checkbox is selected
+java.lang.IndexOutOfBoundsException: Index: 6, Size: 6
+]]></system-out>
+    <system-err><![CDATA[[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.serenitybdd.core.Serenity - Test Suite Started: Campaign test
+[main] INFO net.serenitybdd.core.Serenity - 
+  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+ |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+   | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                   
+
+TEST STARTED: createNewCampaignTest
+--------------------------------------------------------------------
+[main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 7
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.loginToApplication - openPage
+Starting ChromeDriver 2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1) on port 12763
+Only local connections are allowed.
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot822992756571461847
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: openPage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.loginToApplication - loginToApplication
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot4509971207659400793
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: loginToApplication
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.loginToApplication - goToCreateNewAssetPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToCreateNewAssetPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.loginToApplication - fillCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot5513392989952590403
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.loginToApplication - submitCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot6604411135585649808
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: submitCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.createNewCampaignTest - editCampaignConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot7508673137677422717
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: editCampaignConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.createNewCampaignTest - goToCreateNewCampaignPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToCreateNewCampaignPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.createNewCampaignTest - fillCampaignForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot2142151330446648679
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillCampaignForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.createNewCampaignTest - submitCampaignForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot8039297632108439899
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: submitCampaignForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.createNewCampaignTest - verifyCampaignCreation
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot3554464144597396426
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP FAILED: verifyCampaignCreation - Index: 6, Size: 6
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: logOut
+]]></system-err>
+  </testcase>
+  <testcase name="deleteCampaignTest" classname="test.CampaignTest" time="72.511">
+    <error message="Index: 6, Size: 6" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index: 6, Size: 6
+	at test.CampaignTest.deleteCampaignTest(CampaignTest.java:83)
+</error>
+    <system-out><![CDATA[java.lang.IndexOutOfBoundsException: Index: 6, Size: 6
+]]></system-out>
+    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - Test Suite Started: Campaign test
+[main] INFO net.serenitybdd.core.Serenity - 
+  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+ |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+   | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                   
+
+TEST STARTED: deleteCampaignTest
+--------------------------------------------------------------------
+[main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 8
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.loginToApplication - openPage
+Starting ChromeDriver 2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1) on port 36510
+Only local connections are allowed.
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: openPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.loginToApplication - loginToApplication
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: loginToApplication
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.loginToApplication - goToCreateNewAssetPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToCreateNewAssetPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.loginToApplication - fillCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot3801121768515258404
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.loginToApplication - submitCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot1836306707850179674
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: submitCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.deleteCampaignTest - editCampaignConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot2880712643253492341
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: editCampaignConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.deleteCampaignTest - goToCreateNewCampaignPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToCreateNewCampaignPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.deleteCampaignTest - fillCampaignForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot4823018172662370139
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillCampaignForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.deleteCampaignTest - submitCampaignForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot219479035788138006
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: submitCampaignForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.deleteCampaignTest - deleteCampaign
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot1820297150892220489
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP FAILED: deleteCampaign - Index: 6, Size: 6
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: verifyCampaignNotPresent
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: logOut
+]]></system-err>
+  </testcase>
+  <testcase name="cancelCampaignCreationTest" classname="test.CampaignTest" time="68.01">
+    <failure message="Campaign is present in the table" type="java.lang.AssertionError">java.lang.AssertionError: Campaign is present in the table
+	at test.CampaignTest.cancelCampaignCreationTest(CampaignTest.java:107)
+</failure>
+    <system-out><![CDATA[Use Default text checkbox is selected
+java.lang.AssertionError: Campaign is present in the table
+]]></system-out>
+    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - Test Suite Started: Campaign test
+[main] INFO net.serenitybdd.core.Serenity - 
+  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+ |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+   | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                   
+
+TEST STARTED: cancelCampaignCreationTest
+--------------------------------------------------------------------
+[main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 9
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.loginToApplication - openPage
+Starting ChromeDriver 2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1) on port 46295
+Only local connections are allowed.
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: openPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.loginToApplication - loginToApplication
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: loginToApplication
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.loginToApplication - goToCreateNewAssetPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToCreateNewAssetPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.loginToApplication - fillCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot8949410508016093216
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillCreateNewAssetForm
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.loginToApplication - submitCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot4253282169036699744
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: submitCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.cancelCampaignCreationTest - editCampaignConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot1433510225203697693
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: editCampaignConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.cancelCampaignCreationTest - goToCreateNewCampaignPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToCreateNewCampaignPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.cancelCampaignCreationTest - fillCampaignForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot4851863433803621727
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillCampaignForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.cancelCampaignCreationTest - cancelCampaignForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot1403902005624328192
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: cancelCampaignForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.cancelCampaignCreationTest - verifyCampaignNotPresent
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot6345047496537467989
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP FAILED: verifyCampaignNotPresent - Campaign is present in the table
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: logOut
+[main] INFO net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Cancel when Creating new Campaign Test
+--------------------------------------------------------------------------
+[main] INFO net.serenitybdd.core.Serenity - RELATED ISSUES: 
+[main] INFO net.serenitybdd.core.Serenity - 
+  _____ _    ___ _     _   _ ____  _____ 
+ |  ___/ \  |_ _| |   | | | |  _ \| ____|
+ | |_ / _ \  | || |   | | | | |_) |  _|  
+ |  _/ ___ \ | || |___| |_| |  _ <| |___ 
+ |_|/_/   \_\___|_____|\___/|_| \_\_____|
+                                         
+
+Campaign is present in the table
+]]></system-err>
+  </testcase>
+  <testcase name="editCampaignConfigurationTest" classname="test.CampaignTest" time="54.735">
+    <error message="Index: 6, Size: 6" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index: 6, Size: 6
+	at test.CampaignTest.editCampaignConfigurationTest(CampaignTest.java:119)
+</error>
+    <system-out><![CDATA[Use Default text checkbox is selected
+java.lang.IndexOutOfBoundsException: Index: 6, Size: 6
+]]></system-out>
+    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - Test Suite Started: Campaign test
+[main] INFO net.serenitybdd.core.Serenity - 
+  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+ |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+   | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                   
+
+TEST STARTED: editCampaignConfigurationTest
+--------------------------------------------------------------------
+[main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 10
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.loginToApplication - openPage
+Starting ChromeDriver 2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1) on port 32016
+Only local connections are allowed.
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot1118189027728424957
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: openPage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.loginToApplication - loginToApplication
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: loginToApplication
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.loginToApplication - goToCreateNewAssetPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToCreateNewAssetPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.loginToApplication - fillCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot3116745322883377623
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.loginToApplication - submitCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot3468983992937460278
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: submitCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.editCampaignConfigurationTest - editCampaignConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot916861389213357391
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: editCampaignConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.editCampaignConfigurationTest - goToCreateNewCampaignPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToCreateNewCampaignPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.editCampaignConfigurationTest - fillCampaignForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot43882006784299150
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillCampaignForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.editCampaignConfigurationTest - submitCampaignForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot7557837671582165080
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: submitCampaignForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignTest.editCampaignConfigurationTest - editCampaignConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot1741491245089932854
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP FAILED: editCampaignConfiguration - Index: 6, Size: 6
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: fillCampaignForm
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: submitCampaignForm
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: verifyCampaignCreation
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: logOut
+]]></system-err>
+  </testcase>
+</testsuite>

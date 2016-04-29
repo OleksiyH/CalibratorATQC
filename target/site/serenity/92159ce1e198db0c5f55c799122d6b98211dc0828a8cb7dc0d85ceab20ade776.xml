@@ -1,0 +1,47 @@
+<acceptance-test-run title="Cancel Create new Asset Test" name="cancelCreateNewAssetTest" steps="7" successful="4" failures="1" skipped="2" ignored="0" pending="0" annotated-result="FAILURE" result="FAILURE" duration="36746" timestamp="2016-04-29T22:09:01.331+03:00">
+  <user-story id="test.CreateNewAssetTest" name="Create new asset test" path="test"/>
+  <tags>
+    <tag name="AssetManagement" type="feature"/>
+    <tag name="Create new asset test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="10904">
+    <screenshots>
+      <screenshot image="0218e60ed365d52c711c5ebaadda88cf_NONE.png"/>
+    </screenshots>
+    <description>Open Login Page Step</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="12557">
+    <screenshots>
+      <screenshot image="596105963b710709d68ae4f44ab82b2e_NONE.png"/>
+      <screenshot image="8057ec64362cd0ae57f2c899a3d7dbc7_NONE.png"/>
+    </screenshots>
+    <description>Login to Application</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1367">
+    <screenshots>
+      <screenshot image="b5e06da6474415613243c449ba1172f7_NONE.png"/>
+    </screenshots>
+    <description>Go to Create new Asset page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="11493">
+    <screenshots>
+      <screenshot image="3bfea85cda2f58b68361021dcd8b3b31_NONE.png"/>
+    </screenshots>
+    <description>Fill Create new Asset form</description>
+  </test-step>
+  <test-step result="FAILURE" duration="381">
+    <screenshots>
+      <screenshot image="9464ea4e0fda8e57225e250236246aef_NONE.png"/>
+    </screenshots>
+    <description>Cancel Create new Asset form</description>
+    <error>User is not redirected to Home Page or URL http://paywallmasters.com:8080/calibrator/admin/property/list.html ,or URL has changed</error>
+    <exception>java.lang.AssertionError:User is not redirected to Home Page or URL http://paywallmasters.com:8080/calibrator/admin/property/list.html ,or URL has changed&#xd;
+[steps.CreateEditAssetPageSteps.cancelCreateNewAssetForm(CreateEditAssetPageSteps.java:81), test.CreateNewAssetTest.cancelCreateNewAssetTest(CreateNewAssetTest.java:65)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="16">
+    <description>Verify Asset is not present in the table</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="23">
+    <description>Logout from application</description>
+  </test-step>
+</acceptance-test-run>

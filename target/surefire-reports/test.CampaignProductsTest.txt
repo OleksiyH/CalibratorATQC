@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: test.CampaignProductsTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 119.806 sec <<< FAILURE! - in test.CampaignProductsTest
+addCampaignProduct1Test(test.CampaignProductsTest)  Time elapsed: 118.324 sec  <<< ERROR!
+org.openqa.selenium.ElementNotVisibleException: 
+Timed out after 10 seconds. Element not available
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown
+	at test.CampaignProductsTest.addCampaignProduct1Test(CampaignProductsTest.java:117)
+

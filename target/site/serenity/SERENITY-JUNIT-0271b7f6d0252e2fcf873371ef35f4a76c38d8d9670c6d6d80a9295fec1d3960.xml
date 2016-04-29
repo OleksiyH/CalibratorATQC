@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="test.CampaignProductsTest" skipped="0" tests="1" time="118.44" timestamp="2016-04-120 09:57:02"><testcase classname="test.CampaignProductsTest" name="Add Campaign Product 1"><error message="Timed out after 10 seconds. Element not available&#10;Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'&#10;System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.ElementNotVisibleException">Timed out after 10 seconds. Element not available
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown</error><system-err>Timed out after 10 seconds. Element not available
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown&#13;
+pages.ConfigureCampaignProductsPage.setIsDefaultOption(ConfigureCampaignProductsPage.java:100)&#13;
+steps.CampaignProductsSteps.addProductToTable(CampaignProductsSteps.java:79)&#13;
+test.CampaignProductsTest.addCampaignProduct1Test(CampaignProductsTest.java:117)&#13;
+</system-err></testcase></testsuite>

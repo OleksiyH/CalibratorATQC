@@ -1,0 +1,113 @@
+<acceptance-test-run title="Create new Fee Test" name="createNewProductTest" steps="16" successful="14" failures="0" errors="1" skipped="1" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="92924" timestamp="2016-04-29T22:20:09.756+03:00">
+  <user-story id="test.FeeTest" name="Fee test" path="test"/>
+  <tags>
+    <tag name="Asset Product Fees Management" type="feature"/>
+    <tag name="Fee test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="9875">
+    <screenshots>
+      <screenshot image="92d5343bfd98c70dc4d9f337d9b351b0_NONE.png"/>
+    </screenshots>
+    <description>Open Login Page Step</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="11591">
+    <screenshots>
+      <screenshot image="89468f7a7b740a3745521730d6d69f83_NONE.png"/>
+      <screenshot image="92a2f18254283cb422a6fa04fa1842a1_NONE.png"/>
+    </screenshots>
+    <description>Login to Application</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1591">
+    <screenshots>
+      <screenshot image="b5e06da6474415613243c449ba1172f7_NONE.png"/>
+    </screenshots>
+    <description>Go to Create new Asset page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="22017">
+    <screenshots>
+      <screenshot image="a91a0500fe32b5b71eaf190b19addf61_NONE.png"/>
+    </screenshots>
+    <description>Fill Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="13209">
+    <screenshots>
+      <screenshot image="ee318b4348097d0f678bc0fb1a976f4f_NONE.png"/>
+    </screenshots>
+    <description>Submit Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1371">
+    <screenshots>
+      <screenshot image="59d6efb6f8be34625b6db28266554dcc_NONE.png"/>
+    </screenshots>
+    <description>Edit Asset Product Configuration by Name</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1021">
+    <screenshots>
+      <screenshot image="776ac62c9f90623f1b8d5ce4ea6ddabd_NONE.png"/>
+    </screenshots>
+    <description>Go to Create new Product page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1620">
+    <screenshots>
+      <screenshot image="40cca8fd98670487b977a4f82612eaaf_NONE.png"/>
+    </screenshots>
+    <description>Fill Create new Product form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1129">
+    <screenshots>
+      <screenshot image="37463a2bf701d51641f6d09e5a68b958_NONE.png"/>
+    </screenshots>
+    <description>Submit Create new Product form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1534">
+    <screenshots>
+      <screenshot image="af7e64ef6cbba7ecd32407baff8f8408_NONE.png"/>
+    </screenshots>
+    <description>Edit Product Configuration by Name</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="738">
+    <screenshots>
+      <screenshot image="d87374e2d538b111a35303c20e6900d9_NONE.png"/>
+    </screenshots>
+    <description>Configure Fees for Products</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1746">
+    <screenshots>
+      <screenshot image="09909ac0e4ccf7f854525b9bae00224d_NONE.png"/>
+    </screenshots>
+    <description>Go to Create Fee page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1197">
+    <screenshots>
+      <screenshot image="0cfa7399a8615fc610df8ba217b83f96_NONE.png"/>
+    </screenshots>
+    <description>Fill Fee form data</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1170">
+    <screenshots>
+      <screenshot image="1e14b853ad48ef6ca865eda9dd681b82_NONE.png"/>
+      <screenshot image="61735aeec8d4648693ea9ccae6798802_NONE.png"/>
+    </screenshots>
+    <description>Submit Fee form</description>
+  </test-step>
+  <test-step result="ERROR" duration="23091">
+    <screenshots>
+      <screenshot image="3cbda2e4618f7fe91d006bec4b50a7c1_NONE.png"/>
+    </screenshots>
+    <description>Verify that Fee Was Created and all data was captured</description>
+    <error>Timed out after 10 seconds. Element could not be loaded
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Home-PC&apos;, ip: &apos;192.168.0.52&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: driver.version: unknown</error>
+    <exception>org.openqa.selenium.NoSuchElementException:Timed out after 10 seconds. Element could not be loaded
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Home-PC&apos;, ip: &apos;192.168.0.52&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: driver.version: unknown&#xd;
+[pages.FeeCreateEditPage.readForm(FeeCreateEditPage.java:151), steps.FeesSteps.verifyFeeCreation(FeesSteps.java:91), test.FeeTest.createNewProductTest(FeeTest.java:84)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="14">
+    <description>Logout from application</description>
+  </test-step>
+</acceptance-test-run>

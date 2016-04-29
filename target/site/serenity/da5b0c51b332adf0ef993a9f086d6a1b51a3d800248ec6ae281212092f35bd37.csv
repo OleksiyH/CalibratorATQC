@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Create new asset test","Cancel Create new Asset Test","FAILURE","2016-04-29T22:09:01.331+03:00","0.0","36.75"
+"Campaign test","Cancel when Creating new Campaign Test","FAILURE","2016-04-29T22:02:10.201+03:00","0.0","68.0"
+"Create new asset test","Create new Asset Test","FAILURE","2016-04-29T22:11:13.264+03:00","0.0","61.15"
+"Fee test","Edit Fees currency to match  other Fees currency Test","FAILURE","2016-04-29T22:14:32.299+03:00","0.0","62.4"

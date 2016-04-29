@@ -1,0 +1,16 @@
+steps\GeneralSteps.class
+test\AccessBoundaryTest.class
+steps\CreateEditProductPageSteps.class
+test\CreateNewAssetTest.class
+steps\CampaignSteps.class
+steps\CampaignProductsSteps.class
+test\CreateNewAssetProductTest.class
+steps\CreateEditAssetPageSteps.class
+steps\ProductForAssetSteps.class
+test\CampaignTest.class
+test\CampaignProductsTest.class
+test\TestTest.class
+test\FeeTest.class
+steps\AccessBoundarySteps.class
+steps\FeesSteps.class
+steps\HomePageSteps.class

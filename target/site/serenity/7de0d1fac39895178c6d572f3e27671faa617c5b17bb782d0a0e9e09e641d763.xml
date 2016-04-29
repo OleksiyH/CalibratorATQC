@@ -1,0 +1,68 @@
+<acceptance-test-run title="Edit Existing Assets Configuration Test" name="editAssetConfigurationTest" steps="10" successful="10" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="68650" timestamp="2016-04-29T22:12:15.534+03:00">
+  <user-story id="test.CreateNewAssetTest" name="Create new asset test" path="test"/>
+  <tags>
+    <tag name="AssetManagement" type="feature"/>
+    <tag name="Create new asset test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="8699">
+    <screenshots>
+      <screenshot image="6a34cb447ecd4dd23a954a5bc6a5d218_NONE.png"/>
+    </screenshots>
+    <description>Open Login Page Step</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="14383">
+    <screenshots>
+      <screenshot image="5fcce7b45f0f21b34fb50b88d3d1c553_NONE.png"/>
+      <screenshot image="a661987fd5b92c0810bcc2701acf2f34_NONE.png"/>
+    </screenshots>
+    <description>Login to Application</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1810">
+    <screenshots>
+      <screenshot image="b5e06da6474415613243c449ba1172f7_NONE.png"/>
+    </screenshots>
+    <description>Go to Create new Asset page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="11681">
+    <screenshots>
+      <screenshot image="c6bcc391e7588e4653041a7eec473a66_NONE.png"/>
+    </screenshots>
+    <description>Fill Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="14743">
+    <screenshots>
+      <screenshot image="3e8ba6789fc6dc56219f71eb5bf8c5c5_NONE.png"/>
+    </screenshots>
+    <description>Submit Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2448">
+    <screenshots>
+      <screenshot image="2d116f3d43336cf7862d9da1c729839a_NONE.png"/>
+    </screenshots>
+    <description>Edit Asset Configuration by Name</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1100">
+    <screenshots>
+      <screenshot image="1c6c36f62f3bc9ee39d469080768b400_NONE.png"/>
+    </screenshots>
+    <description>Fill Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="10272">
+    <screenshots>
+      <screenshot image="269346a0d268b1c048f4186ba52f3912_NONE.png"/>
+    </screenshots>
+    <description>Submit Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2283">
+    <screenshots>
+      <screenshot image="abaca5274b29359d8fc568b656362d31_NONE.png"/>
+    </screenshots>
+    <description>Verify that Asset Was Created and all data was captured</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1228">
+    <screenshots>
+      <screenshot image="05d6210af3a89ea08107630bae244262_NONE.png"/>
+    </screenshots>
+    <description>Logout from application</description>
+  </test-step>
+</acceptance-test-run>

@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Campaign test","Back to Campaign page when Creating new Campaign Test","SUCCESS","2016-04-29T21:59:02.120+03:00","0.0","56.95"
+"Create new asset product test","Back to Products page when Creating new Product Test","SUCCESS","2016-04-29T22:05:37.405+03:00","0.0","74.63"
+"Create new asset product test","Create new Asset Product Test","SUCCESS","2016-04-29T22:06:53.170+03:00","0.0","66.68"
+"Create new asset product test","Edit Existing Product Configuration Test","SUCCESS","2016-04-29T22:04:15.706+03:00","0.0","80.58"

@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Campaign products test","Add Campaign Product 1","ERROR","2016-04-29T21:57:02.193+03:00","0.0","118.44"
+"Access boundary test","Create new Access Boundary Configuration Test","ERROR","2016-04-29T21:52:59.826+03:00","0.0","82.47"
+"Access boundary test","Delete Access Boundary Test","ERROR","2016-04-29T21:55:39.341+03:00","0.0","78.98"
+"Access boundary test","Edit Existing Campaign Test","ERROR","2016-04-29T21:54:23.422+03:00","0.0","74.81"

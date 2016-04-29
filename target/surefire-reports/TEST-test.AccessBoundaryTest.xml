@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="test.AccessBoundaryTest" time="309.103" tests="4" errors="3" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_71\jre\bin"/>
+    <property name="java.vm.version" value="25.71-b15"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Workspace\Calibrator ATQC"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Workspace\Calibrator ATQC"/>
+    <property name="java.runtime.version" value="1.8.0_71-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_71\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Home\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Program Files\Apache\apache-maven-3.3.9\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_71\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\DMIX;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.8.0_71\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Apache\apache-maven-3.3.9\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.test.failure.ignore" value="true"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Home"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="user.name" value="Home"/>
+    <property name="java.class.path" value="C:\Program Files\Apache\apache-maven-3.3.9\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_71\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify serenity:aggregate -Dmaven.test.failure.ignore=true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="ru"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_71"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_71\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_71\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_71\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp866"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\Apache\apache-maven-3.3.9\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp866"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="backToProductPageTest" classname="test.AccessBoundaryTest" time="64.839"/>
+  <testcase name="createNewAccessBoundaryTest" classname="test.AccessBoundaryTest" time="82.48">
+    <error message="Timed out after 10 seconds. Element could not be loaded&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;&#10;System info: host: &apos;Home-PC&apos;, ip: &apos;192.168.0.52&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;&#10;System info: host: &apos;Home-PC&apos;, ip: &apos;192.168.0.52&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Timed out after 10 seconds. Element could not be loaded
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown
+	at test.AccessBoundaryTest.createNewAccessBoundaryTest(AccessBoundaryTest.java:78)
+</error>
+    <system-out><![CDATA[Use Default text checkbox is selected
+Use Default text checkbox is selected
+yARiO
+org.openqa.selenium.NoSuchElementException: Timed out after 10 seconds. Element could not be loaded
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown
+]]></system-out>
+    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - Test Suite Started: Access boundary test
+[main] INFO net.serenitybdd.core.Serenity - 
+  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+ |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+   | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                   
+
+TEST STARTED: createNewAccessBoundaryTest
+--------------------------------------------------------------------
+[main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 2
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.loginToApplication - openPage
+Starting ChromeDriver 2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1) on port 45829
+Only local connections are allowed.
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot3283170974126944880
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: openPage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot6545585015534267778
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.loginToApplication - loginToApplication
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: loginToApplication
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.loginToApplication - goToCreateNewAssetPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToCreateNewAssetPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.loginToApplication - fillCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot3157834353547594643
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.loginToApplication - submitCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot2324278338274674662
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: submitCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.loginToApplication - editCampaignConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot7170119258533881841
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: editCampaignConfiguration
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.loginToApplication - goToCreateNewCampaignPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToCreateNewCampaignPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.loginToApplication - fillCampaignForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot11671555497161701
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillCampaignForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.loginToApplication - submitCampaignForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot2147982532572731773
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: submitCampaignForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.loginToApplication - goToHomePage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToHomePage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot1093011096520717629
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.createNewAccessBoundaryTest - editAccessBoundaryConfiguration
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: editAccessBoundaryConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot7893147597708217224
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.createNewAccessBoundaryTest - goToCreateNewAccessBoundaryPage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot623199036539625888
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToCreateNewAccessBoundaryPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.createNewAccessBoundaryTest - fillCreateAccessBoundaryForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot9215835724668744259
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillCreateAccessBoundaryForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.createNewAccessBoundaryTest - submitAccessBoundaryForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot4799968146935338274
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: submitAccessBoundaryForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.createNewAccessBoundaryTest - verifyAccessBoundaryCreation
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP FAILED: verifyAccessBoundaryCreation - Timed out after 10 seconds. Element could not be loaded
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: logOut
+]]></system-err>
+  </testcase>
+  <testcase name="editCampaignConfigurationTest" classname="test.AccessBoundaryTest" time="74.811">
+    <error message="Timed out after 10 seconds. Element could not be loaded&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;&#10;System info: host: &apos;Home-PC&apos;, ip: &apos;192.168.0.52&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;&#10;System info: host: &apos;Home-PC&apos;, ip: &apos;192.168.0.52&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Timed out after 10 seconds. Element could not be loaded
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown
+	at test.AccessBoundaryTest.editCampaignConfigurationTest(AccessBoundaryTest.java:122)
+</error>
+    <system-out><![CDATA[Use Default text checkbox is selected
+QYCan
+org.openqa.selenium.NoSuchElementException: Timed out after 10 seconds. Element could not be loaded
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown
+]]></system-out>
+    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - Test Suite Started: Access boundary test
+[main] INFO net.serenitybdd.core.Serenity - 
+  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+ |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+   | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                   
+
+TEST STARTED: editCampaignConfigurationTest
+--------------------------------------------------------------------
+[main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 3
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.loginToApplication - openPage
+Starting ChromeDriver 2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1) on port 39310
+Only local connections are allowed.
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot8516252254599400972
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: openPage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot2027380366113679320
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.loginToApplication - loginToApplication
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: loginToApplication
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.loginToApplication - goToCreateNewAssetPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToCreateNewAssetPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.loginToApplication - fillCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot8852072280555783668
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.loginToApplication - submitCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot4481270717958427347
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: submitCreateNewAssetForm
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.loginToApplication - editCampaignConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot6803750631702579757
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: editCampaignConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.loginToApplication - goToCreateNewCampaignPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToCreateNewCampaignPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.loginToApplication - fillCampaignForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot7226043604501594035
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillCampaignForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.loginToApplication - submitCampaignForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot6186041086869202917
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: submitCampaignForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.loginToApplication - goToHomePage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot1865857308025018862
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToHomePage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.editCampaignConfigurationTest - editAccessBoundaryConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot6565367710511860549
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: editAccessBoundaryConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.editCampaignConfigurationTest - goToCreateNewAccessBoundaryPage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot866574260475669809
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToCreateNewAccessBoundaryPage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot4904193611210635744
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.editCampaignConfigurationTest - fillCreateAccessBoundaryForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillCreateAccessBoundaryForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot2074705445632130350
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.editCampaignConfigurationTest - submitAccessBoundaryForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot3366460120805367303
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: submitAccessBoundaryForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.editCampaignConfigurationTest - editAccessBoundaryConfiguration
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP FAILED: editAccessBoundaryConfiguration - Timed out after 10 seconds. Element could not be loaded
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: fillEditAccessBoundaryForm
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: submitAccessBoundaryForm
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: verifyAccessBoundaryCreation
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: verifyAccessBoundaryEdition
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: logOut
+]]></system-err>
+  </testcase>
+  <testcase name="deleteAccessBoundaryTest" classname="test.AccessBoundaryTest" time="78.996">
+    <error message="Timed out after 10 seconds. Element could not be loaded&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;&#10;System info: host: &apos;Home-PC&apos;, ip: &apos;192.168.0.52&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;&#10;System info: host: &apos;Home-PC&apos;, ip: &apos;192.168.0.52&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Timed out after 10 seconds. Element could not be loaded
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown
+	at test.AccessBoundaryTest.deleteAccessBoundaryTest(AccessBoundaryTest.java:89)
+</error>
+    <system-out><![CDATA[Use Default text checkbox is selected
+Use Default text checkbox is selected
+yfuLF
+org.openqa.selenium.NoSuchElementException: Timed out after 10 seconds. Element could not be loaded
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown
+]]></system-out>
+    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - Test Suite Started: Access boundary test
+[main] INFO net.serenitybdd.core.Serenity - 
+  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+ |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+   | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                   
+
+TEST STARTED: deleteAccessBoundaryTest
+--------------------------------------------------------------------
+[main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 4
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.loginToApplication - openPage
+Starting ChromeDriver 2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1) on port 13843
+Only local connections are allowed.
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot7443574235221319872
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: openPage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.loginToApplication - loginToApplication
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: loginToApplication
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.loginToApplication - goToCreateNewAssetPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToCreateNewAssetPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.loginToApplication - fillCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot1614664802232360794
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.loginToApplication - submitCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot3736132122712032604
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: submitCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.loginToApplication - editCampaignConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot2401070719923166794
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: editCampaignConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.loginToApplication - goToCreateNewCampaignPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToCreateNewCampaignPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.loginToApplication - fillCampaignForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot5989258614673748766
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillCampaignForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.loginToApplication - submitCampaignForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot5187393565187745312
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: submitCampaignForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.loginToApplication - goToHomePage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot7125789333226033025
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToHomePage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.deleteAccessBoundaryTest - editAccessBoundaryConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot4916770575403880645
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: editAccessBoundaryConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.deleteAccessBoundaryTest - goToCreateNewAccessBoundaryPage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot7972757883688546280
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToCreateNewAccessBoundaryPage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.deleteAccessBoundaryTest - fillCreateAccessBoundaryForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot5633081136097329665
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillCreateAccessBoundaryForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.deleteAccessBoundaryTest - submitAccessBoundaryForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot1932643139397472681
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: submitAccessBoundaryForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccessBoundaryTest.deleteAccessBoundaryTest - deleteAccessBoundary
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP FAILED: deleteAccessBoundary - Timed out after 10 seconds. Element could not be loaded
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: logOut
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Fee test","Back to Fee page when Creating new Fee Test","SUCCESS","2016-04-29T22:15:35.818+03:00","0.0","59.93"
+"Fee test","Cancel when Creating new Fee Test","SUCCESS","2016-04-29T22:17:57.097+03:00","0.0","59.27"
+"Fee test","Create two Fees with same currency Test","SUCCESS","2016-04-29T22:16:36.874+03:00","0.0","79.06"

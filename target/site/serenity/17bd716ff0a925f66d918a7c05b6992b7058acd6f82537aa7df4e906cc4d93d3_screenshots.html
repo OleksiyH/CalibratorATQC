@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="bluetext">
+                <a href="index.html" class="bluetext">Home</a>
+                > <a
+                    href="a9a92dc5632e020386e8beb3240f9e4205b7c0a54d7442e93398f1110a881def.html">Fee Test</a>
+                > <a
+                    href="17bd716ff0a925f66d918a7c05b6992b7058acd6f82537aa7df4e906cc4d93d3.html">Edit Fees currency to match  other Fees currency Test </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 29-04-2016 22:21</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+    <!--
+    <div id="contentbody">
+        <div class="titlebar">
+        <div class="story-title">
+            <table width="1005">
+                <td width="50"><img class="story-outcome-icon" src="images/fail.png" width="25" height="25"/> </td>
+                <td width="%"><span class="test-case-title"><span
+                        class="failing-color">Edit Fees currency to match  other Fees currency Test<span class="related-issue-title"></span></span></span>
+                </td>
+                <td width="100"><span class="test-case-duration"><span class="greentext">62,4s</span></span>
+                </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <a class="tagLink" href="5b2c409ed96db1e22c5797421b30e0ecdbdaccbbcb89a6fccbeca0ed39c2685e.html">Asset Product Fees Management (feature)</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </div>
+-->
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-comments-o"></i>
+                                    <span class="story-header-title">Fee Test</span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top">
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="804f7a2fd4b8d8120b2a3dc0273fabfe75997d6a0479a42ccf6caf4175467789.html">Asset Product Fees Management
+                                    (feature)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><img class="story-outcome-icon"
+                                                            src="images/fail.png"/></span>
+                            <span class="test-case-title">
+                                <span class="failing-color">Edit Fees currency to match  other Fees currency Test
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="0218e60ed365d52c711c5ebaadda88cf_NONE.png" alt=""
+                     title="Open Login Page Step" width="927"/>
+                <img src="5b097e5fc023c7e7fc7217229023ee88_NONE.png" alt=""
+                     title="Login to Application" width="927"/>
+                <img src="231defe8bedbe1066c096c0e6d0db451_NONE.png" alt=""
+                     title="Login to Application" width="927"/>
+                <img src="b5e06da6474415613243c449ba1172f7_NONE.png" alt=""
+                     title="Go to Create new Asset page" width="927"/>
+                <img src="721f24217f3325369760c3a749d77244_NONE.png" alt=""
+                     title="Fill Create new Asset form" width="927"/>
+                <img src="87afffdad200c8601f245b2c01bebada_NONE.png" alt=""
+                     title="Submit Create new Asset form" width="927"/>
+                <img src="92a2852cf65e80787bfc0faf3db6caa3_NONE.png" alt=""
+                     title="Edit Asset Product Configuration by Name" width="927"/>
+                <img src="16a1eb5092e30efd2c0eb51b90369308_NONE.png" alt=""
+                     title="Go to Create new Product page" width="927"/>
+                <img src="64c1e7571e7921f870255f9cd8acd22a_NONE.png" alt=""
+                     title="Fill Create new Product form" width="927"/>
+                <img src="0a14491d4ca413dd33f97681b717815c_NONE.png" alt=""
+                     title="Submit Create new Product form" width="927"/>
+                <img src="5a27536096f5bd88ab5901b524693a26_NONE.png" alt=""
+                     title="Edit Product Configuration by Name" width="927"/>
+                <img src="fc5629fd99ebdfddcaa5e8c0961fb309_NONE.png" alt=""
+                     title="Configure Fees for Products" width="927"/>
+                <img src="d8dce7fe139f9edaedd254db7cb2d414_NONE.png" alt=""
+                     title="Go to Create Fee page" width="927"/>
+                <img src="59e30988d67f4ca45a65816d16d6c5e6_NONE.png" alt=""
+                     title="Fill Fee form data" width="927"/>
+                <img src="656f88bfe5f02c1675601b0607822bdf_NONE.png" alt=""
+                     title="Submit Fee form" width="927"/>
+                <img src="370654006314ca8272a796798cc3f602_NONE.png" alt=""
+                     title="Submit Fee form" width="927"/>
+                <img src="d8dce7fe139f9edaedd254db7cb2d414_NONE.png" alt=""
+                     title="Go to Create Fee page" width="927"/>
+                <img src="3a4f788db051edd8ca105cb0a8ab7515_NONE.png" alt=""
+                     title="Fill Fee form data" width="927"/>
+                <img src="c317f3242e363ea973c1da864106d92d_NONE.png" alt=""
+                     title="Submit Fee form" width="927"/>
+                <img src="1f6561f033657e72339bb1eac1fb6ac6_NONE.png" alt=""
+                     title="Submit Fee form" width="927"/>
+                <img src="1f5783ccdcbfaae2c6447314efc8fd85_NONE.png" alt=""
+                     title="Edit Fee Configuration" width="927"/>
+                <img src="ae071430788d72249efb6df671474f4f_NONE.png" alt=""
+                     title="Fill Fee form data" width="927"/>
+                <img src="01fd8829090009328d5b649f2a91bdb1_NONE.png" alt=""
+                     title="Submit Fee form" width="927"/>
+                <img src="38a70a64f9957cd7b41157c5ed4516f0_NONE.png" alt=""
+                     title="Submit Fee form" width="927"/>
+                <img src="38a70a64f9957cd7b41157c5ed4516f0_NONE.png" alt="MessageThis currency already exists for this product is not displayed"
+                     title="Verify error message 'This currency already exists for this product' appears" width="927"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.0.47</span>
+</div>
+</body>
+</html>

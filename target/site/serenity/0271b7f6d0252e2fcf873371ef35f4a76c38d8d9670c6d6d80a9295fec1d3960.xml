@@ -1,0 +1,151 @@
+<acceptance-test-run title="Add Campaign Product 1" name="addCampaignProduct1Test" steps="23" successful="20" failures="0" errors="1" skipped="2" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="118437" timestamp="2016-04-29T21:57:02.193+03:00">
+  <user-story id="test.CampaignProductsTest" name="Campaign products test" path="test"/>
+  <tags>
+    <tag name="AccessBoundary" type="feature"/>
+    <tag name="Campaign products test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="9935">
+    <screenshots>
+      <screenshot image="bc4a266ab207af6c650993ae3cc197fc_NONE.png"/>
+    </screenshots>
+    <description>Open Login Page Step</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="19306">
+    <screenshots>
+      <screenshot image="98594d2b6fc16f8ae64f9131ba1f716f_NONE.png"/>
+      <screenshot image="16085a0884e61c0056b04a249e1f7cb6_NONE.png"/>
+    </screenshots>
+    <description>Login to Application</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2057">
+    <screenshots>
+      <screenshot image="b5e06da6474415613243c449ba1172f7_NONE.png"/>
+    </screenshots>
+    <description>Go to Create new Asset page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="22351">
+    <screenshots>
+      <screenshot image="05b7a27b8465f2b212d173896516651e_NONE.png"/>
+    </screenshots>
+    <description>Fill Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="9464">
+    <screenshots>
+      <screenshot image="a8d52713a9f2b8d66e223c74a6cceb17_NONE.png"/>
+    </screenshots>
+    <description>Submit Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1278">
+    <screenshots>
+      <screenshot image="2cf3ebb2f3158012da89e8e535d02f96_NONE.png"/>
+    </screenshots>
+    <description>Edit Asset Campaign Configuration by Name</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="780">
+    <screenshots>
+      <screenshot image="20eb58b91d5a823ec3c909c6c3980f0d_NONE.png"/>
+    </screenshots>
+    <description>Go to Create Campaign page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1090">
+    <screenshots>
+      <screenshot image="8c4ddc326a858474eb690819a20a2699_NONE.png"/>
+    </screenshots>
+    <description>Fill Create Campaign form data</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1033">
+    <screenshots>
+      <screenshot image="f0dde12be3ccbadb781a560924856906_NONE.png"/>
+    </screenshots>
+    <description>Submit Campaign form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="11192">
+    <screenshots>
+      <screenshot image="5b74f1aefa5388656947deb834fa29b3_NONE.png"/>
+    </screenshots>
+    <description>Go to Home page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1968">
+    <screenshots>
+      <screenshot image="850f7170d3cccd250635c4288492d808_NONE.png"/>
+    </screenshots>
+    <description>Edit Asset Product Configuration by Name</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1536">
+    <screenshots>
+      <screenshot image="17c67a9243c460b8aabad1ad19ffeaa1_NONE.png"/>
+    </screenshots>
+    <description>Go to Create new Product page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2124">
+    <screenshots>
+      <screenshot image="59fdd9af657324a7fb9846f1d5804314_NONE.png"/>
+    </screenshots>
+    <description>Fill Create new Product form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1950">
+    <screenshots>
+      <screenshot image="50913f2b9e37779748bd61bbef34d833_NONE.png"/>
+    </screenshots>
+    <description>Submit Create new Product form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="934">
+    <screenshots>
+      <screenshot image="ebcfb8324aef1fef57e7f234728056ad_NONE.png"/>
+    </screenshots>
+    <description>Get internal Product name</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1521">
+    <screenshots>
+      <screenshot image="0218e60ed365d52c711c5ebaadda88cf_NONE.png"/>
+    </screenshots>
+    <description>Logout from application</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1240">
+    <screenshots>
+      <screenshot image="89468f7a7b740a3745521730d6d69f83_NONE.png"/>
+      <screenshot image="0a508fae3cd08637c51ec1bb67c73b12_NONE.png"/>
+    </screenshots>
+    <description>Open Login Page Step</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="5007">
+    <screenshots>
+      <screenshot image="063a66384d4221ccf10c13fc49e6d3ae_NONE.png"/>
+      <screenshot image="5b74f1aefa5388656947deb834fa29b3_NONE.png"/>
+    </screenshots>
+    <description>Login to Application</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1527">
+    <screenshots>
+      <screenshot image="37e6167ed44f30e097cb6bb2d79956c2_NONE.png"/>
+    </screenshots>
+    <description>Edit Asset Campaign Product Configuration by Name</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1415">
+    <screenshots>
+      <screenshot image="07efc01e1203fc2a1430fdfaad16e561_NONE.png"/>
+    </screenshots>
+    <description>Configure Campaign Products Configuration</description>
+  </test-step>
+  <test-step result="ERROR" duration="20688">
+    <screenshots>
+      <screenshot image="29812fb5903d03796b134ae82c356a77_NONE.png"/>
+    </screenshots>
+    <description>Add Product to the table</description>
+    <error>Timed out after 10 seconds. Element not available
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Home-PC&apos;, ip: &apos;192.168.0.52&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: driver.version: unknown</error>
+    <exception>org.openqa.selenium.ElementNotVisibleException:Timed out after 10 seconds. Element not available
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Home-PC&apos;, ip: &apos;192.168.0.52&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: driver.version: unknown&#xd;
+[pages.ConfigureCampaignProductsPage.setIsDefaultOption(ConfigureCampaignProductsPage.java:100), steps.CampaignProductsSteps.addProductToTable(CampaignProductsSteps.java:79), test.CampaignProductsTest.addCampaignProduct1Test(CampaignProductsTest.java:117)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="9">
+    <description>Verify Product Data</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="13">
+    <description>Logout from application</description>
+  </test-step>
+</acceptance-test-run>

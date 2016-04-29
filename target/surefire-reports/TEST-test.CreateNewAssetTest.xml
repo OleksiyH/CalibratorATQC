@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="test.CreateNewAssetTest" time="390.873" tests="6" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_71\jre\bin"/>
+    <property name="java.vm.version" value="25.71-b15"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Workspace\Calibrator ATQC"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Workspace\Calibrator ATQC"/>
+    <property name="java.runtime.version" value="1.8.0_71-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_71\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Home\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Program Files\Apache\apache-maven-3.3.9\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_71\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\DMIX;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.8.0_71\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Apache\apache-maven-3.3.9\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.test.failure.ignore" value="true"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Home"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="user.name" value="Home"/>
+    <property name="java.class.path" value="C:\Program Files\Apache\apache-maven-3.3.9\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_71\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify serenity:aggregate -Dmaven.test.failure.ignore=true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="ru"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_71"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_71\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_71\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_71\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp866"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\Apache\apache-maven-3.3.9\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp866"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="backToHomePageTest" classname="test.CreateNewAssetTest" time="58.724"/>
+  <testcase name="cancelCreateNewAssetTest" classname="test.CreateNewAssetTest" time="36.75">
+    <failure message="User is not redirected to Home Page or URL http://paywallmasters.com:8080/calibrator/admin/property/list.html ,or URL has changed" type="java.lang.AssertionError">java.lang.AssertionError: User is not redirected to Home Page or URL http://paywallmasters.com:8080/calibrator/admin/property/list.html ,or URL has changed
+	at test.CreateNewAssetTest.cancelCreateNewAssetTest(CreateNewAssetTest.java:65)
+</failure>
+    <system-out><![CDATA[Use Default text checkbox is selected
+Use Default text checkbox is selected
+java.lang.AssertionError: User is not redirected to Home Page or URL http://paywallmasters.com:8080/calibrator/admin/property/list.html ,or URL has changed
+]]></system-out>
+    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - Test Suite Started: Create new asset test
+[main] INFO net.serenitybdd.core.Serenity - 
+  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+ |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+   | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                   
+
+TEST STARTED: cancelCreateNewAssetTest
+--------------------------------------------------------------------
+[main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 15
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CreateNewAssetTest.loginToApplication - openPage
+Starting ChromeDriver 2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1) on port 17558
+Only local connections are allowed.
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: openPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CreateNewAssetTest.loginToApplication - loginToApplication
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: loginToApplication
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CreateNewAssetTest.cancelCreateNewAssetTest - goToCreateNewAssetPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToCreateNewAssetPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CreateNewAssetTest.cancelCreateNewAssetTest - fillCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot8638837358070016642
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CreateNewAssetTest.cancelCreateNewAssetTest - cancelCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot8082667259402594822
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP FAILED: cancelCreateNewAssetForm - User is not redirected to Home Page or URL http://paywallmasters.com:8080/calibrator/admin/property/list.html ,or URL has changed
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: verifyAssetNotPresent
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: logOut
+[main] INFO net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Cancel Create new Asset Test
+--------------------------------------------------------------------------
+[main] INFO net.serenitybdd.core.Serenity - RELATED ISSUES: 
+[main] INFO net.serenitybdd.core.Serenity - 
+  _____ _    ___ _     _   _ ____  _____ 
+ |  ___/ \  |_ _| |   | | | |  _ \| ____|
+ | |_ / _ \  | || |   | | | | |_) |  _|  
+ |  _/ ___ \ | || |___| |_| |  _ <| |___ 
+ |_|/_/   \_\___|_____|\___/|_| \_\_____|
+                                         
+
+User is not redirected to Home Page or URL http://paywallmasters.com:8080/calibrator/admin/property/list.html ,or URL has changed
+]]></system-err>
+  </testcase>
+  <testcase name="editAssetStatusTest" classname="test.CreateNewAssetTest" time="92.913"/>
+  <testcase name="createNewAssetTest" classname="test.CreateNewAssetTest" time="61.148">
+    <failure message="Asset SummaryHeader Default Checkbox is different from expected. Expected: false Actual: true" type="java.lang.AssertionError">java.lang.AssertionError: Asset SummaryHeader Default Checkbox is different from expected. Expected: false Actual: true
+	at test.CreateNewAssetTest.createNewAssetTest(CreateNewAssetTest.java:56)
+</failure>
+    <system-out><![CDATA[Use Default text checkbox is selected
+java.lang.AssertionError: Asset SummaryHeader Default Checkbox is different from expected. Expected: false Actual: true
+]]></system-out>
+    <system-err><![CDATA[[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.serenitybdd.core.Serenity - Test Suite Started: Create new asset test
+[main] INFO net.serenitybdd.core.Serenity - 
+  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+ |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+   | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                   
+
+TEST STARTED: createNewAssetTest
+--------------------------------------------------------------------
+[main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 17
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CreateNewAssetTest.loginToApplication - openPage
+Starting ChromeDriver 2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1) on port 39000
+Only local connections are allowed.
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot1000035234004662652
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: openPage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot7892924840201051213
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CreateNewAssetTest.loginToApplication - loginToApplication
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot18557416743850910
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: loginToApplication
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CreateNewAssetTest.createNewAssetTest - goToCreateNewAssetPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToCreateNewAssetPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CreateNewAssetTest.createNewAssetTest - fillCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot3486055280633437003
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CreateNewAssetTest.createNewAssetTest - submitCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot7501680593290248086
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: submitCreateNewAssetForm
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CreateNewAssetTest.createNewAssetTest - verifyAssetCreation
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot6837876455419568972
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP FAILED: verifyAssetCreation - Asset SummaryHeader Default Checkbox is different from expected. Expected: false Actual: true
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: logOut
+[main] INFO net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Create new Asset Test
+--------------------------------------------------------------------------
+[main] INFO net.serenitybdd.core.Serenity - RELATED ISSUES: 
+[main] INFO net.serenitybdd.core.Serenity - 
+  _____ _    ___ _     _   _ ____  _____ 
+ |  ___/ \  |_ _| |   | | | |  _ \| ____|
+ | |_ / _ \  | || |   | | | | |_) |  _|  
+ |  _/ ___ \ | || |___| |_| |  _ <| |___ 
+ |_|/_/   \_\___|_____|\___/|_| \_\_____|
+                                         
+
+Asset SummaryHeader Default Checkbox is different from expected. Expected: false Actual: true
+]]></system-err>
+  </testcase>
+  <testcase name="editAssetConfigurationTest" classname="test.CreateNewAssetTest" time="68.659"/>
+  <testcase name="deleteAssetTest" classname="test.CreateNewAssetTest" time="65.348"/>
+</testsuite>

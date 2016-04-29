@@ -1,0 +1,94 @@
+<acceptance-test-run title="Edit Existing Product Configuration Test" name="editProductConfigurationTest" steps="14" successful="14" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="80578" timestamp="2016-04-29T22:04:15.706+03:00">
+  <user-story id="test.CreateNewAssetProductTest" name="Create new asset product test" path="test"/>
+  <tags>
+    <tag name="Asset Product Management" type="feature"/>
+    <tag name="Create new asset product test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="8789">
+    <screenshots>
+      <screenshot image="0a508fae3cd08637c51ec1bb67c73b12_NONE.png"/>
+    </screenshots>
+    <description>Open Login Page Step</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="14452">
+    <screenshots>
+      <screenshot image="f7d6bce482c611ad76fd77ef124e0e97_NONE.png"/>
+      <screenshot image="07112fcb6f909cead76c2b22e6445134_NONE.png"/>
+    </screenshots>
+    <description>Login to Application</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1762">
+    <screenshots>
+      <screenshot image="b5e06da6474415613243c449ba1172f7_NONE.png"/>
+    </screenshots>
+    <description>Go to Create new Asset page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="21981">
+    <screenshots>
+      <screenshot image="4c1052fddf5cb35e54b05ba627dde05f_NONE.png"/>
+    </screenshots>
+    <description>Fill Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="21455">
+    <screenshots>
+      <screenshot image="4b23455d9da980585feaa936339a9d38_NONE.png"/>
+    </screenshots>
+    <description>Submit Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1398">
+    <screenshots>
+      <screenshot image="69b48c7a9241f75d73cd864ea0591ca0_NONE.png"/>
+    </screenshots>
+    <description>Edit Asset Product Configuration by Name</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1316">
+    <screenshots>
+      <screenshot image="2314b85b4ca08f635492f6548b3a55d9_NONE.png"/>
+    </screenshots>
+    <description>Go to Create new Product page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1584">
+    <screenshots>
+      <screenshot image="9471d249fd3cd9f46d6f1a672f1c6e1b_NONE.png"/>
+    </screenshots>
+    <description>Fill Create new Product form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="938">
+    <screenshots>
+      <screenshot image="771090f279fb357ca56393198e0cfad5_NONE.png"/>
+    </screenshots>
+    <description>Submit Create new Product form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1459">
+    <screenshots>
+      <screenshot image="b3935a46e25380dd397664a3f6cf653a_NONE.png"/>
+    </screenshots>
+    <description>Edit Product Configuration by Name</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1392">
+    <screenshots>
+      <screenshot image="727d4d272474c91b5dec2e6a0ad3a81b_NONE.png"/>
+      <screenshot image="3d3f753e26a5d8404a72f8b5a7b4b19d_NONE.png"/>
+    </screenshots>
+    <description>Fill Create new Product form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="911">
+    <screenshots>
+      <screenshot image="e44b5a781a4b0f666c3460b3790887f8_NONE.png"/>
+      <screenshot image="d5512ef5116e5091d9739f7cfb5b60bf_NONE.png"/>
+    </screenshots>
+    <description>Submit Create new Product form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2172">
+    <screenshots>
+      <screenshot image="587191eb7167cf62e546ae77407e5628_NONE.png"/>
+    </screenshots>
+    <description>Verify that Product Was Created and all data was captured</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="964">
+    <screenshots>
+      <screenshot image="dbfccfee00d7b541cbac5f2b6cf9f528_NONE.png"/>
+    </screenshots>
+    <description>Logout from application</description>
+  </test-step>
+</acceptance-test-run>

@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="bluetext">
+                <a href="index.html" class="bluetext">Home</a>
+                > <a
+                    href="a152e5824faa1d0e575592dc26aae7c4344acfdf08375e8227748411bfbc9a0b.html">Access Boundary Test</a>
+                > <a
+                    href="41c7fc19e4dd8c4ee866379a6434576bfbbf7747524a0e803793fcd39f1f5ae1.html">Back to Access Boundary page when Creating new Access Bounda&hellip; </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 29-04-2016 21:57</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+    <!--
+    <div id="contentbody">
+        <div class="titlebar">
+        <div class="story-title">
+            <table width="1005">
+                <td width="50"><img class="story-outcome-icon" src="images/success.png" width="25" height="25"/> </td>
+                <td width="%"><span class="test-case-title"><span
+                        class="success-color">Back to Access Boundary page when Creating new Access Boundary Test<span class="related-issue-title"></span></span></span>
+                </td>
+                <td width="100"><span class="test-case-duration"><span class="greentext">64,75s</span></span>
+                </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <a class="tagLink" href="1fe857191bf0f7de74bc4f64e62a005e65d29a2fd8a9ada24cf732e4ca721c30.html">Accessboundary (feature)</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </div>
+-->
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-comments-o"></i>
+                                    <span class="story-header-title">Access Boundary Test</span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top">
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="dcec0c58d27079224156961648c1ab63409686d208c72cc05b3da1770806664e.html">Accessboundary
+                                    (feature)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><img class="story-outcome-icon"
+                                                            src="images/success.png"/></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Back to Access Boundary page when Creating new Access Boundary Test
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="f00fa71a909843264b7b02861b6d7dfa_NONE.png" alt=""
+                     title="Open Login Page Step" width="927"/>
+                <img src="19a8c3d5a6d7fa26648c185762cac2f3_NONE.png" alt=""
+                     title="Login to Application" width="927"/>
+                <img src="689c412d08a916db50c16e153da506ea_NONE.png" alt=""
+                     title="Login to Application" width="927"/>
+                <img src="b5e06da6474415613243c449ba1172f7_NONE.png" alt=""
+                     title="Go to Create new Asset page" width="927"/>
+                <img src="825143b7c13c8df3e6cc4ddc97061f96_NONE.png" alt=""
+                     title="Fill Create new Asset form" width="927"/>
+                <img src="8ec007b3e1ed6c72e1864680a007be6a_NONE.png" alt=""
+                     title="Submit Create new Asset form" width="927"/>
+                <img src="0a348cfe4e92e3952158bdf12abaf47d_NONE.png" alt=""
+                     title="Edit Asset Campaign Configuration by Name" width="927"/>
+                <img src="20eb58b91d5a823ec3c909c6c3980f0d_NONE.png" alt=""
+                     title="Go to Create Campaign page" width="927"/>
+                <img src="57448e4be6964a67a6e4778a32bd005b_NONE.png" alt=""
+                     title="Fill Create Campaign form data" width="927"/>
+                <img src="2020d9ed58c58fc5a7db3494052e99af_NONE.png" alt=""
+                     title="Submit Campaign form" width="927"/>
+                <img src="be7b93f119aebbeb9dfb1b1c81cf6a7f_NONE.png" alt=""
+                     title="Go to Home page" width="927"/>
+                <img src="24fdd26bd8235cdc9bbbe6ea2fd0dcb4_NONE.png" alt=""
+                     title="Edit Asset Access Boundary Configuration by Name" width="927"/>
+                <img src="0e0bb221aa0e0c1bf064348cfdcb8ec8_NONE.png" alt=""
+                     title="Go to Create Access Boundary page" width="927"/>
+                <img src="19b1e70431ede25a164097db91761c53_NONE.png" alt=""
+                     title="Fill Create Access Boundary data" width="927"/>
+                <img src="77a65d6e033fb2136f28bd1f8e4a48a2_NONE.png" alt=""
+                     title="Fill Create Access Boundary data" width="927"/>
+                <img src="24fdd26bd8235cdc9bbbe6ea2fd0dcb4_NONE.png" alt=""
+                     title="Go back to Access Boundary page" width="927"/>
+                <img src="27eaf710efb571ed82409041ba9acacb_NONE.png" alt=""
+                     title="Logout from application" width="927"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.0.47</span>
+</div>
+</body>
+</html>

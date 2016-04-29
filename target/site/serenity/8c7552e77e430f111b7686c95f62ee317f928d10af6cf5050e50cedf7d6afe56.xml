@@ -1,0 +1,74 @@
+<acceptance-test-run title="Back to Campaign page when Creating new Campaign Test" name="backToProductPageTest" steps="11" successful="11" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="56947" timestamp="2016-04-29T21:59:02.120+03:00">
+  <user-story id="test.CampaignTest" name="Campaign test" path="test"/>
+  <tags>
+    <tag name="Asset Product Management" type="feature"/>
+    <tag name="Campaign test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="9014">
+    <screenshots>
+      <screenshot image="0a508fae3cd08637c51ec1bb67c73b12_NONE.png"/>
+    </screenshots>
+    <description>Open Login Page Step</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="7223">
+    <screenshots>
+      <screenshot image="5b097e5fc023c7e7fc7217229023ee88_NONE.png"/>
+      <screenshot image="a8d52713a9f2b8d66e223c74a6cceb17_NONE.png"/>
+    </screenshots>
+    <description>Login to Application</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2345">
+    <screenshots>
+      <screenshot image="b5e06da6474415613243c449ba1172f7_NONE.png"/>
+    </screenshots>
+    <description>Go to Create new Asset page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="22028">
+    <screenshots>
+      <screenshot image="c0638a8f68b9bbf6e2e6db590d4d4efd_NONE.png"/>
+    </screenshots>
+    <description>Fill Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="10709">
+    <screenshots>
+      <screenshot image="51b5a9128ce10b43c5c074a3fe47bfec_NONE.png"/>
+    </screenshots>
+    <description>Submit Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1507">
+    <screenshots>
+      <screenshot image="c3ded800cb824a5cee5f7318df259443_NONE.png"/>
+    </screenshots>
+    <description>Edit Asset Campaign Configuration by Name</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="716">
+    <screenshots>
+      <screenshot image="20eb58b91d5a823ec3c909c6c3980f0d_NONE.png"/>
+    </screenshots>
+    <description>Go to Create Campaign page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1067">
+    <screenshots>
+      <screenshot image="5b7576943e4207fbcc5f49b42d0fbe1c_NONE.png"/>
+    </screenshots>
+    <description>Fill Create Campaign form data</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="757">
+    <screenshots>
+      <screenshot image="c3ded800cb824a5cee5f7318df259443_NONE.png"/>
+    </screenshots>
+    <description>Go back to Campaign page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="515">
+    <screenshots>
+      <screenshot image="45226086f55405afaa3bdd5eeda05cea_NONE.png"/>
+    </screenshots>
+    <description>Verify Campaign is not present in the table</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1058">
+    <screenshots>
+      <screenshot image="56660b9b74b3540adedd0da331931065_NONE.png"/>
+    </screenshots>
+    <description>Logout from application</description>
+  </test-step>
+</acceptance-test-run>

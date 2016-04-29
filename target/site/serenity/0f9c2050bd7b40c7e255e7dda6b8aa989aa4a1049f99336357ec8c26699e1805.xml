@@ -1,0 +1,50 @@
+<acceptance-test-run title="Back to calibrator page when Creating new Asset Test" name="backToHomePageTest" steps="7" successful="7" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="58727" timestamp="2016-04-29T22:08:01.436+03:00">
+  <user-story id="test.CreateNewAssetTest" name="Create new asset test" path="test"/>
+  <tags>
+    <tag name="AssetManagement" type="feature"/>
+    <tag name="Create new asset test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="9281">
+    <screenshots>
+      <screenshot image="118ec3c323ee29729523f6cf8a2592a5_NONE.png"/>
+    </screenshots>
+    <description>Open Login Page Step</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="18392">
+    <screenshots>
+      <screenshot image="4220baa6b205dbabd6cf671ab2e0c0ff_NONE.png"/>
+      <screenshot image="8057ec64362cd0ae57f2c899a3d7dbc7_NONE.png"/>
+    </screenshots>
+    <description>Login to Application</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2011">
+    <screenshots>
+      <screenshot image="b5e06da6474415613243c449ba1172f7_NONE.png"/>
+    </screenshots>
+    <description>Go to Create new Asset page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="11625">
+    <screenshots>
+      <screenshot image="463832f4865788f9d51996b952085330_NONE.png"/>
+    </screenshots>
+    <description>Fill Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="14253">
+    <screenshots>
+      <screenshot image="8057ec64362cd0ae57f2c899a3d7dbc7_NONE.png"/>
+    </screenshots>
+    <description>Go Back to Home Page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="689">
+    <screenshots>
+      <screenshot image="589b096f65db465ad82d642f752ea792_NONE.png"/>
+    </screenshots>
+    <description>Verify Asset is not present in the table</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2473">
+    <screenshots>
+      <screenshot image="063a66384d4221ccf10c13fc49e6d3ae_NONE.png"/>
+    </screenshots>
+    <description>Logout from application</description>
+  </test-step>
+</acceptance-test-run>

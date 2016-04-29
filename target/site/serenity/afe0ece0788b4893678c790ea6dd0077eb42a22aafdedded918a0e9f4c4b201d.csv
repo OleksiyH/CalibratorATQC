@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Create new asset test","Cancel Create new Asset Test","FAILURE","2016-04-29T22:09:01.331+03:00","0.0","36.75"
+"Create new asset test","Create new Asset Test","FAILURE","2016-04-29T22:11:13.264+03:00","0.0","61.15"

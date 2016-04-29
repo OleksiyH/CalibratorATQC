@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Create new asset test","Back to calibrator page when Creating new Asset Test","SUCCESS","2016-04-29T22:08:01.436+03:00","0.0","58.73"
+"Create new asset test","Cancel Create new Asset Test","FAILURE","2016-04-29T22:09:01.331+03:00","0.0","36.75"
+"Create new asset test","Create new Asset Test","FAILURE","2016-04-29T22:11:13.264+03:00","0.0","61.15"
+"Create new asset test","Delete Assets Test","SUCCESS","2016-04-29T22:13:25.311+03:00","0.0","65.35"
+"Create new asset test","Edit Existing Assets Configuration Test","SUCCESS","2016-04-29T22:12:15.534+03:00","0.0","68.65"
+"Create new asset test","Edit Existing Assets Status Test","SUCCESS","2016-04-29T22:09:39.246+03:00","0.0","92.91"

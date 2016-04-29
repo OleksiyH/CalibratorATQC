@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="test.CampaignProductsTest" time="119.806" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_71\jre\bin"/>
+    <property name="java.vm.version" value="25.71-b15"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Workspace\Calibrator ATQC"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Workspace\Calibrator ATQC"/>
+    <property name="java.runtime.version" value="1.8.0_71-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_71\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Home\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Program Files\Apache\apache-maven-3.3.9\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_71\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\DMIX;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.8.0_71\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Apache\apache-maven-3.3.9\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.test.failure.ignore" value="true"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Home"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="user.name" value="Home"/>
+    <property name="java.class.path" value="C:\Program Files\Apache\apache-maven-3.3.9\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_71\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify serenity:aggregate -Dmaven.test.failure.ignore=true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="ru"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_71"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_71\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_71\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_71\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp866"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\Apache\apache-maven-3.3.9\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp866"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="addCampaignProduct1Test" classname="test.CampaignProductsTest" time="118.324">
+    <error message="Timed out after 10 seconds. Element not available&#10;Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;&#10;System info: host: &apos;Home-PC&apos;, ip: &apos;192.168.0.52&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;&#10;Driver info: driver.version: unknown&#10;Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;&#10;System info: host: &apos;Home-PC&apos;, ip: &apos;192.168.0.52&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: 
+Timed out after 10 seconds. Element not available
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown
+	at test.CampaignProductsTest.addCampaignProduct1Test(CampaignProductsTest.java:117)
+</error>
+    <system-out><![CDATA[Use Default text checkbox is selected
+org.openqa.selenium.ElementNotVisibleException: Timed out after 10 seconds. Element not available
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown
+]]></system-out>
+    <system-err><![CDATA[[main] INFO net.thucydides.core.reports.ReportService - Reporting formats: [JSON, XML, HTML]
+[main] INFO net.thucydides.core.reports.ReportService - Found reporter: net.thucydides.core.reports.xml.XMLTestOutcomeReporter@560cbf1a(format = Optional.of(XML))
+[main] INFO net.thucydides.core.reports.ReportService - Registering reporter: net.thucydides.core.reports.xml.XMLTestOutcomeReporter@560cbf1a
+[main] INFO net.thucydides.core.reports.ReportService - Found reporter: net.thucydides.core.reports.json.JSONTestOutcomeReporter@b5cc23a(format = Optional.of(JSON))
+[main] INFO net.thucydides.core.reports.ReportService - Registering reporter: net.thucydides.core.reports.json.JSONTestOutcomeReporter@b5cc23a
+[main] INFO net.thucydides.core.reports.ReportService - Found reporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@324c64cd(format = Optional.of(HTML))
+[main] INFO net.thucydides.core.reports.ReportService - Registering reporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@324c64cd
+[main] INFO net.thucydides.core.reports.ReportService - Generating reports using: net.thucydides.core.reports.xml.XMLTestOutcomeReporter@560cbf1a
+[main] INFO net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORTS
+[main] INFO net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORT SERENITY-JUNIT-41c7fc19e4dd8c4ee866379a6434576bfbbf7747524a0e803793fcd39f1f5ae1.xml
+[pool-1-thread-4] INFO net.thucydides.core.reports.ReportService - Processing test outcome Access boundary test:deleteAccessBoundaryTest
+[pool-1-thread-4] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.xml.XMLTestOutcomeReporter@560cbf1a: Generating report for test outcome: Access boundary test:deleteAccessBoundaryTest
+[pool-1-thread-3] INFO net.thucydides.core.reports.ReportService - Processing test outcome Access boundary test:editCampaignConfigurationTest
+[pool-1-thread-3] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.xml.XMLTestOutcomeReporter@560cbf1a: Generating report for test outcome: Access boundary test:editCampaignConfigurationTest
+[pool-1-thread-1] INFO net.thucydides.core.reports.ReportService - Processing test outcome Access boundary test:backToProductPageTest
+[pool-1-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.xml.XMLTestOutcomeReporter@560cbf1a: Generating report for test outcome: Access boundary test:backToProductPageTest
+[pool-1-thread-2] INFO net.thucydides.core.reports.ReportService - Processing test outcome Access boundary test:createNewAccessBoundaryTest
+[pool-1-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.xml.XMLTestOutcomeReporter@560cbf1a: Generating report for test outcome: Access boundary test:createNewAccessBoundaryTest
+[pool-1-thread-3] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - Generating XML report for Edit Existing Campaign Test to file D:\Workspace\Calibrator ATQC\target\site\serenity\039cfae9b073e781d13f99dee7b48e50cc0460533c1e672f2310fd4e8c57d749.xml
+[pool-1-thread-2] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - Generating XML report for Create new Access Boundary Configuration Test to file D:\Workspace\Calibrator ATQC\target\site\serenity\297a66cfe9a187428c00f94067a0ab72a82006abac5f39fa34d8794ff04dc5d7.xml
+[pool-1-thread-4] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - Generating XML report for Delete Access Boundary Test to file D:\Workspace\Calibrator ATQC\target\site\serenity\2b978e7c4712ab5d79996322b2c75eef5b5dd8879d16079af242440d4d574682.xml
+[pool-1-thread-1] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - Generating XML report for Back to Access Boundary page when Creating new Access Boundary Test to file D:\Workspace\Calibrator ATQC\target\site\serenity\41c7fc19e4dd8c4ee866379a6434576bfbbf7747524a0e803793fcd39f1f5ae1.xml
+[pool-1-thread-3] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - XML report generated (D:\Workspace\Calibrator ATQC\target\site\serenity\039cfae9b073e781d13f99dee7b48e50cc0460533c1e672f2310fd4e8c57d749.xml bytes) 6193
+[pool-1-thread-3] INFO net.thucydides.core.reports.ReportService - Report generated for Access boundary test:editCampaignConfigurationTest
+[pool-1-thread-4] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - XML report generated (D:\Workspace\Calibrator ATQC\target\site\serenity\2b978e7c4712ab5d79996322b2c75eef5b5dd8879d16079af242440d4d574682.xml bytes) 5568
+[pool-1-thread-4] INFO net.thucydides.core.reports.ReportService - Report generated for Access boundary test:deleteAccessBoundaryTest
+[pool-1-thread-2] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - XML report generated (D:\Workspace\Calibrator ATQC\target\site\serenity\297a66cfe9a187428c00f94067a0ab72a82006abac5f39fa34d8794ff04dc5d7.xml bytes) 5642
+[pool-1-thread-2] INFO net.thucydides.core.reports.ReportService - Report generated for Access boundary test:createNewAccessBoundaryTest
+[pool-1-thread-1] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - XML report generated (D:\Workspace\Calibrator ATQC\target\site\serenity\41c7fc19e4dd8c4ee866379a6434576bfbbf7747524a0e803793fcd39f1f5ae1.xml bytes) 4081
+[pool-1-thread-1] INFO net.thucydides.core.reports.ReportService - Report generated for Access boundary test:backToProductPageTest
+[main] INFO net.thucydides.core.reports.ReportService - Reports generated in: 859
+[main] INFO net.thucydides.core.reports.ReportService - Generating reports using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@b5cc23a
+[pool-2-thread-1] INFO net.thucydides.core.reports.ReportService - Processing test outcome Access boundary test:backToProductPageTest
+[pool-2-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@b5cc23a: Generating report for test outcome: Access boundary test:backToProductPageTest
+[main] INFO net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORTS
+[pool-2-thread-3] INFO net.thucydides.core.reports.ReportService - Processing test outcome Access boundary test:editCampaignConfigurationTest
+[pool-2-thread-3] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@b5cc23a: Generating report for test outcome: Access boundary test:editCampaignConfigurationTest
+[pool-2-thread-2] INFO net.thucydides.core.reports.ReportService - Processing test outcome Access boundary test:createNewAccessBoundaryTest
+[pool-2-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@b5cc23a: Generating report for test outcome: Access boundary test:createNewAccessBoundaryTest
+[main] INFO net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORT SERENITY-JUNIT-41c7fc19e4dd8c4ee866379a6434576bfbbf7747524a0e803793fcd39f1f5ae1.xml
+[pool-2-thread-4] INFO net.thucydides.core.reports.ReportService - Processing test outcome Access boundary test:deleteAccessBoundaryTest
+[pool-2-thread-4] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@b5cc23a: Generating report for test outcome: Access boundary test:deleteAccessBoundaryTest
+[pool-2-thread-3] INFO net.thucydides.core.reports.ReportService - Report generated for Access boundary test:editCampaignConfigurationTest
+[pool-2-thread-2] INFO net.thucydides.core.reports.ReportService - Report generated for Access boundary test:createNewAccessBoundaryTest
+[pool-2-thread-1] INFO net.thucydides.core.reports.ReportService - Report generated for Access boundary test:backToProductPageTest
+[pool-2-thread-4] INFO net.thucydides.core.reports.ReportService - Report generated for Access boundary test:deleteAccessBoundaryTest
+[main] INFO net.thucydides.core.reports.ReportService - Reports generated in: 657
+[main] INFO net.thucydides.core.reports.ReportService - Generating reports using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@324c64cd
+[pool-3-thread-1] INFO net.thucydides.core.reports.ReportService - Processing test outcome Access boundary test:backToProductPageTest
+[pool-3-thread-3] INFO net.thucydides.core.reports.ReportService - Processing test outcome Access boundary test:editCampaignConfigurationTest
+[pool-3-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@324c64cd: Generating report for test outcome: Access boundary test:backToProductPageTest
+[pool-3-thread-3] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@324c64cd: Generating report for test outcome: Access boundary test:editCampaignConfigurationTest
+[pool-3-thread-2] INFO net.thucydides.core.reports.ReportService - Processing test outcome Access boundary test:createNewAccessBoundaryTest
+[pool-3-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@324c64cd: Generating report for test outcome: Access boundary test:createNewAccessBoundaryTest
+[main] INFO net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORTS
+[pool-3-thread-4] INFO net.thucydides.core.reports.ReportService - Processing test outcome Access boundary test:deleteAccessBoundaryTest
+[pool-3-thread-4] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@324c64cd: Generating report for test outcome: Access boundary test:deleteAccessBoundaryTest
+[main] INFO net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORT SERENITY-JUNIT-41c7fc19e4dd8c4ee866379a6434576bfbbf7747524a0e803793fcd39f1f5ae1.xml
+[pool-3-thread-3] INFO net.thucydides.core.requirements.RequirementsTagProvider - Reading requirements from net.thucydides.core.requirements.FileSystemRequirementsTagProvider@4034031b
+[pool-3-thread-3] INFO net.thucydides.core.requirements.RequirementsTagProvider - Reading requirements from net.thucydides.core.requirements.PackageAnnotationBasedTagProvider@18327fd3
+[pool-3-thread-3] INFO net.thucydides.core.requirements.RequirementsTagProvider - Requirements found:[]
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\0218e60ed365d52c711c5ebaadda88cf_NONE.png
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\f00fa71a909843264b7b02861b6d7dfa_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\0a508fae3cd08637c51ec1bb67c73b12_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_0218e60ed365d52c711c5ebaadda88cf_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\596105963b710709d68ae4f44ab82b2e_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_0a508fae3cd08637c51ec1bb67c73b12_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_f00fa71a909843264b7b02861b6d7dfa_NONE.png
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_596105963b710709d68ae4f44ab82b2e_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\596105963b710709d68ae4f44ab82b2e_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\c6a6b86506447f2a2392d9e6f8b06bd8_NONE.png
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\19a8c3d5a6d7fa26648c185762cac2f3_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_c6a6b86506447f2a2392d9e6f8b06bd8_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_596105963b710709d68ae4f44ab82b2e_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_19a8c3d5a6d7fa26648c185762cac2f3_NONE.png
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\b5e06da6474415613243c449ba1172f7_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\acf754c25b71bb4b6ce963407c851f4e_NONE.png
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\689c412d08a916db50c16e153da506ea_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_b5e06da6474415613243c449ba1172f7_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_acf754c25b71bb4b6ce963407c851f4e_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\9ffd5527eeb1a51efaf9b36b39469f96_NONE.png
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_689c412d08a916db50c16e153da506ea_NONE.png
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\b5e06da6474415613243c449ba1172f7_NONE.png
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\b5e06da6474415613243c449ba1172f7_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_9ffd5527eeb1a51efaf9b36b39469f96_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_b5e06da6474415613243c449ba1172f7_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - NOTE: I couldn't convert scaled screenshot for b5e06da6474415613243c449ba1172f7_NONE.png: target\site\serenity\scaled_b5e06da6474415613243c449ba1172f7_NONE.png: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом.
+
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\1273359bff23a4c2f3523289e3834ca1_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\acf754c25b71bb4b6ce963407c851f4e_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\274706cbdca989fd55378b592069cd9f_NONE.png
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_1273359bff23a4c2f3523289e3834ca1_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_acf754c25b71bb4b6ce963407c851f4e_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+java.nio.file.FileSystemException: target\site\serenity\scaled_b5e06da6474415613243c449ba1172f7_NONE.png: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:165)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\dccb1d7c2b188aed5793455f72bad208_NONE.png
+	at net.thucydides.core.images.ResizableImage.saveTo(ResizableImage.java:115)
+	at net.thucydides.core.reports.html.screenshots.ScreenshotFormatter.resizedImage(ScreenshotFormatter.java:64)
+	at net.thucydides.core.reports.html.screenshots.ScreenshotFormatter.expandToHeight(ScreenshotFormatter.java:48)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter$ExpandedScreenshotConverter.convert(HtmlAcceptanceTestReporter.java:201)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter$ExpandedScreenshotConverter.convert(HtmlAcceptanceTestReporter.java:188)
+	at ch.lambdaj.function.convert.ConverterIterator.next(ConverterIterator.java:37)
+	at ch.lambdaj.Lambda.convert(Lambda.java:986)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.expandScreenshots(HtmlAcceptanceTestReporter.java:185)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateScreenshotReportsFor(HtmlAcceptanceTestReporter.java:170)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:87)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:210)
+	at net.thucydides.core.reports.ReportService.generateQueuedReport(ReportService.java:159)
+	at net.thucydides.core.reports.ReportService.access$000(ReportService.java:25)
+	at net.thucydides.core.reports.ReportService$2.run(ReportService.java:120)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:299)
+	at com.google.common.util.concurrent.ExecutionList.executeListener(ExecutionList.java:156)
+	at com.google.common.util.concurrent.ExecutionList.execute(ExecutionList.java:145)
+	at com.google.common.util.concurrent.ListenableFutureTask.done(ListenableFutureTask.java:91)
+	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:384)
+	at java.util.concurrent.FutureTask.set(FutureTask.java:233)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:274)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\825143b7c13c8df3e6cc4ddc97061f96_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_274706cbdca989fd55378b592069cd9f_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_825143b7c13c8df3e6cc4ddc97061f96_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\16085a0884e61c0056b04a249e1f7cb6_NONE.png
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\8746a343a99987040f9621b03f8a49f7_NONE.png
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\8ec007b3e1ed6c72e1864680a007be6a_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_dccb1d7c2b188aed5793455f72bad208_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_8ec007b3e1ed6c72e1864680a007be6a_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\20eb58b91d5a823ec3c909c6c3980f0d_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_16085a0884e61c0056b04a249e1f7cb6_NONE.png
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_8746a343a99987040f9621b03f8a49f7_NONE.png
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\1c090bbd88f67b44dc56e4d5cd17b9d2_NONE.png
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\0a348cfe4e92e3952158bdf12abaf47d_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_20eb58b91d5a823ec3c909c6c3980f0d_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\2860aa577a4d8f50d71000e801b68a6f_NONE.png
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_0a348cfe4e92e3952158bdf12abaf47d_NONE.png
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_1c090bbd88f67b44dc56e4d5cd17b9d2_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_2860aa577a4d8f50d71000e801b68a6f_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\20eb58b91d5a823ec3c909c6c3980f0d_NONE.png
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\8ec007b3e1ed6c72e1864680a007be6a_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\20eb58b91d5a823ec3c909c6c3980f0d_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\e565199e03214c51cc8fba9d1905fc38_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - NOTE: I couldn't convert scaled screenshot for 20eb58b91d5a823ec3c909c6c3980f0d_NONE.png: target\site\serenity\scaled_20eb58b91d5a823ec3c909c6c3980f0d_NONE.png: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом.
+
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_20eb58b91d5a823ec3c909c6c3980f0d_NONE.png
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_e565199e03214c51cc8fba9d1905fc38_NONE.png
+java.nio.file.FileSystemException: target\site\serenity\scaled_20eb58b91d5a823ec3c909c6c3980f0d_NONE.png: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом.
+
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_8ec007b3e1ed6c72e1864680a007be6a_NONE.png
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:165)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at net.thucydides.core.images.ResizableImage.saveTo(ResizableImage.java:115)
+	at net.thucydides.core.reports.html.screenshots.ScreenshotFormatter.resizedImage(ScreenshotFormatter.java:64)
+	at net.thucydides.core.reports.html.screenshots.ScreenshotFormatter.expandToHeight(ScreenshotFormatter.java:48)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter$ExpandedScreenshotConverter.convert(HtmlAcceptanceTestReporter.java:201)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter$ExpandedScreenshotConverter.convert(HtmlAcceptanceTestReporter.java:188)
+	at ch.lambdaj.function.convert.ConverterIterator.next(ConverterIterator.java:37)
+	at ch.lambdaj.Lambda.convert(Lambda.java:986)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.expandScreenshots(HtmlAcceptanceTestReporter.java:185)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateScreenshotReportsFor(HtmlAcceptanceTestReporter.java:170)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:87)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:210)
+	at net.thucydides.core.reports.ReportService.generateQueuedReport(ReportService.java:159)
+	at net.thucydides.core.reports.ReportService.access$000(ReportService.java:25)
+	at net.thucydides.core.reports.ReportService$2.run(ReportService.java:120)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:299)
+	at com.google.common.util.concurrent.ExecutionList.executeListener(ExecutionList.java:156)
+	at com.google.common.util.concurrent.ExecutionList.execute(ExecutionList.java:145)
+	at com.google.common.util.concurrent.ListenableFutureTask.done(ListenableFutureTask.java:91)
+	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:384)
+	at java.util.concurrent.FutureTask.set(FutureTask.java:233)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:274)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\319232f5ce51b0e66b674f4cf525e9bb_NONE.png
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\57448e4be6964a67a6e4778a32bd005b_NONE.png
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\f93ff8bc24e43fd1f4e08282f3e11aaf_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_319232f5ce51b0e66b674f4cf525e9bb_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_57448e4be6964a67a6e4778a32bd005b_NONE.png
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_f93ff8bc24e43fd1f4e08282f3e11aaf_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\b5e06da6474415613243c449ba1172f7_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\09b92e2e557887717b67ce79a429ee4c_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\052aa39530e867bd74e974e2b0dfebfa_NONE.png
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\2020d9ed58c58fc5a7db3494052e99af_NONE.png
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_b5e06da6474415613243c449ba1172f7_NONE.png
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_2020d9ed58c58fc5a7db3494052e99af_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_09b92e2e557887717b67ce79a429ee4c_NONE.png
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\be7b93f119aebbeb9dfb1b1c81cf6a7f_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_052aa39530e867bd74e974e2b0dfebfa_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\4a58f94282b7365bfdc47a477ffa5a20_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\5b9afb3a465284ef979990e273ab6fe0_NONE.png
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\1df1a8431baa614a9939fddbeb80983c_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_4a58f94282b7365bfdc47a477ffa5a20_NONE.png
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_be7b93f119aebbeb9dfb1b1c81cf6a7f_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_5b9afb3a465284ef979990e273ab6fe0_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\24fdd26bd8235cdc9bbbe6ea2fd0dcb4_NONE.png
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_1df1a8431baa614a9939fddbeb80983c_NONE.png
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\225b8a0dab00bc29f2882ebe77ee2472_NONE.png
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_24fdd26bd8235cdc9bbbe6ea2fd0dcb4_NONE.png
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\c6a6b86506447f2a2392d9e6f8b06bd8_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_225b8a0dab00bc29f2882ebe77ee2472_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\0e0bb221aa0e0c1bf064348cfdcb8ec8_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\adfe0e8b0ce6192a8d46e06964f0afe7_NONE.png
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_c6a6b86506447f2a2392d9e6f8b06bd8_NONE.png
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_0e0bb221aa0e0c1bf064348cfdcb8ec8_NONE.png
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_adfe0e8b0ce6192a8d46e06964f0afe7_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\19b1e70431ede25a164097db91761c53_NONE.png
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\6ef6d5fda380377babc19b1039e428b4_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\655a17d339de39c47bacf6f8cb85b935_NONE.png
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_19b1e70431ede25a164097db91761c53_NONE.png
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_6ef6d5fda380377babc19b1039e428b4_NONE.png
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\77a65d6e033fb2136f28bd1f8e4a48a2_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_655a17d339de39c47bacf6f8cb85b935_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\b59cca216d04294bf366ef82676ad7dc_NONE.png
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_77a65d6e033fb2136f28bd1f8e4a48a2_NONE.png
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\24fdd26bd8235cdc9bbbe6ea2fd0dcb4_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_b59cca216d04294bf366ef82676ad7dc_NONE.png
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_24fdd26bd8235cdc9bbbe6ea2fd0dcb4_NONE.png
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\27eaf710efb571ed82409041ba9acacb_NONE.png
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_27eaf710efb571ed82409041ba9acacb_NONE.png
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\9537164c2dc8ee4f2e5c48c1cdb3dd7e_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_9537164c2dc8ee4f2e5c48c1cdb3dd7e_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\20b0f31a039aa47685988565b228b3ef_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_20b0f31a039aa47685988565b228b3ef_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\41c8ada31da50dd7be36430e03b4c6ff_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_41c8ada31da50dd7be36430e03b4c6ff_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\20eb58b91d5a823ec3c909c6c3980f0d_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\f8b6e1d9399223d85eacde195b4c2001_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_f8b6e1d9399223d85eacde195b4c2001_NONE.png
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_20eb58b91d5a823ec3c909c6c3980f0d_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\b59cca216d04294bf366ef82676ad7dc_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_b59cca216d04294bf366ef82676ad7dc_NONE.png
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\fa8a2d0494f0e14eff6ffafb6657d11a_NONE.png
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_fa8a2d0494f0e14eff6ffafb6657d11a_NONE.png
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\9b29b899f6b2694a973524c6bf6df519_NONE.png
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_9b29b899f6b2694a973524c6bf6df519_NONE.png
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\1f74e1a36a443b06b44f52c9b2f1ee3d_NONE.png
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_1f74e1a36a443b06b44f52c9b2f1ee3d_NONE.png
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\f3cf2d1e5e6536b1870a553b2f622e6e_NONE.png
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_f3cf2d1e5e6536b1870a553b2f622e6e_NONE.png
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\b3d7c8ec5272d861254153803c0b0690_NONE.png
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_b3d7c8ec5272d861254153803c0b0690_NONE.png
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\e010f8789d78fd418ed9743510a13f46_NONE.png
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_e010f8789d78fd418ed9743510a13f46_NONE.png
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\b59cca216d04294bf366ef82676ad7dc_NONE.png
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_b59cca216d04294bf366ef82676ad7dc_NONE.png
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\b59cca216d04294bf366ef82676ad7dc_NONE.png
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_b59cca216d04294bf366ef82676ad7dc_NONE.png
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Access boundary test:createNewAccessBoundaryTest => 297a66cfe9a187428c00f94067a0ab72a82006abac5f39fa34d8794ff04dc5d7.html
+[pool-3-thread-2] INFO net.thucydides.core.reports.ReportService - Report generated for Access boundary test:createNewAccessBoundaryTest
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Access boundary test:backToProductPageTest => 41c7fc19e4dd8c4ee866379a6434576bfbbf7747524a0e803793fcd39f1f5ae1.html
+[pool-3-thread-1] INFO net.thucydides.core.reports.ReportService - Report generated for Access boundary test:backToProductPageTest
+[pool-3-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Access boundary test:deleteAccessBoundaryTest => 2b978e7c4712ab5d79996322b2c75eef5b5dd8879d16079af242440d4d574682.html
+[pool-3-thread-4] INFO net.thucydides.core.reports.ReportService - Report generated for Access boundary test:deleteAccessBoundaryTest
+[pool-3-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Access boundary test:editCampaignConfigurationTest => 039cfae9b073e781d13f99dee7b48e50cc0460533c1e672f2310fd4e8c57d749.html
+[pool-3-thread-3] INFO net.thucydides.core.reports.ReportService - Report generated for Access boundary test:editCampaignConfigurationTest
+[main] INFO net.thucydides.core.reports.ReportService - Reports generated in: 1022
+[main] INFO net.serenitybdd.core.Serenity - Test Suite Started: Campaign products test
+[main] INFO net.serenitybdd.core.Serenity - 
+  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+ |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+   | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                   
+
+TEST STARTED: addCampaignProduct1Test
+--------------------------------------------------------------------
+[main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 5
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignProductsTest.prepareTestData - openPage
+Starting ChromeDriver 2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1) on port 1932
+Only local connections are allowed.
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot1110541928482511474
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: openPage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot7761408818111856598
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignProductsTest.prepareTestData - loginToApplication
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: loginToApplication
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignProductsTest.prepareTestData - goToCreateNewAssetPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToCreateNewAssetPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignProductsTest.prepareTestData - fillCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot4186753013025484297
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignProductsTest.prepareTestData - submitCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot4104145577519564871
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: submitCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignProductsTest.prepareTestData - editCampaignConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot1367893641499754795
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: editCampaignConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignProductsTest.prepareTestData - goToCreateNewCampaignPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToCreateNewCampaignPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignProductsTest.prepareTestData - fillCampaignForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot5783991428089321927
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillCampaignForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignProductsTest.prepareTestData - submitCampaignForm
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: submitCampaignForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot5389595674422689202
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignProductsTest.prepareTestData - goToHomePage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot5775836247462130622
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToHomePage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignProductsTest.prepareTestData - editProductConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot1520541922151212320
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: editProductConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignProductsTest.prepareTestData - goToCreateNewProductPage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot3243357910440158805
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToCreateNewProductPage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignProductsTest.prepareTestData - fillCreateNewProductForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot8290821887366094704
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillCreateNewProductForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignProductsTest.prepareTestData - submitCreateNewProductForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot8269233505692625132
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: submitCreateNewProductForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignProductsTest.prepareTestData - getInternalProductName
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot4729559697995867876
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: getInternalProductName
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignProductsTest.prepareTestData - logOut
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: logOut
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignProductsTest.addCampaignProduct1Test - openPage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot8097050623912482903
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: openPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignProductsTest.addCampaignProduct1Test - loginToApplication
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot4000753856652890497
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: loginToApplication
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignProductsTest.addCampaignProduct1Test - editCampaignProductConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot8176447279328674200
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: editCampaignProductConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignProductsTest.addCampaignProduct1Test - editCampaignProductsConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot830476705298291856
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: editCampaignProductsConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: CampaignProductsTest.addCampaignProduct1Test - addProductToTable
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot257953046907600541
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP FAILED: addProductToTable - Timed out after 10 seconds. Element not available
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: verifyProductData
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: logOut
+]]></system-err>
+  </testcase>
+</testsuite>

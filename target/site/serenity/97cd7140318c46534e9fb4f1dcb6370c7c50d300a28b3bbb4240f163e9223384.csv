@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Fee test","Back to Fee page when Creating new Fee Test","SUCCESS","2016-04-29T22:15:35.818+03:00","0.0","59.93"
+"Fee test","Cancel when Creating new Fee Test","SUCCESS","2016-04-29T22:17:57.097+03:00","0.0","59.27"
+"Fee test","Create new Fee Test","ERROR","2016-04-29T22:20:09.756+03:00","0.0","92.92"
+"Fee test","Create two Fees with same currency Test","SUCCESS","2016-04-29T22:16:36.874+03:00","0.0","79.06"
+"Fee test","Edit Existing Fee Configuration Test","ERROR","2016-04-29T22:18:57.620+03:00","0.0","71.02"
+"Fee test","Edit Fees currency to match  other Fees currency Test","FAILURE","2016-04-29T22:14:32.299+03:00","0.0","62.4"

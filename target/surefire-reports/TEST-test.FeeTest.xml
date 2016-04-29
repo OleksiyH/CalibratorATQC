@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="test.FeeTest" time="431.933" tests="6" errors="2" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_71\jre\bin"/>
+    <property name="java.vm.version" value="25.71-b15"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Workspace\Calibrator ATQC"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Workspace\Calibrator ATQC"/>
+    <property name="java.runtime.version" value="1.8.0_71-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_71\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Home\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Program Files\Apache\apache-maven-3.3.9\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_71\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\DMIX;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.8.0_71\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Apache\apache-maven-3.3.9\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.test.failure.ignore" value="true"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Home"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="user.name" value="Home"/>
+    <property name="java.class.path" value="C:\Program Files\Apache\apache-maven-3.3.9\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_71\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify serenity:aggregate -Dmaven.test.failure.ignore=true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="ru"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_71"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_71\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_71\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_71\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp866"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\Apache\apache-maven-3.3.9\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp866"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="sameCurrencyFeesEditTest" classname="test.FeeTest" time="62.374">
+    <failure message="MessageThis currency already exists for this product is not displayed" type="java.lang.AssertionError">java.lang.AssertionError: MessageThis currency already exists for this product is not displayed
+	at test.FeeTest.sameCurrencyFeesEditTest(FeeTest.java:195)
+</failure>
+    <system-out><![CDATA[Use Default text checkbox is selected
+Use Default text checkbox is selected
+java.lang.AssertionError: MessageThis currency already exists for this product is not displayed
+]]></system-out>
+    <system-err><![CDATA[[main] INFO net.thucydides.core.reports.ReportService - Reporting formats: [JSON, XML, HTML]
+[main] INFO net.thucydides.core.reports.ReportService - Found reporter: net.thucydides.core.reports.xml.XMLTestOutcomeReporter@38ed139b(format = Optional.of(XML))
+[main] INFO net.thucydides.core.reports.ReportService - Registering reporter: net.thucydides.core.reports.xml.XMLTestOutcomeReporter@38ed139b
+[main] INFO net.thucydides.core.reports.ReportService - Found reporter: net.thucydides.core.reports.json.JSONTestOutcomeReporter@a5272be(format = Optional.of(JSON))
+[main] INFO net.thucydides.core.reports.ReportService - Registering reporter: net.thucydides.core.reports.json.JSONTestOutcomeReporter@a5272be
+[main] INFO net.thucydides.core.reports.ReportService - Found reporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@58ba5b30(format = Optional.of(HTML))
+[main] INFO net.thucydides.core.reports.ReportService - Registering reporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@58ba5b30
+[main] INFO net.thucydides.core.reports.ReportService - Generating reports using: net.thucydides.core.reports.xml.XMLTestOutcomeReporter@38ed139b
+[main] INFO net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORTS
+[main] INFO net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORT SERENITY-JUNIT-0f9c2050bd7b40c7e255e7dda6b8aa989aa4a1049f99336357ec8c26699e1805.xml
+[pool-13-thread-1] INFO net.thucydides.core.reports.ReportService - Processing test outcome Create new asset test:backToHomePageTest
+[pool-13-thread-2] INFO net.thucydides.core.reports.ReportService - Processing test outcome Create new asset test:cancelCreateNewAssetTest
+[pool-13-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.xml.XMLTestOutcomeReporter@38ed139b: Generating report for test outcome: Create new asset test:backToHomePageTest
+[pool-13-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.xml.XMLTestOutcomeReporter@38ed139b: Generating report for test outcome: Create new asset test:cancelCreateNewAssetTest
+[pool-13-thread-2] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - Generating XML report for Cancel Create new Asset Test to file D:\Workspace\Calibrator ATQC\target\site\serenity\92159ce1e198db0c5f55c799122d6b98211dc0828a8cb7dc0d85ceab20ade776.xml
+[pool-13-thread-1] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - Generating XML report for Back to calibrator page when Creating new Asset Test to file D:\Workspace\Calibrator ATQC\target\site\serenity\0f9c2050bd7b40c7e255e7dda6b8aa989aa4a1049f99336357ec8c26699e1805.xml
+[pool-13-thread-2] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - XML report generated (D:\Workspace\Calibrator ATQC\target\site\serenity\92159ce1e198db0c5f55c799122d6b98211dc0828a8cb7dc0d85ceab20ade776.xml bytes) 2448
+[pool-13-thread-1] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - XML report generated (D:\Workspace\Calibrator ATQC\target\site\serenity\0f9c2050bd7b40c7e255e7dda6b8aa989aa4a1049f99336357ec8c26699e1805.xml bytes) 2143
+[pool-13-thread-1] INFO net.thucydides.core.reports.ReportService - Report generated for Create new asset test:backToHomePageTest
+[pool-13-thread-2] INFO net.thucydides.core.reports.ReportService - Report generated for Create new asset test:cancelCreateNewAssetTest
+[pool-13-thread-6] INFO net.thucydides.core.reports.ReportService - Processing test outcome Create new asset test:deleteAssetTest
+[pool-13-thread-4] INFO net.thucydides.core.reports.ReportService - Processing test outcome Create new asset test:createNewAssetTest
+[pool-13-thread-6] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.xml.XMLTestOutcomeReporter@38ed139b: Generating report for test outcome: Create new asset test:deleteAssetTest
+[pool-13-thread-5] INFO net.thucydides.core.reports.ReportService - Processing test outcome Create new asset test:editAssetConfigurationTest
+[pool-13-thread-4] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.xml.XMLTestOutcomeReporter@38ed139b: Generating report for test outcome: Create new asset test:createNewAssetTest
+[pool-13-thread-5] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.xml.XMLTestOutcomeReporter@38ed139b: Generating report for test outcome: Create new asset test:editAssetConfigurationTest
+[pool-13-thread-3] INFO net.thucydides.core.reports.ReportService - Processing test outcome Create new asset test:editAssetStatusTest
+[pool-13-thread-3] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.xml.XMLTestOutcomeReporter@38ed139b: Generating report for test outcome: Create new asset test:editAssetStatusTest
+[pool-13-thread-4] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - Generating XML report for Create new Asset Test to file D:\Workspace\Calibrator ATQC\target\site\serenity\75c49f7a3535aa37bdf79272d25848ebada00a0eab99bc7bb2855ae1b2548173.xml
+[pool-13-thread-5] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - Generating XML report for Edit Existing Assets Configuration Test to file D:\Workspace\Calibrator ATQC\target\site\serenity\7de0d1fac39895178c6d572f3e27671faa617c5b17bb782d0a0e9e09e641d763.xml
+[pool-13-thread-6] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - Generating XML report for Delete Assets Test to file D:\Workspace\Calibrator ATQC\target\site\serenity\076c68b66d958f70883972c03a7d12533036d3982de92ff14462461c0407871f.xml
+[pool-13-thread-4] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - XML report generated (D:\Workspace\Calibrator ATQC\target\site\serenity\75c49f7a3535aa37bdf79272d25848ebada00a0eab99bc7bb2855ae1b2548173.xml bytes) 2477
+[pool-13-thread-5] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - XML report generated (D:\Workspace\Calibrator ATQC\target\site\serenity\7de0d1fac39895178c6d572f3e27671faa617c5b17bb782d0a0e9e09e641d763.xml bytes) 2854
+[pool-13-thread-6] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - XML report generated (D:\Workspace\Calibrator ATQC\target\site\serenity\076c68b66d958f70883972c03a7d12533036d3982de92ff14462461c0407871f.xml bytes) 2096
+[pool-13-thread-4] INFO net.thucydides.core.reports.ReportService - Report generated for Create new asset test:createNewAssetTest
+[pool-13-thread-5] INFO net.thucydides.core.reports.ReportService - Report generated for Create new asset test:editAssetConfigurationTest
+[pool-13-thread-6] INFO net.thucydides.core.reports.ReportService - Report generated for Create new asset test:deleteAssetTest
+[pool-13-thread-3] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - Generating XML report for Edit Existing Assets Status Test to file D:\Workspace\Calibrator ATQC\target\site\serenity\3161d17f4f4da219cead9abd6ffeefacb6b1a8c99bb6ec2654d6b97f7c34ef31.xml
+[pool-13-thread-3] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - XML report generated (D:\Workspace\Calibrator ATQC\target\site\serenity\3161d17f4f4da219cead9abd6ffeefacb6b1a8c99bb6ec2654d6b97f7c34ef31.xml bytes) 2807
+[pool-13-thread-3] INFO net.thucydides.core.reports.ReportService - Report generated for Create new asset test:editAssetStatusTest
+[main] INFO net.thucydides.core.reports.ReportService - Reports generated in: 113
+[main] INFO net.thucydides.core.reports.ReportService - Generating reports using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@a5272be
+[main] INFO net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORTS
+[pool-14-thread-2] INFO net.thucydides.core.reports.ReportService - Processing test outcome Create new asset test:cancelCreateNewAssetTest
+[pool-14-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@a5272be: Generating report for test outcome: Create new asset test:cancelCreateNewAssetTest
+[main] INFO net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORT SERENITY-JUNIT-0f9c2050bd7b40c7e255e7dda6b8aa989aa4a1049f99336357ec8c26699e1805.xml
+[pool-14-thread-5] INFO net.thucydides.core.reports.ReportService - Processing test outcome Create new asset test:editAssetConfigurationTest
+[pool-14-thread-4] INFO net.thucydides.core.reports.ReportService - Processing test outcome Create new asset test:createNewAssetTest
+[pool-14-thread-4] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@a5272be: Generating report for test outcome: Create new asset test:createNewAssetTest
+[pool-14-thread-5] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@a5272be: Generating report for test outcome: Create new asset test:editAssetConfigurationTest
+[pool-14-thread-2] INFO net.thucydides.core.reports.ReportService - Report generated for Create new asset test:cancelCreateNewAssetTest
+[pool-14-thread-3] INFO net.thucydides.core.reports.ReportService - Processing test outcome Create new asset test:editAssetStatusTest
+[pool-14-thread-6] INFO net.thucydides.core.reports.ReportService - Processing test outcome Create new asset test:deleteAssetTest
+[pool-14-thread-3] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@a5272be: Generating report for test outcome: Create new asset test:editAssetStatusTest
+[pool-14-thread-6] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@a5272be: Generating report for test outcome: Create new asset test:deleteAssetTest
+[pool-14-thread-6] INFO net.thucydides.core.reports.ReportService - Report generated for Create new asset test:deleteAssetTest
+[pool-14-thread-3] INFO net.thucydides.core.reports.ReportService - Report generated for Create new asset test:editAssetStatusTest
+[pool-14-thread-1] INFO net.thucydides.core.reports.ReportService - Processing test outcome Create new asset test:backToHomePageTest
+[pool-14-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@a5272be: Generating report for test outcome: Create new asset test:backToHomePageTest
+[pool-14-thread-1] INFO net.thucydides.core.reports.ReportService - Report generated for Create new asset test:backToHomePageTest
+[pool-14-thread-5] INFO net.thucydides.core.reports.ReportService - Report generated for Create new asset test:editAssetConfigurationTest
+[pool-14-thread-4] INFO net.thucydides.core.reports.ReportService - Report generated for Create new asset test:createNewAssetTest
+[main] INFO net.thucydides.core.reports.ReportService - Reports generated in: 93
+[main] INFO net.thucydides.core.reports.ReportService - Generating reports using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@58ba5b30
+[pool-15-thread-1] INFO net.thucydides.core.reports.ReportService - Processing test outcome Create new asset test:backToHomePageTest
+[pool-15-thread-4] INFO net.thucydides.core.reports.ReportService - Processing test outcome Create new asset test:createNewAssetTest
+[pool-15-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@58ba5b30: Generating report for test outcome: Create new asset test:backToHomePageTest
+[pool-15-thread-4] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@58ba5b30: Generating report for test outcome: Create new asset test:createNewAssetTest
+[pool-15-thread-2] INFO net.thucydides.core.reports.ReportService - Processing test outcome Create new asset test:cancelCreateNewAssetTest
+[pool-15-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@58ba5b30: Generating report for test outcome: Create new asset test:cancelCreateNewAssetTest
+[pool-15-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\0218e60ed365d52c711c5ebaadda88cf_NONE.png
+[pool-15-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\562b72c3a751022b01223aa03c6c917a_NONE.png
+[pool-15-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\118ec3c323ee29729523f6cf8a2592a5_NONE.png
+[pool-15-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_0218e60ed365d52c711c5ebaadda88cf_NONE.png
+[pool-15-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_562b72c3a751022b01223aa03c6c917a_NONE.png
+[pool-15-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-3] INFO net.thucydides.core.reports.ReportService - Processing test outcome Create new asset test:editAssetStatusTest
+[pool-15-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_118ec3c323ee29729523f6cf8a2592a5_NONE.png
+[pool-15-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-3] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@58ba5b30: Generating report for test outcome: Create new asset test:editAssetStatusTest
+[pool-15-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\6ffd9385e8c35c3a315684c7edb329ca_NONE.png
+[pool-15-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\596105963b710709d68ae4f44ab82b2e_NONE.png
+[pool-15-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\4220baa6b205dbabd6cf671ab2e0c0ff_NONE.png
+[pool-15-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_6ffd9385e8c35c3a315684c7edb329ca_NONE.png
+[pool-15-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_596105963b710709d68ae4f44ab82b2e_NONE.png
+[pool-15-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_4220baa6b205dbabd6cf671ab2e0c0ff_NONE.png
+[pool-15-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\92d5343bfd98c70dc4d9f337d9b351b0_NONE.png
+[main] INFO net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORTS
+[pool-15-thread-6] INFO net.thucydides.core.reports.ReportService - Processing test outcome Create new asset test:deleteAssetTest
+[pool-15-thread-6] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@58ba5b30: Generating report for test outcome: Create new asset test:deleteAssetTest
+[pool-15-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\8057ec64362cd0ae57f2c899a3d7dbc7_NONE.png
+[pool-15-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\a10af25df71a66cfa494cf4a747c7d66_NONE.png
+[main] INFO net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORT SERENITY-JUNIT-0f9c2050bd7b40c7e255e7dda6b8aa989aa4a1049f99336357ec8c26699e1805.xml
+[pool-15-thread-5] INFO net.thucydides.core.reports.ReportService - Processing test outcome Create new asset test:editAssetConfigurationTest
+[pool-15-thread-5] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@58ba5b30: Generating report for test outcome: Create new asset test:editAssetConfigurationTest
+[pool-15-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_a10af25df71a66cfa494cf4a747c7d66_NONE.png
+[pool-15-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\b5e06da6474415613243c449ba1172f7_NONE.png
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_92d5343bfd98c70dc4d9f337d9b351b0_NONE.png
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-6] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\063a66384d4221ccf10c13fc49e6d3ae_NONE.png
+[pool-15-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_b5e06da6474415613243c449ba1172f7_NONE.png
+[pool-15-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\8057ec64362cd0ae57f2c899a3d7dbc7_NONE.png
+[pool-15-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\8a9c98a8c7d28c199da8e080656be2d6_NONE.png
+[pool-15-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - NOTE: I couldn't convert scaled screenshot for 8057ec64362cd0ae57f2c899a3d7dbc7_NONE.png: target\site\serenity\scaled_8057ec64362cd0ae57f2c899a3d7dbc7_NONE.png: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом.
+
+java.nio.file.FileSystemException: target\site\serenity\scaled_8057ec64362cd0ae57f2c899a3d7dbc7_NONE.png: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:165)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at net.thucydides.core.images.ResizableImage.saveTo(ResizableImage.java:115)
+	at net.thucydides.core.reports.html.screenshots.ScreenshotFormatter.resizedImage(ScreenshotFormatter.java:64)
+	at net.thucydides.core.reports.html.screenshots.ScreenshotFormatter.expandToHeight(ScreenshotFormatter.java:48)
+[pool-15-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_8a9c98a8c7d28c199da8e080656be2d6_NONE.png
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter$ExpandedScreenshotConverter.convert(HtmlAcceptanceTestReporter.java:201)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter$ExpandedScreenshotConverter.convert(HtmlAcceptanceTestReporter.java:188)[pool-15-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+
+	at ch.lambdaj.function.convert.ConverterIterator.next(ConverterIterator.java:37)
+	at ch.lambdaj.Lambda.convert(Lambda.java:986)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.expandScreenshots(HtmlAcceptanceTestReporter.java:185)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateScreenshotReportsFor(HtmlAcceptanceTestReporter.java:170)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:87)
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\6a34cb447ecd4dd23a954a5bc6a5d218_NONE.png
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:210)
+	at net.thucydides.core.reports.ReportService.generateQueuedReport(ReportService.java:159)
+	at net.thucydides.core.reports.ReportService.access$000(ReportService.java:25)[pool-15-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_8057ec64362cd0ae57f2c899a3d7dbc7_NONE.png
+
+	at net.thucydides.core.reports.ReportService$2.run(ReportService.java:120)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:299)
+[pool-15-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+	at com.google.common.util.concurrent.ExecutionList.executeListener(ExecutionList.java:156)
+	at com.google.common.util.concurrent.ExecutionList.execute(ExecutionList.java:145)
+	at com.google.common.util.concurrent.ListenableFutureTask.done(ListenableFutureTask.java:91)
+	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:384)
+	at java.util.concurrent.FutureTask.set(FutureTask.java:233)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:274)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[pool-15-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\b5e06da6474415613243c449ba1172f7_NONE.png
+[pool-15-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\b5e06da6474415613243c449ba1172f7_NONE.png
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_6a34cb447ecd4dd23a954a5bc6a5d218_NONE.png
+[pool-15-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\a661987fd5b92c0810bcc2701acf2f34_NONE.png
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-6] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_063a66384d4221ccf10c13fc49e6d3ae_NONE.png
+[pool-15-thread-6] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_b5e06da6474415613243c449ba1172f7_NONE.png
+[pool-15-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_a661987fd5b92c0810bcc2701acf2f34_NONE.png
+[pool-15-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - NOTE: I couldn't convert scaled screenshot for b5e06da6474415613243c449ba1172f7_NONE.png: target\site\serenity\scaled_b5e06da6474415613243c449ba1172f7_NONE.png
+java.nio.file.NoSuchFileException: target\site\serenity\scaled_b5e06da6474415613243c449ba1172f7_NONE.png
+[pool-15-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_b5e06da6474415613243c449ba1172f7_NONE.png
+[pool-15-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:318)
+	at sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:287)
+	at java.nio.file.Files.move(Files.java:1395)[pool-15-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\95c071c7ecc34c6506725feb0c52562f_NONE.png
+
+	at net.thucydides.core.reports.html.screenshots.ScreenshotFormatter.resizedImage(ScreenshotFormatter.java:73)
+	at net.thucydides.core.reports.html.screenshots.ScreenshotFormatter.expandToHeight(ScreenshotFormatter.java:48)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter$ExpandedScreenshotConverter.convert(HtmlAcceptanceTestReporter.java:201)
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\6696cd6e844ec0137fb0c6f8fdd300f5_NONE.png
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter$ExpandedScreenshotConverter.convert(HtmlAcceptanceTestReporter.java:188)
+	at ch.lambdaj.function.convert.ConverterIterator.next(ConverterIterator.java:37)
+	at ch.lambdaj.Lambda.convert(Lambda.java:986)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.expandScreenshots(HtmlAcceptanceTestReporter.java:185)
+[pool-15-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\463832f4865788f9d51996b952085330_NONE.png
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateScreenshotReportsFor(HtmlAcceptanceTestReporter.java:170)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:87)[pool-15-thread-6] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\231defe8bedbe1066c096c0e6d0db451_NONE.png
+[pool-15-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_95c071c7ecc34c6506725feb0c52562f_NONE.png
+[pool-15-thread-4] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_463832f4865788f9d51996b952085330_NONE.png
+
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\5fcce7b45f0f21b34fb50b88d3d1c553_NONE.png
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:210)
+	at net.thucydides.core.reports.ReportService.generateQueuedReport(ReportService.java:159)
+	at net.thucydides.core.reports.ReportService.access$000(ReportService.java:25)
+	at net.thucydides.core.reports.ReportService$2.run(ReportService.java:120)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:299)
+[pool-15-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+	at com.google.common.util.concurrent.ExecutionList.executeListener(ExecutionList.java:156)
+	at com.google.common.util.concurrent.ExecutionList.execute(ExecutionList.java:145)
+	at com.google.common.util.concurrent.ListenableFutureTask.done(ListenableFutureTask.java:91)
+	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:384)
+	at java.util.concurrent.FutureTask.set(FutureTask.java:233)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:274)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[pool-15-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\3bfea85cda2f58b68361021dcd8b3b31_NONE.png
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_6696cd6e844ec0137fb0c6f8fdd300f5_NONE.png
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_3bfea85cda2f58b68361021dcd8b3b31_NONE.png
+[pool-15-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\8057ec64362cd0ae57f2c899a3d7dbc7_NONE.png
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_5fcce7b45f0f21b34fb50b88d3d1c553_NONE.png
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-6] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_231defe8bedbe1066c096c0e6d0db451_NONE.png
+[pool-15-thread-6] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\9464ea4e0fda8e57225e250236246aef_NONE.png
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\a661987fd5b92c0810bcc2701acf2f34_NONE.png
+[pool-15-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_9464ea4e0fda8e57225e250236246aef_NONE.png
+[pool-15-thread-2] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_8057ec64362cd0ae57f2c899a3d7dbc7_NONE.png
+[pool-15-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_a661987fd5b92c0810bcc2701acf2f34_NONE.png
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\b5e06da6474415613243c449ba1172f7_NONE.png
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\2c7cf099d726603eaafafc2eeb439859_NONE.png
+[pool-15-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\589b096f65db465ad82d642f752ea792_NONE.png
+[pool-15-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_589b096f65db465ad82d642f752ea792_NONE.png
+[pool-15-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_2c7cf099d726603eaafafc2eeb439859_NONE.png
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_b5e06da6474415613243c449ba1172f7_NONE.png
+[pool-15-thread-6] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\b5e06da6474415613243c449ba1172f7_NONE.png
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\063a66384d4221ccf10c13fc49e6d3ae_NONE.png
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\833b728c52e0e4e62fd94b2c32237a5c_NONE.png
+[pool-15-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_063a66384d4221ccf10c13fc49e6d3ae_NONE.png
+[pool-15-thread-1] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_833b728c52e0e4e62fd94b2c32237a5c_NONE.png
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\744de66516d6c4008599a43b817f7695_NONE.png
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_744de66516d6c4008599a43b817f7695_NONE.png
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\8e46a2ff643e08050d278170bccdbcba_NONE.png
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_8e46a2ff643e08050d278170bccdbcba_NONE.png
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\3d9bcf27d64567711592e76571b3c708_NONE.png
+[pool-15-thread-6] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_b5e06da6474415613243c449ba1172f7_NONE.png
+[pool-15-thread-6] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_3d9bcf27d64567711592e76571b3c708_NONE.png
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\c6bcc391e7588e4653041a7eec473a66_NONE.png
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\4affcca982ff4809e17094e8f4410188_NONE.png
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_c6bcc391e7588e4653041a7eec473a66_NONE.png
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\3e8ba6789fc6dc56219f71eb5bf8c5c5_NONE.png
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_3e8ba6789fc6dc56219f71eb5bf8c5c5_NONE.png
+[pool-15-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Create new asset test:createNewAssetTest => 75c49f7a3535aa37bdf79272d25848ebada00a0eab99bc7bb2855ae1b2548173.html
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Create new asset test:backToHomePageTest => 0f9c2050bd7b40c7e255e7dda6b8aa989aa4a1049f99336357ec8c26699e1805.html
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_4affcca982ff4809e17094e8f4410188_NONE.png
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-4] INFO net.thucydides.core.reports.ReportService - Report generated for Create new asset test:createNewAssetTest
+[pool-15-thread-1] INFO net.thucydides.core.reports.ReportService - Report generated for Create new asset test:backToHomePageTest
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\2d116f3d43336cf7862d9da1c729839a_NONE.png
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_2d116f3d43336cf7862d9da1c729839a_NONE.png
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\1c6c36f62f3bc9ee39d469080768b400_NONE.png
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\0f6b90b9bf48ccd382691df9382ca1a8_NONE.png
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_1c6c36f62f3bc9ee39d469080768b400_NONE.png
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_0f6b90b9bf48ccd382691df9382ca1a8_NONE.png
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\37aa66ddd80887105b59ed9d24784be3_NONE.png
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_37aa66ddd80887105b59ed9d24784be3_NONE.png
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\c87e4b18bfa97b5afab2019c8ceb1614_NONE.png
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_c87e4b18bfa97b5afab2019c8ceb1614_NONE.png
+[pool-15-thread-3] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\269346a0d268b1c048f4186ba52f3912_NONE.png
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_269346a0d268b1c048f4186ba52f3912_NONE.png
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\abaca5274b29359d8fc568b656362d31_NONE.png
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_abaca5274b29359d8fc568b656362d31_NONE.png
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\05d6210af3a89ea08107630bae244262_NONE.png
+[pool-15-thread-6] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - NOTE: I couldn't convert scaled screenshot for b5e06da6474415613243c449ba1172f7_NONE.png: target\site\serenity\scaled_b5e06da6474415613243c449ba1172f7_NONE.png -> target\site\serenity\b5e06da6474415613243c449ba1172f7_NONE.png
+java.nio.file.NoSuchFileException: target\site\serenity\scaled_b5e06da6474415613243c449ba1172f7_NONE.png -> target\site\serenity\b5e06da6474415613243c449ba1172f7_NONE.png
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:387)
+	at sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:287)
+	at java.nio.file.Files.move(Files.java:1395)
+	at net.thucydides.core.reports.html.screenshots.ScreenshotFormatter.resizedImage(ScreenshotFormatter.java:73)
+	at net.thucydides.core.reports.html.screenshots.ScreenshotFormatter.expandToHeight(ScreenshotFormatter.java:48)[pool-15-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Create new asset test:editAssetStatusTest => 3161d17f4f4da219cead9abd6ffeefacb6b1a8c99bb6ec2654d6b97f7c34ef31.html
+
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter$ExpandedScreenshotConverter.convert(HtmlAcceptanceTestReporter.java:201)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter$ExpandedScreenshotConverter.convert(HtmlAcceptanceTestReporter.java:188)
+	at ch.lambdaj.function.convert.ConverterIterator.next(ConverterIterator.java:37)
+	at ch.lambdaj.Lambda.convert(Lambda.java:986)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.expandScreenshots(HtmlAcceptanceTestReporter.java:185)
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_05d6210af3a89ea08107630bae244262_NONE.png
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateScreenshotReportsFor(HtmlAcceptanceTestReporter.java:170)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:87)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:210)
+	at net.thucydides.core.reports.ReportService.generateQueuedReport(ReportService.java:159)
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+	at net.thucydides.core.reports.ReportService.access$000(ReportService.java:25)
+	at net.thucydides.core.reports.ReportService$2.run(ReportService.java:120)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:299)
+	at com.google.common.util.concurrent.ExecutionList.executeListener(ExecutionList.java:156)
+	at com.google.common.util.concurrent.ExecutionList.execute(ExecutionList.java:145)
+	at com.google.common.util.concurrent.ListenableFutureTask.done(ListenableFutureTask.java:91)
+	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:384)
+	at java.util.concurrent.FutureTask.set(FutureTask.java:233)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:274)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[pool-15-thread-6] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\705587d774b9b63f9c34d3a8a460aa78_NONE.png
+[pool-15-thread-6] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_705587d774b9b63f9c34d3a8a460aa78_NONE.png
+[pool-15-thread-6] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-3] INFO net.thucydides.core.reports.ReportService - Report generated for Create new asset test:editAssetStatusTest
+[pool-15-thread-6] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\767b30dfe362204f07946ae6902defea_NONE.png
+[pool-15-thread-6] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_767b30dfe362204f07946ae6902defea_NONE.png
+[pool-15-thread-6] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-6] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\6a557aaf0ec4a89694cf936bd0dfc165_NONE.png
+[pool-15-thread-6] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_6a557aaf0ec4a89694cf936bd0dfc165_NONE.png
+[pool-15-thread-6] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-6] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Resizing image target\site\serenity\27eaf710efb571ed82409041ba9acacb_NONE.png
+[pool-15-thread-6] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Scaled image saved to target\site\serenity\scaled_27eaf710efb571ed82409041ba9acacb_NONE.png
+[pool-15-thread-6] INFO net.thucydides.core.reports.html.screenshots.ScreenshotFormatter - Replace original screenshot with scaled version
+[pool-15-thread-6] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Create new asset test:deleteAssetTest => 076c68b66d958f70883972c03a7d12533036d3982de92ff14462461c0407871f.html
+[pool-15-thread-6] INFO net.thucydides.core.reports.ReportService - Report generated for Create new asset test:deleteAssetTest
+[pool-15-thread-5] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Create new asset test:editAssetConfigurationTest => 7de0d1fac39895178c6d572f3e27671faa617c5b17bb782d0a0e9e09e641d763.html
+[pool-15-thread-5] INFO net.thucydides.core.reports.ReportService - Report generated for Create new asset test:editAssetConfigurationTest
+[pool-15-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Create new asset test:cancelCreateNewAssetTest => 92159ce1e198db0c5f55c799122d6b98211dc0828a8cb7dc0d85ceab20ade776.html
+[pool-15-thread-2] INFO net.thucydides.core.reports.ReportService - Report generated for Create new asset test:cancelCreateNewAssetTest
+[main] INFO net.thucydides.core.reports.ReportService - Reports generated in: 327
+[main] INFO net.serenitybdd.core.Serenity - Test Suite Started: Fee test
+[main] INFO net.serenitybdd.core.Serenity - 
+  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+ |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+   | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                   
+
+TEST STARTED: sameCurrencyFeesEditTest
+--------------------------------------------------------------------
+[main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 20
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.loginToApplication - openPage
+Starting ChromeDriver 2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1) on port 49073
+Only local connections are allowed.
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: openPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.loginToApplication - loginToApplication
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: loginToApplication
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.loginToApplication - goToCreateNewAssetPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToCreateNewAssetPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.loginToApplication - fillCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot5709124574627316584
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.loginToApplication - submitCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot1315612704190627152
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: submitCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.sameCurrencyFeesEditTest - editProductConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot7507044133550011479
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: editProductConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.sameCurrencyFeesEditTest - goToCreateNewProductPage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot8015857438060457925
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToCreateNewProductPage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.sameCurrencyFeesEditTest - fillCreateNewProductForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot3115845510525390271
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillCreateNewProductForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.sameCurrencyFeesEditTest - submitCreateNewProductForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot1677399777216718024
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: submitCreateNewProductForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.sameCurrencyFeesEditTest - editProductConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot6734118851980927864
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: editProductConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.sameCurrencyFeesEditTest - configureFees
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot3941069912921637533
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: configureFees
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.sameCurrencyFeesEditTest - goToCreateNewFeePage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToCreateNewFeePage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot1239569945827256480
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.sameCurrencyFeesEditTest - fillFeeForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot1558091619116530295
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillFeeForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot3309968849157068072
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.sameCurrencyFeesEditTest - submitFeeForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot1103203604764339975
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: submitFeeForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.sameCurrencyFeesEditTest - goToCreateNewFeePage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToCreateNewFeePage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.sameCurrencyFeesEditTest - fillFeeForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot399878469305833200
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillFeeForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.sameCurrencyFeesEditTest - submitFeeForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot5622446925865145828
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot7719993844826982479
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: submitFeeForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.sameCurrencyFeesEditTest - editFeeConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot2368491985035461385
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: editFeeConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.sameCurrencyFeesEditTest - fillFeeForm
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillFeeForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot373546707986054235
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot5627015444622515250
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.sameCurrencyFeesEditTest - submitFeeForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot5713310135884306587
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: submitFeeForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.sameCurrencyFeesEditTest - verifyCurrencyErrorMessage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP FAILED: verifyCurrencyErrorMessage - MessageThis currency already exists for this product is not displayed
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: logOut
+[main] INFO net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Edit Fees currency to match  other Fees currency Test
+--------------------------------------------------------------------------
+[main] INFO net.serenitybdd.core.Serenity - RELATED ISSUES: 
+[main] INFO net.serenitybdd.core.Serenity - 
+  _____ _    ___ _     _   _ ____  _____ 
+ |  ___/ \  |_ _| |   | | | |  _ \| ____|
+ | |_ / _ \  | || |   | | | | |_) |  _|  
+ |  _/ ___ \ | || |___| |_| |  _ <| |___ 
+ |_|/_/   \_\___|_____|\___/|_| \_\_____|
+                                         
+
+MessageThis currency already exists for this product is not displayed
+]]></system-err>
+  </testcase>
+  <testcase name="backToFeePageTest" classname="test.FeeTest" time="59.931"/>
+  <testcase name="sameCurrencyFeesTest" classname="test.FeeTest" time="78.995"/>
+  <testcase name="cancelFeeTest" classname="test.FeeTest" time="59.269"/>
+  <testcase name="editFeeConfigurationTest" classname="test.FeeTest" time="71.019">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;tag name&quot;,&quot;selector&quot;:&quot;a&quot;}&#10;  (Session info: chrome=49.0.2623.112)&#10;  (Driver info: chromedriver=2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 10.01 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;&#10;System info: host: &apos;Home-PC&apos;, ip: &apos;192.168.0.52&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\Home\AppData\Local\Temp\scoped_dir7004_10858}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: a2055d2528e5dd651728605c1e1fb4b6&#10;*** Element info: {Using=tag name, value=a}&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;&#10;System info: host: &apos;Home-PC&apos;, ip: &apos;192.168.0.52&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=49.0.2623.112)
+  (Driver info: chromedriver=2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\Home\AppData\Local\Temp\scoped_dir7004_10858}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a2055d2528e5dd651728605c1e1fb4b6
+*** Element info: {Using=tag name, value=a}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown
+	at test.FeeTest.editFeeConfigurationTest(FeeTest.java:136)
+</error>
+    <system-out><![CDATA[Use Default text checkbox is selected
+Use Default text checkbox is selected
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=49.0.2623.112)
+  (Driver info: chromedriver=2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\Home\AppData\Local\Temp\scoped_dir7004_10858}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a2055d2528e5dd651728605c1e1fb4b6
+*** Element info: {Using=tag name, value=a}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown
+]]></system-out>
+    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - Test Suite Started: Fee test
+[main] INFO net.serenitybdd.core.Serenity - 
+  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+ |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+   | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                   
+
+TEST STARTED: editFeeConfigurationTest
+--------------------------------------------------------------------
+[main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 24
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.loginToApplication - openPage
+Starting ChromeDriver 2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1) on port 26633
+Only local connections are allowed.
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot6785092845519613652
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: openPage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot7412507860184826570
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.loginToApplication - loginToApplication
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: loginToApplication
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.loginToApplication - goToCreateNewAssetPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToCreateNewAssetPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.loginToApplication - fillCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot834362165267333408
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.loginToApplication - submitCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot3982144738587592976
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: submitCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.editFeeConfigurationTest - editProductConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot6752319573338850482
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: editProductConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.editFeeConfigurationTest - goToCreateNewProductPage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot8034103765888901477
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToCreateNewProductPage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.editFeeConfigurationTest - fillCreateNewProductForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot3304699046039826755
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillCreateNewProductForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot4325075944214906630
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.editFeeConfigurationTest - submitCreateNewProductForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot1895416711119800699
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: submitCreateNewProductForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.editFeeConfigurationTest - editProductConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot658082772586118339
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: editProductConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.editFeeConfigurationTest - configureFees
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot7148370029846841104
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: configureFees
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.editFeeConfigurationTest - goToCreateNewFeePage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot2230175953311012504
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToCreateNewFeePage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.editFeeConfigurationTest - fillFeeForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot4618907109405656691
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillFeeForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot382841879912831642
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.editFeeConfigurationTest - submitFeeForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot1799673914415488280
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: submitFeeForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.editFeeConfigurationTest - editFeeConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot2733514661185231853
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP FAILED: editFeeConfiguration - no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=49.0.2623.112)
+  (Driver info: chromedriver=2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\Home\AppData\Local\Temp\scoped_dir7004_10858}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a2055d2528e5dd651728605c1e1fb4b6
+*** Element info: {Using=tag name, value=a}
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: fillFeeForm
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: submitFeeForm
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: verifyFeeCreation
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: logOut
+]]></system-err>
+  </testcase>
+  <testcase name="createNewProductTest" classname="test.FeeTest" time="92.926">
+    <error message="Timed out after 10 seconds. Element could not be loaded&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;&#10;System info: host: &apos;Home-PC&apos;, ip: &apos;192.168.0.52&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;&#10;System info: host: &apos;Home-PC&apos;, ip: &apos;192.168.0.52&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Timed out after 10 seconds. Element could not be loaded
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown
+	at test.FeeTest.createNewProductTest(FeeTest.java:84)
+</error>
+    <system-out><![CDATA[Use Default text checkbox is selected
+org.openqa.selenium.NoSuchElementException: Timed out after 10 seconds. Element could not be loaded
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown
+]]></system-out>
+    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - Test Suite Started: Fee test
+[main] INFO net.serenitybdd.core.Serenity - 
+  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+ |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+   | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                   
+
+TEST STARTED: createNewProductTest
+--------------------------------------------------------------------
+[main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 25
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.loginToApplication - openPage
+Starting ChromeDriver 2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1) on port 16228
+Only local connections are allowed.
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: openPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.loginToApplication - loginToApplication
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: loginToApplication
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.loginToApplication - goToCreateNewAssetPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToCreateNewAssetPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.loginToApplication - fillCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot7355433799202109730
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.loginToApplication - submitCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot1680869729001465592
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: submitCreateNewAssetForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.createNewProductTest - editProductConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot5398468636943649754
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: editProductConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.createNewProductTest - goToCreateNewProductPage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot7860159806206467548
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToCreateNewProductPage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.createNewProductTest - fillCreateNewProductForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot3123139590276471765
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillCreateNewProductForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.createNewProductTest - submitCreateNewProductForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot2444452768317920425
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: submitCreateNewProductForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.createNewProductTest - editProductConfiguration
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot8434242272460370328
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: editProductConfiguration
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.createNewProductTest - configureFees
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot2180723986265968068
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: configureFees
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.createNewProductTest - goToCreateNewFeePage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot7253765431559049451
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: goToCreateNewFeePage
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.createNewProductTest - fillFeeForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot285468612487082077
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: fillFeeForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot647508015978181425
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.createNewProductTest - submitFeeForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot9159883323658420321
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: submitFeeForm
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: FeeTest.createNewProductTest - verifyFeeCreation
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot: C:\Users\Home\AppData\Local\Temp\screenshot4647955443480579005
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP FAILED: verifyFeeCreation - Timed out after 10 seconds. Element could not be loaded
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown
+[Screenshot Processor] INFO net.thucydides.core.screenshots.SingleThreadScreenshotProcessor - Processing screenshot completed
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: logOut
+]]></system-err>
+  </testcase>
+</testsuite>

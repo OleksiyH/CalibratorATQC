@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Campaign test","Create new Campaign Test","ERROR","2016-04-29T22:00:00.196+03:00","0.0","55.24"
+"Campaign test","Delete Campaign Test","ERROR","2016-04-29T22:00:56.586+03:00","0.0","72.51"
+"Campaign test","Edit Existing Campaign Test","ERROR","2016-04-29T22:03:19.315+03:00","0.0","54.73"

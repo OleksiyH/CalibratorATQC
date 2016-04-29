@@ -1,0 +1,50 @@
+<acceptance-test-run title="Create new Asset Test" name="createNewAssetTest" steps="7" successful="5" failures="1" skipped="1" ignored="0" pending="0" annotated-result="FAILURE" result="FAILURE" duration="61147" timestamp="2016-04-29T22:11:13.264+03:00">
+  <user-story id="test.CreateNewAssetTest" name="Create new asset test" path="test"/>
+  <tags>
+    <tag name="AssetManagement" type="feature"/>
+    <tag name="Create new asset test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="8841">
+    <screenshots>
+      <screenshot image="562b72c3a751022b01223aa03c6c917a_NONE.png"/>
+    </screenshots>
+    <description>Open Login Page Step</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="14518">
+    <screenshots>
+      <screenshot image="6ffd9385e8c35c3a315684c7edb329ca_NONE.png"/>
+      <screenshot image="a10af25df71a66cfa494cf4a747c7d66_NONE.png"/>
+    </screenshots>
+    <description>Login to Application</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1532">
+    <screenshots>
+      <screenshot image="b5e06da6474415613243c449ba1172f7_NONE.png"/>
+    </screenshots>
+    <description>Go to Create new Asset page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="22054">
+    <screenshots>
+      <screenshot image="8a9c98a8c7d28c199da8e080656be2d6_NONE.png"/>
+    </screenshots>
+    <description>Fill Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="11472">
+    <screenshots>
+      <screenshot image="a661987fd5b92c0810bcc2701acf2f34_NONE.png"/>
+    </screenshots>
+    <description>Submit Create new Asset form</description>
+  </test-step>
+  <test-step result="FAILURE" duration="2712">
+    <screenshots>
+      <screenshot image="95c071c7ecc34c6506725feb0c52562f_NONE.png"/>
+    </screenshots>
+    <description>Verify that Asset Was Created and all data was captured</description>
+    <error>Asset SummaryHeader Default Checkbox is different from expected. Expected: false Actual: true</error>
+    <exception>java.lang.AssertionError:Asset SummaryHeader Default Checkbox is different from expected. Expected: false Actual: true&#xd;
+[steps.CreateEditAssetPageSteps.verifyAssetCreation(CreateEditAssetPageSteps.java:56), test.CreateNewAssetTest.createNewAssetTest(CreateNewAssetTest.java:56)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="14">
+    <description>Logout from application</description>
+  </test-step>
+</acceptance-test-run>

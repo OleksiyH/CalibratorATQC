@@ -1,0 +1,143 @@
+<acceptance-test-run title="Edit Fees currency to match  other Fees currency Test" name="sameCurrencyFeesEditTest" steps="22" successful="20" failures="1" skipped="1" ignored="0" pending="0" annotated-result="FAILURE" result="FAILURE" duration="62402" timestamp="2016-04-29T22:14:32.299+03:00">
+  <user-story id="test.FeeTest" name="Fee test" path="test"/>
+  <tags>
+    <tag name="Asset Product Fees Management" type="feature"/>
+    <tag name="Fee test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="7369">
+    <screenshots>
+      <screenshot image="0218e60ed365d52c711c5ebaadda88cf_NONE.png"/>
+    </screenshots>
+    <description>Open Login Page Step</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="7172">
+    <screenshots>
+      <screenshot image="5b097e5fc023c7e7fc7217229023ee88_NONE.png"/>
+      <screenshot image="231defe8bedbe1066c096c0e6d0db451_NONE.png"/>
+    </screenshots>
+    <description>Login to Application</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1436">
+    <screenshots>
+      <screenshot image="b5e06da6474415613243c449ba1172f7_NONE.png"/>
+    </screenshots>
+    <description>Go to Create new Asset page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="11353">
+    <screenshots>
+      <screenshot image="721f24217f3325369760c3a749d77244_NONE.png"/>
+    </screenshots>
+    <description>Fill Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="4842">
+    <screenshots>
+      <screenshot image="87afffdad200c8601f245b2c01bebada_NONE.png"/>
+    </screenshots>
+    <description>Submit Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1311">
+    <screenshots>
+      <screenshot image="92a2852cf65e80787bfc0faf3db6caa3_NONE.png"/>
+    </screenshots>
+    <description>Edit Asset Product Configuration by Name</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1055">
+    <screenshots>
+      <screenshot image="16a1eb5092e30efd2c0eb51b90369308_NONE.png"/>
+    </screenshots>
+    <description>Go to Create new Product page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1534">
+    <screenshots>
+      <screenshot image="64c1e7571e7921f870255f9cd8acd22a_NONE.png"/>
+    </screenshots>
+    <description>Fill Create new Product form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1174">
+    <screenshots>
+      <screenshot image="0a14491d4ca413dd33f97681b717815c_NONE.png"/>
+    </screenshots>
+    <description>Submit Create new Product form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1658">
+    <screenshots>
+      <screenshot image="5a27536096f5bd88ab5901b524693a26_NONE.png"/>
+    </screenshots>
+    <description>Edit Product Configuration by Name</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="694">
+    <screenshots>
+      <screenshot image="fc5629fd99ebdfddcaa5e8c0961fb309_NONE.png"/>
+    </screenshots>
+    <description>Configure Fees for Products</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1661">
+    <screenshots>
+      <screenshot image="d8dce7fe139f9edaedd254db7cb2d414_NONE.png"/>
+    </screenshots>
+    <description>Go to Create Fee page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1198">
+    <screenshots>
+      <screenshot image="59e30988d67f4ca45a65816d16d6c5e6_NONE.png"/>
+    </screenshots>
+    <description>Fill Fee form data</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1061">
+    <screenshots>
+      <screenshot image="656f88bfe5f02c1675601b0607822bdf_NONE.png"/>
+      <screenshot image="370654006314ca8272a796798cc3f602_NONE.png"/>
+    </screenshots>
+    <description>Submit Fee form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2090">
+    <screenshots>
+      <screenshot image="d8dce7fe139f9edaedd254db7cb2d414_NONE.png"/>
+    </screenshots>
+    <description>Go to Create Fee page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1162">
+    <screenshots>
+      <screenshot image="3a4f788db051edd8ca105cb0a8ab7515_NONE.png"/>
+    </screenshots>
+    <description>Fill Fee form data</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="977">
+    <screenshots>
+      <screenshot image="c317f3242e363ea973c1da864106d92d_NONE.png"/>
+      <screenshot image="1f6561f033657e72339bb1eac1fb6ac6_NONE.png"/>
+    </screenshots>
+    <description>Submit Fee form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2109">
+    <screenshots>
+      <screenshot image="1f5783ccdcbfaae2c6447314efc8fd85_NONE.png"/>
+    </screenshots>
+    <description>Edit Fee Configuration</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="11088">
+    <screenshots>
+      <screenshot image="ae071430788d72249efb6df671474f4f_NONE.png"/>
+    </screenshots>
+    <description>Fill Fee form data</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="989">
+    <screenshots>
+      <screenshot image="01fd8829090009328d5b649f2a91bdb1_NONE.png"/>
+      <screenshot image="38a70a64f9957cd7b41157c5ed4516f0_NONE.png"/>
+    </screenshots>
+    <description>Submit Fee form</description>
+  </test-step>
+  <test-step result="FAILURE" duration="426">
+    <screenshots>
+      <screenshot image="38a70a64f9957cd7b41157c5ed4516f0_NONE.png"/>
+    </screenshots>
+    <description>Verify error message &apos;This currency already exists for this product&apos; appears</description>
+    <error>MessageThis currency already exists for this product is not displayed</error>
+    <exception>java.lang.AssertionError:MessageThis currency already exists for this product is not displayed&#xd;
+[steps.FeesSteps.verifyCurrencyErrorMessage(FeesSteps.java:140), test.FeeTest.sameCurrencyFeesEditTest(FeeTest.java:195)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="27">
+    <description>Logout from application</description>
+  </test-step>
+</acceptance-test-run>

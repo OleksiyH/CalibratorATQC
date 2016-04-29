@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: test.CampaignTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 3, Skipped: 0, Time elapsed: 313.507 sec <<< FAILURE! - in test.CampaignTest
+createNewCampaignTest(test.CampaignTest)  Time elapsed: 55.246 sec  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index: 6, Size: 6
+	at test.CampaignTest.createNewCampaignTest(CampaignTest.java:72)
+
+deleteCampaignTest(test.CampaignTest)  Time elapsed: 72.511 sec  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index: 6, Size: 6
+	at test.CampaignTest.deleteCampaignTest(CampaignTest.java:83)
+
+cancelCampaignCreationTest(test.CampaignTest)  Time elapsed: 68.01 sec  <<< FAILURE!
+java.lang.AssertionError: Campaign is present in the table
+	at test.CampaignTest.cancelCampaignCreationTest(CampaignTest.java:107)
+
+editCampaignConfigurationTest(test.CampaignTest)  Time elapsed: 54.735 sec  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index: 6, Size: 6
+	at test.CampaignTest.editCampaignConfigurationTest(CampaignTest.java:119)
+

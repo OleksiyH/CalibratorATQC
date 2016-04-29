@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>Requirements</title>
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- JQuery-UI -->
+<link type="text/css" href="jqueryui/1.11.2-start/jquery-ui.min.css" rel="Stylesheet" />
+<script type="text/javascript" src="jqueryui/1.11.2-start/jquery-ui.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.4/media/jqueryui/dataTables.jqueryui.css" rel="Stylesheet"/>
+<link type="text/css" href="css/tables.css" rel="stylesheet" />
+
+<script type="text/javascript" src="datatables/1.10.4/media/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="datatables/1.10.4/media/jqueryui/dataTables.jqueryui.min.js"></script><!-- jQplot -->
+<!--[if IE]>
+<script language="javascript" type="text/javascript" src="excanvas/3/excanvas.compiled.js"></script>
+<![endif]--><link rel="stylesheet" type="text/css" href="jqplot/1.0.8/jquery.jqplot.min.css"/>
+<script type="text/javascript" src="jqplot/1.0.8/jquery.jqplot.min.js"></script>
+<script type="text/javascript" src="jqplot/1.0.8/plugins/jqplot.pieRenderer.min.js"></script>
+
+
+    <script class="code" type="text/javascript">$(document).ready(function () {
+        var plot1 = $.jqplot('coverage_pie_chart', [
+            [
+                ['Passing', 0.48],
+                ['Pending', 0],
+                ['Ignored', 0],
+                ['Failing', 0.16],
+                ['Errors',  0.36]
+            ]
+        ], {
+            gridPadding: {top: 0, bottom: 38, left: 0, right: 0},
+            seriesColors: ['#30cb23',
+                
+                '#a2f2f2',
+                
+                '#eeeadd',
+                
+                '#f8001f',
+                
+                '#fc6e1f'],
+            seriesDefaults: {
+                renderer: $.jqplot.PieRenderer,
+                trendline: { show: false },
+                rendererOptions: { padding: 8, showDataLabels: true }
+            },
+            legend: {
+                show: true,
+                placement: 'outside',
+                rendererOptions: {
+                    numberRows: 3
+                },
+                location: 's',
+                marginTop: '15px'
+            },
+            series: [
+                {label: '48% requirements tested successfully' },
+                {label: '0% requirements untested'},
+                {label: '16%} requirements failing'},
+                {label: '36%} requirements with errors'}
+            ]
+        });
+        // Results table
+        $('#req-results-table').DataTable({
+            "order": [
+                [ 2, "asc" ]
+            ],
+            "pageLength": 25
+        });
+        $('#test-results-table').DataTable({
+            "order": [
+                [ 2, "asc" ]
+            ],
+            "pageLength": 25
+        });
+        $('#examples-table').DataTable({
+            "order": [
+                [ 2, "asc" ]
+            ],
+            "pageLength": 25
+        });
+        $("#tabs").tabs();
+        $("#test-tabs").tabs();
+    })
+    ;
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".read-more-link").click(function () {
+                $(this).nextAll("div.read-more-text").toggle();
+                var isrc = $(this).find("img").attr('src');
+                if (isrc == 'images/plus.png') {
+                    $(this).find("img").attr("src", function () {
+                        return "images/minus.png";
+                    });
+                } else {
+                    $(this).find("img").attr("src", function () {
+                        return "images/plus.png";
+                    });
+                }
+            });
+        });
+    </script>
+</head>
+
+<body class="results-page">
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+
+<div class="middlecontent">
+<div id="contenttop">
+    <div class="middlebg">
+        <span class="bluetext"><a href="index.html" class="bluetext">Home</a> > <a href='capabilities.html'>Requirements</a> </span>
+    </div>
+    <div class="rightbg"></div>
+</div>
+
+<div class="clr"></div>
+
+<!--/* starts second table*/-->
+
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li >
+            <a href="index.html"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li class="active">
+            <a href="#"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 29-04-2016 22:21</span>
+    <br style="clear:left"/>
+</div>
+
+<div class="clr"></div>
+
+<div id="beforetable"></div>
+<div id="results-dashboard">
+<div class="middlb">
+<div class="table">
+
+<div id="requirements-summary">
+    <div id="coverage_pie_chart" style="margin-top:10px; margin-left:10px; width:250px; height:250px;"></div>
+    <div id="coverage_summary">
+        <div>
+            <h4>Requirements Overview</h4>
+            <table class="summary-table">
+                <head>
+                    <tr>
+                        <th>Requirement Type</th>
+                        <th>Total</th>
+                        <th>Pass&nbsp;<i class="icon-check"/></th>
+                        <th>Fail&nbsp;<i class="icon-thumbs-down"/></th>
+                        <th>Pending&nbsp;<i class="icon-calendar"/></th>
+                        <th>Ignored&nbsp;<i class="icon-ban-circle"/></th>
+                        <th>Untested&nbsp;<i class="icon-question"/></th>
+                    </tr>
+                </head>
+                <body>
+                    <tr>
+                        <td class="summary-leading-column">Acceptance Criteria (tests)</td>
+                        <td>25</td>
+                        <td>12</td>
+                        <td>4</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td></td>
+                    </tr>
+                </body>
+            </table>
+        </div>
+
+
+
+
+
+<div>
+    <h4>Test Result Summary</h4>
+    <table class="summary-table">
+        <head>
+            <tr>
+                <th>Test Type</th>
+                <th>Total</th>
+                <th>Pass&nbsp;<i class="icon-check"/> </th>
+                <th>Fail&nbsp;<i class="icon-thumbs-down"/></th>
+                <th>Pending&nbsp;<i class="icon-calendar"/></th>
+                <th>Ignored&nbsp;<i class="icon-ban-circle"/></th>
+            </tr>
+        </head>
+        <body>
+        <tr>
+            <td class="summary-leading-column">Automated</td>
+            <td>25</td>
+            <td>12 (48%)</td>
+            <td>13 (52%)</td>
+            <td>0 (0%)</td>
+            <td>0 (0%)</td>
+        </tr>
+        <tr>
+            <td class="summary-leading-column">Manual</td>
+            <td>0</td>
+            <td>0 (0%)</td>
+            <td>0 (0%)</td>
+            <td>0 (0%)</td>
+            <td>0 (0%)</td>
+        </tr>
+        <tr>
+            <td class="summary-leading-column">Total</td>
+            <td>25</td>
+            <td>12 (48%)</td>
+            <td>13 (16%)</td>
+            <td>0 (0%)</td>
+            <td>0 (0%)</td>
+        </tr>
+        </body>
+    </table>
+</div>
+    </div>
+</div>
+<div class="clr"></div>
+
+<div id="tabs">
+
+    <div id="test-tabs">
+        <ul>
+            <li><a href="#test-tabs-1">Acceptance Tests (25)</a></li>
+        </ul>
+        <div id="test_list_tests" class="table">
+            <div class="test-results">
+                <table id="test-results-table">
+                    <thead>
+                    <tr>
+                        <th width="30" class="test-results-heading">&nbsp;</th>
+                        <th width="%" class="test-results-heading">Acceptance Tests</th>
+                        <th width="70" class="test-results-heading">Steps</th>
+                        <th width="65" class="test-results-heading">Stable</th>
+                        <th width="100" class="test-results-heading">Duration<br>(seconds)</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+
+                        <tr class="test-ERROR">
+                            <td><img src="images/cross.png" title="ERROR"
+                                     class="summary-icon"/><span style="display:none">ERROR</span></td>
+                            <td class="ERROR-text"><a
+                                    href="0271b7f6d0252e2fcf873371ef35f4a76c38d8d9670c6d6d80a9295fec1d3960.html" title="Timed out after 10 seconds. Element not available Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26' System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71' Driver info: driver.version: unknown">Add Campaign Product 1 </a>
+                            </td>
+
+                            <td class="lightgreentext">23</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">118.44</td>
+                        </tr>
+
+
+                        <tr class="test-SUCCESS">
+                            <td><img src="images/success.png" title="SUCCESS"
+                                     class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                            <td class="SUCCESS-text"><a
+                                    href="41c7fc19e4dd8c4ee866379a6434576bfbbf7747524a0e803793fcd39f1f5ae1.html" title="">Back to Access Boundary page when Creating new Access Boundary Test </a>
+                            </td>
+
+                            <td class="lightgreentext">15</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">64.75</td>
+                        </tr>
+
+
+                        <tr class="test-SUCCESS">
+                            <td><img src="images/success.png" title="SUCCESS"
+                                     class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                            <td class="SUCCESS-text"><a
+                                    href="8c7552e77e430f111b7686c95f62ee317f928d10af6cf5050e50cedf7d6afe56.html" title="">Back to Campaign page when Creating new Campaign Test </a>
+                            </td>
+
+                            <td class="lightgreentext">11</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">56.95</td>
+                        </tr>
+
+
+                        <tr class="test-SUCCESS">
+                            <td><img src="images/success.png" title="SUCCESS"
+                                     class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                            <td class="SUCCESS-text"><a
+                                    href="000d651c501aaeb51c2d16a1b54663a5bc5c17fce358124b7e69ec13ad482853.html" title="">Back to Fee page when Creating new Fee Test </a>
+                            </td>
+
+                            <td class="lightgreentext">16</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">59.93</td>
+                        </tr>
+
+
+                        <tr class="test-SUCCESS">
+                            <td><img src="images/success.png" title="SUCCESS"
+                                     class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                            <td class="SUCCESS-text"><a
+                                    href="95e05a5c3f55f708ddc94618bd6116535d5f2594318acad40a31a24dc930d9f9.html" title="">Back to Products page when Creating new Product Test </a>
+                            </td>
+
+                            <td class="lightgreentext">11</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">74.63</td>
+                        </tr>
+
+
+                        <tr class="test-SUCCESS">
+                            <td><img src="images/success.png" title="SUCCESS"
+                                     class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                            <td class="SUCCESS-text"><a
+                                    href="0f9c2050bd7b40c7e255e7dda6b8aa989aa4a1049f99336357ec8c26699e1805.html" title="">Back to calibrator page when Creating new Asset Test </a>
+                            </td>
+
+                            <td class="lightgreentext">7</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">58.73</td>
+                        </tr>
+
+
+                        <tr class="test-FAILURE">
+                            <td><img src="images/fail.png" title="FAILURE"
+                                     class="summary-icon"/><span style="display:none">FAILURE</span></td>
+                            <td class="FAILURE-text"><a
+                                    href="92159ce1e198db0c5f55c799122d6b98211dc0828a8cb7dc0d85ceab20ade776.html" title="User is not redirected to Home Page or URL http://paywallmasters.com:8080/calibrator/admin/property/list.html ,or URL has changed">Cancel Create new Asset Test </a>
+                            </td>
+
+                            <td class="lightgreentext">7</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">36.75</td>
+                        </tr>
+
+
+                        <tr class="test-FAILURE">
+                            <td><img src="images/fail.png" title="FAILURE"
+                                     class="summary-icon"/><span style="display:none">FAILURE</span></td>
+                            <td class="FAILURE-text"><a
+                                    href="6773b3c8c39e77edbff02bc0bd030eabb7d553240e8daef0a2254874dfe731db.html" title="Campaign is present in the table">Cancel when Creating new Campaign Test </a>
+                            </td>
+
+                            <td class="lightgreentext">11</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">68</td>
+                        </tr>
+
+
+                        <tr class="test-SUCCESS">
+                            <td><img src="images/success.png" title="SUCCESS"
+                                     class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                            <td class="SUCCESS-text"><a
+                                    href="36f9718776a12cbce4b4d2718623d143c1512d6f881c77eb1cfa84bd6feb9465.html" title="">Cancel when Creating new Fee Test </a>
+                            </td>
+
+                            <td class="lightgreentext">16</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">59.27</td>
+                        </tr>
+
+
+                        <tr class="test-ERROR">
+                            <td><img src="images/cross.png" title="ERROR"
+                                     class="summary-icon"/><span style="display:none">ERROR</span></td>
+                            <td class="ERROR-text"><a
+                                    href="297a66cfe9a187428c00f94067a0ab72a82006abac5f39fa34d8794ff04dc5d7.html" title="Timed out after 10 seconds. Element could not be loaded For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26' System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71' Driver info: driver.version: unknown">Create new Access Boundary Configuration Test </a>
+                            </td>
+
+                            <td class="lightgreentext">16</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">82.47</td>
+                        </tr>
+
+
+                        <tr class="test-SUCCESS">
+                            <td><img src="images/success.png" title="SUCCESS"
+                                     class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                            <td class="SUCCESS-text"><a
+                                    href="c62a5c04888e658e6d39f133e27c34af14ea9bf7954f2cd34501c4f280a6b408.html" title="">Create new Asset Product Test </a>
+                            </td>
+
+                            <td class="lightgreentext">11</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">66.68</td>
+                        </tr>
+
+
+                        <tr class="test-FAILURE">
+                            <td><img src="images/fail.png" title="FAILURE"
+                                     class="summary-icon"/><span style="display:none">FAILURE</span></td>
+                            <td class="FAILURE-text"><a
+                                    href="75c49f7a3535aa37bdf79272d25848ebada00a0eab99bc7bb2855ae1b2548173.html" title="Asset SummaryHeader Default Checkbox is different from expected. Expected: false Actual: true">Create new Asset Test </a>
+                            </td>
+
+                            <td class="lightgreentext">7</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">61.15</td>
+                        </tr>
+
+
+                        <tr class="test-ERROR">
+                            <td><img src="images/cross.png" title="ERROR"
+                                     class="summary-icon"/><span style="display:none">ERROR</span></td>
+                            <td class="ERROR-text"><a
+                                    href="593653942475fff5b1465c0886c40c9228380b99a2b191846d6664cd7b9ea7b9.html" title="Index: 6, Size: 6">Create new Campaign Test </a>
+                            </td>
+
+                            <td class="lightgreentext">11</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">55.24</td>
+                        </tr>
+
+
+                        <tr class="test-ERROR">
+                            <td><img src="images/cross.png" title="ERROR"
+                                     class="summary-icon"/><span style="display:none">ERROR</span></td>
+                            <td class="ERROR-text"><a
+                                    href="f6c7a77e288f46767ea3fac8c11938df146c0b7c2c0e2e852c91479275b8546f.html" title="Timed out after 10 seconds. Element could not be loaded For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26' System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71' Driver info: driver.version: unknown">Create new Fee Test </a>
+                            </td>
+
+                            <td class="lightgreentext">16</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">92.92</td>
+                        </tr>
+
+
+                        <tr class="test-SUCCESS">
+                            <td><img src="images/success.png" title="SUCCESS"
+                                     class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                            <td class="SUCCESS-text"><a
+                                    href="79dd548425638cb18b863601e68dc3e14b030b7f10f61c07abbadc67464c8707.html" title="">Create two Fees with same currency Test </a>
+                            </td>
+
+                            <td class="lightgreentext">19</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">79.06</td>
+                        </tr>
+
+
+                        <tr class="test-ERROR">
+                            <td><img src="images/cross.png" title="ERROR"
+                                     class="summary-icon"/><span style="display:none">ERROR</span></td>
+                            <td class="ERROR-text"><a
+                                    href="2b978e7c4712ab5d79996322b2c75eef5b5dd8879d16079af242440d4d574682.html" title="Timed out after 10 seconds. Element could not be loaded For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26' System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71' Driver info: driver.version: unknown">Delete Access Boundary Test </a>
+                            </td>
+
+                            <td class="lightgreentext">16</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">78.98</td>
+                        </tr>
+
+
+                        <tr class="test-SUCCESS">
+                            <td><img src="images/success.png" title="SUCCESS"
+                                     class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                            <td class="SUCCESS-text"><a
+                                    href="076c68b66d958f70883972c03a7d12533036d3982de92ff14462461c0407871f.html" title="">Delete Assets Test </a>
+                            </td>
+
+                            <td class="lightgreentext">7</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">65.35</td>
+                        </tr>
+
+
+                        <tr class="test-ERROR">
+                            <td><img src="images/cross.png" title="ERROR"
+                                     class="summary-icon"/><span style="display:none">ERROR</span></td>
+                            <td class="ERROR-text"><a
+                                    href="3c485205bfd702e744ec3b407673a2c578a850a3157812431085414d5badacd0.html" title="Index: 6, Size: 6">Delete Campaign Test </a>
+                            </td>
+
+                            <td class="lightgreentext">12</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">72.51</td>
+                        </tr>
+
+
+                        <tr class="test-SUCCESS">
+                            <td><img src="images/success.png" title="SUCCESS"
+                                     class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                            <td class="SUCCESS-text"><a
+                                    href="7de0d1fac39895178c6d572f3e27671faa617c5b17bb782d0a0e9e09e641d763.html" title="">Edit Existing Assets Configuration Test </a>
+                            </td>
+
+                            <td class="lightgreentext">10</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">68.65</td>
+                        </tr>
+
+
+                        <tr class="test-SUCCESS">
+                            <td><img src="images/success.png" title="SUCCESS"
+                                     class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                            <td class="SUCCESS-text"><a
+                                    href="3161d17f4f4da219cead9abd6ffeefacb6b1a8c99bb6ec2654d6b97f7c34ef31.html" title="">Edit Existing Assets Status Test </a>
+                            </td>
+
+                            <td class="lightgreentext">10</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">92.91</td>
+                        </tr>
+
+
+                        <tr class="test-ERROR">
+                            <td><img src="images/cross.png" title="ERROR"
+                                     class="summary-icon"/><span style="display:none">ERROR</span></td>
+                            <td class="ERROR-text"><a
+                                    href="039cfae9b073e781d13f99dee7b48e50cc0460533c1e672f2310fd4e8c57d749.html" title="Timed out after 10 seconds. Element could not be loaded For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26' System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71' Driver info: driver.version: unknown">Edit Existing Campaign Test </a>
+                            </td>
+
+                            <td class="lightgreentext">20</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">74.81</td>
+                        </tr>
+
+
+                        <tr class="test-ERROR">
+                            <td><img src="images/cross.png" title="ERROR"
+                                     class="summary-icon"/><span style="display:none">ERROR</span></td>
+                            <td class="ERROR-text"><a
+                                    href="74b66836bf580ff814cba88a29efe45d1449c14a6aaa474a5bba2ab9504da13a.html" title="Index: 6, Size: 6">Edit Existing Campaign Test </a>
+                            </td>
+
+                            <td class="lightgreentext">14</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">54.73</td>
+                        </tr>
+
+
+                        <tr class="test-ERROR">
+                            <td><img src="images/cross.png" title="ERROR"
+                                     class="summary-icon"/><span style="display:none">ERROR</span></td>
+                            <td class="ERROR-text"><a
+                                    href="8b703bcd304bf3bdb3abd67695243c0d547cf8113f85227e5a564c5123c9a515.html" title="no such element: Unable to locate element: {'method':'tag name','selector':'a'}   (Session info: chrome=49.0.2623.112)   (Driver info: chromedriver=2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information) Command duration or timeout: 10.01 seconds For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26' System info: host: 'Home-PC', ip: '192.168.0.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71' Driver info: org.openqa.selenium.chrome.ChromeDriver Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\Home\AppData\Local\Temp\scoped_dir7004_10858}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}] Session ID: a2055d2528e5dd651728605c1e1fb4b6 *** Element info: {Using=tag name, value=a}">Edit Existing Fee Configuration Test </a>
+                            </td>
+
+                            <td class="lightgreentext">19</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">71.02</td>
+                        </tr>
+
+
+                        <tr class="test-SUCCESS">
+                            <td><img src="images/success.png" title="SUCCESS"
+                                     class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                            <td class="SUCCESS-text"><a
+                                    href="53d3f7f55f72d769602951c5c71f69d50477c1043045fb3f429afae653800da5.html" title="">Edit Existing Product Configuration Test </a>
+                            </td>
+
+                            <td class="lightgreentext">14</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">80.58</td>
+                        </tr>
+
+
+                        <tr class="test-FAILURE">
+                            <td><img src="images/fail.png" title="FAILURE"
+                                     class="summary-icon"/><span style="display:none">FAILURE</span></td>
+                            <td class="FAILURE-text"><a
+                                    href="17bd716ff0a925f66d918a7c05b6992b7058acd6f82537aa7df4e906cc4d93d3.html" title="MessageThis currency already exists for this product is not displayed">Edit Fees currency to match  other Fees currency Test </a>
+                            </td>
+
+                            <td class="lightgreentext">22</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">62.4</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.0.47</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<acceptance-test-run title="Edit Existing Fee Configuration Test" name="editFeeConfigurationTest" steps="19" successful="14" failures="0" errors="1" skipped="4" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="71022" timestamp="2016-04-29T22:18:57.620+03:00">
+  <user-story id="test.FeeTest" name="Fee test" path="test"/>
+  <tags>
+    <tag name="Asset Product Fees Management" type="feature"/>
+    <tag name="Fee test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="9340">
+    <screenshots>
+      <screenshot image="e31480a07ff4435b98201141cd64f6ee_NONE.png"/>
+    </screenshots>
+    <description>Open Login Page Step</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="14018">
+    <screenshots>
+      <screenshot image="389579acb2b74718df247efa3fea581b_NONE.png"/>
+      <screenshot image="575ddd83164d0e7cfc0226958e2147ec_NONE.png"/>
+    </screenshots>
+    <description>Login to Application</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2270">
+    <screenshots>
+      <screenshot image="b5e06da6474415613243c449ba1172f7_NONE.png"/>
+    </screenshots>
+    <description>Go to Create new Asset page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="11440">
+    <screenshots>
+      <screenshot image="eb9af2f7479f0a88cc6a71ad7ec88773_NONE.png"/>
+    </screenshots>
+    <description>Fill Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="12438">
+    <screenshots>
+      <screenshot image="92a2f18254283cb422a6fa04fa1842a1_NONE.png"/>
+    </screenshots>
+    <description>Submit Create new Asset form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1207">
+    <screenshots>
+      <screenshot image="cd45e8be9917af8cef06443335f1350e_NONE.png"/>
+    </screenshots>
+    <description>Edit Asset Product Configuration by Name</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1157">
+    <screenshots>
+      <screenshot image="ddd9108779786c52786a3e0e4e47bfdb_NONE.png"/>
+    </screenshots>
+    <description>Go to Create new Product page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1681">
+    <screenshots>
+      <screenshot image="f4c582c9a47391c78194ca3379bb367c_NONE.png"/>
+    </screenshots>
+    <description>Fill Create new Product form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="950">
+    <screenshots>
+      <screenshot image="9fea7bf7a1dc45c3a2c6db210941d248_NONE.png"/>
+      <screenshot image="0ebf264d34d2540fce04c58e10780559_NONE.png"/>
+    </screenshots>
+    <description>Submit Create new Product form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1543">
+    <screenshots>
+      <screenshot image="2fd0cfda4a5eb22f62f12428d7800477_NONE.png"/>
+    </screenshots>
+    <description>Edit Product Configuration by Name</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="662">
+    <screenshots>
+      <screenshot image="e51e21949879bf8cefa02c729739651f_NONE.png"/>
+    </screenshots>
+    <description>Configure Fees for Products</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1481">
+    <screenshots>
+      <screenshot image="9950ec8f4f092a482950d30724d48795_NONE.png"/>
+    </screenshots>
+    <description>Go to Create Fee page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1285">
+    <screenshots>
+      <screenshot image="74aba7a48421e52a759986501185915f_NONE.png"/>
+    </screenshots>
+    <description>Fill Fee form data</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="977">
+    <screenshots>
+      <screenshot image="3eb93bfe8b6dfb6155f2538c569c8570_NONE.png"/>
+      <screenshot image="c9d89ed816dbaeb9ad4641b506ceac4d_NONE.png"/>
+    </screenshots>
+    <description>Submit Fee form</description>
+  </test-step>
+  <test-step result="ERROR" duration="10494">
+    <screenshots>
+      <screenshot image="fff66042b63b563f6c8c41e506825f26_NONE.png"/>
+    </screenshots>
+    <description>Edit Fee Configuration</description>
+    <error>no such element: Unable to locate element: {&quot;method&quot;:&quot;tag name&quot;,&quot;selector&quot;:&quot;a&quot;}
+  (Session info: chrome=49.0.2623.112)
+  (Driver info: chromedriver=2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Home-PC&apos;, ip: &apos;192.168.0.52&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\Home\AppData\Local\Temp\scoped_dir7004_10858}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a2055d2528e5dd651728605c1e1fb4b6
+*** Element info: {Using=tag name, value=a}</error>
+    <exception>org.openqa.selenium.NoSuchElementException:no such element: Unable to locate element: {&quot;method&quot;:&quot;tag name&quot;,&quot;selector&quot;:&quot;a&quot;}
+  (Session info: chrome=49.0.2623.112)
+  (Driver info: chromedriver=2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Home-PC&apos;, ip: &apos;192.168.0.52&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\Home\AppData\Local\Temp\scoped_dir7004_10858}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a2055d2528e5dd651728605c1e1fb4b6
+*** Element info: {Using=tag name, value=a}&#xd;
+[pages.tableModels.FeeTableModel.&lt;init&gt;(FeeTableModel.java:21), steps.FeesSteps.editFeeConfiguration(FeesSteps.java:73), test.FeeTest.editFeeConfigurationTest(FeeTest.java:136)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="9">
+    <description>Fill Fee form data</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="11">
+    <description>Submit Fee form</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="20">
+    <description>Verify that Fee Was Created and all data was captured</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="32">
+    <description>Logout from application</description>
+  </test-step>
+</acceptance-test-run>

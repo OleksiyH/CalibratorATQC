@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: test.CreateNewAssetTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 390.873 sec <<< FAILURE! - in test.CreateNewAssetTest
+cancelCreateNewAssetTest(test.CreateNewAssetTest)  Time elapsed: 36.75 sec  <<< FAILURE!
+java.lang.AssertionError: User is not redirected to Home Page or URL http://paywallmasters.com:8080/calibrator/admin/property/list.html ,or URL has changed
+	at test.CreateNewAssetTest.cancelCreateNewAssetTest(CreateNewAssetTest.java:65)
+
+createNewAssetTest(test.CreateNewAssetTest)  Time elapsed: 61.148 sec  <<< FAILURE!
+java.lang.AssertionError: Asset SummaryHeader Default Checkbox is different from expected. Expected: false Actual: true
+	at test.CreateNewAssetTest.createNewAssetTest(CreateNewAssetTest.java:56)
+

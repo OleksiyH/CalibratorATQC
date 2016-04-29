@@ -1,0 +1,222 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="bluetext">
+                <a href="index.html" class="bluetext">Home</a>
+                > <a
+                    href="486244830c0d9c072cbf38ad55786b271912b48abc6241a57a6237a08fba86cf.html">Create New Asset Product Test</a>
+                > <a
+                    href="95e05a5c3f55f708ddc94618bd6116535d5f2594318acad40a31a24dc930d9f9.html">Back to Products page when Creating new Product Test </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 29-04-2016 22:08</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+    <!--
+    <div id="contentbody">
+        <div class="titlebar">
+        <div class="story-title">
+            <table width="1005">
+                <td width="50"><img class="story-outcome-icon" src="images/success.png" width="25" height="25"/> </td>
+                <td width="%"><span class="test-case-title"><span
+                        class="success-color">Back to Products page when Creating new Product Test<span class="related-issue-title"></span></span></span>
+                </td>
+                <td width="100"><span class="test-case-duration"><span class="greentext">74,63s</span></span>
+                </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <a class="tagLink" href="d672de3550c6cc5d5f4746018a1af306bc062635b5eabd6a7294aadf0043d342.html">Asset Product Management (feature)</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </div>
+-->
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-comments-o"></i>
+                                    <span class="story-header-title">Create New Asset Product Test</span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top">
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="9a3f946016b5b99f3b66772b84bbb79e8a750404d5e91c34abb574b8a6814a02.html">Asset Product Management
+                                    (feature)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><img class="story-outcome-icon"
+                                                            src="images/success.png"/></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Back to Products page when Creating new Product Test
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="0a508fae3cd08637c51ec1bb67c73b12_NONE.png" alt=""
+                     title="Open Login Page Step" width="927"/>
+                <img src="5b097e5fc023c7e7fc7217229023ee88_NONE.png" alt=""
+                     title="Login to Application" width="927"/>
+                <img src="bbdf60fe6a950bc423622a532454f689_NONE.png" alt=""
+                     title="Login to Application" width="927"/>
+                <img src="b5e06da6474415613243c449ba1172f7_NONE.png" alt=""
+                     title="Go to Create new Asset page" width="927"/>
+                <img src="e199524096dc3e131548a24b98c1b44b_NONE.png" alt=""
+                     title="Fill Create new Asset form" width="927"/>
+                <img src="bf9b0b43c87ed48d9f0c50e6a9bf35ed_NONE.png" alt=""
+                     title="Submit Create new Asset form" width="927"/>
+                <img src="5f8fce54475d26ba80c2f65783abb5ca_NONE.png" alt=""
+                     title="Submit Create new Asset form" width="927"/>
+                <img src="4b0e6d9ac4f5d5077bb128b3fffebbe8_NONE.png" alt=""
+                     title="Edit Asset Product Configuration by Name" width="927"/>
+                <img src="5b3583cb13a56996da4466f0613004de_NONE.png" alt=""
+                     title="Go to Create new Product page" width="927"/>
+                <img src="476a65ef26d180acd6f6bfab45b9396f_NONE.png" alt=""
+                     title="Fill Create new Product form" width="927"/>
+                <img src="f196858dc696815a01d7935c1c062800_NONE.png" alt=""
+                     title="Fill Create new Product form" width="927"/>
+                <img src="4b0e6d9ac4f5d5077bb128b3fffebbe8_NONE.png" alt=""
+                     title="Go Back to Product Page" width="927"/>
+                <img src="448fc066aa65b2027196069104ebe687_NONE.png" alt=""
+                     title="Verify Product is not present in the table" width="927"/>
+                <img src="56660b9b74b3540adedd0da331931065_NONE.png" alt=""
+                     title="Logout from application" width="927"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.0.47</span>
+</div>
+</body>
+</html>
